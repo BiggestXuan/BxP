@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bxp:blocks/super_bx_ore",
+    "up": "bxp:blocks/super_bx_ore",
+    "north": "bxp:blocks/super_bx_ore",
+    "east": "bxp:blocks/super_bx_ore",
+    "south": "bxp:blocks/super_bx_ore",
+    "west": "bxp:blocks/super_bx_ore",
+    "particle": "bxp:blocks/super_bx_ore"
+  }
+}

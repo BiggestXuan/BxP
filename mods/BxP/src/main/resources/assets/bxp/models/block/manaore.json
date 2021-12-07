@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bxp:blocks/flower_ore",
+    "up": "bxp:blocks/flower_ore",
+    "north": "bxp:blocks/flower_ore",
+    "east": "bxp:blocks/flower_ore",
+    "south": "bxp:blocks/flower_ore",
+    "west": "bxp:blocks/flower_ore",
+    "particle": "bxp:blocks/flower_ore"
+  }
+}
