@@ -1,0 +1,122 @@
+{
+  "name": "bx_enchingot",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 17.0
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 132.0,
+      "speed": 24.0,
+      "durability": 9000,
+      "harvestLevel": 18
+    },
+    "handle": {
+      "modifier": 2.0,
+      "durability": 150
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 20
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 500
+    }
+  },
+  "color": "#58ff3e",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1800,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "BX enchingot",
+    "zh_cn": "附魔大轩"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:bxloveu-bx_enchingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.culling","tconevo.corrupting"
+    ],
+    "HEAD": [
+      "tconevo.soul_rend3","tconevo.astral","tconevo.evolved","alien","tconevo.culling","tconevo.corrupting","tconevo.foot_fleet"
+    ],
+    "HANDLE": [
+      "tconevo.culling","tconevo.corrupting"
+    ],
+    "BOW": [
+      "tconevo.culling","tconevo.corrupting","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.culling","tconevo.corrupting"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting"
+    ],
+    "PLATES": [
+      "tconevo.culling","tconevo.corrupting","tconevo.celestial_armor"
+    ],
+    "TRIM": [
+      "tconevo.culling","tconevo.corrupting","heavy_armor","tconevo.gale.force2_armor"
+    ]
+  }
+}

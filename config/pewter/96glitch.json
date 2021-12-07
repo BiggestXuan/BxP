@@ -1,0 +1,124 @@
+{
+  "name": "glitch",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 1.0
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 8.6,
+      "speed": 3.5,
+      "durability": 900,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 0.2,
+      "durability": 15
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 0.2
+    },
+    "extra": {
+      "durability": -15
+    }
+  },
+  "color": "#00ced1",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 400,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "glitch",
+    "zh_cn": "故障灌注"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "deepmoblearning:glitch_infused_ingot"
+    ],
+    "block": [
+      "deepmoblearning:infused_ingot_block"
+    ],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "dense","heavy"
+    ],
+    "HEAD": [
+      "tconevo.astral","sharp","dense","heavy"
+    ],
+    "HANDLE": [
+      "dense","heavy"
+    ],
+    "BOW": [
+      "dense","heavy"
+    ],
+    "PROJECTILE": [
+      "dense","heavy"
+    ],
+    "CORE": [
+     "tconevo.astral_armor","tconevo.celestial_armor"
+    ],
+    "PLATES": [
+      "heavy_armor","tconevo.gale_force1_armor"
+    ],
+    "TRIM": [
+      "heavy_armor","tconevo.gale_force1_armor"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "bx_finalingot",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 56.0
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 5200.0,
+      "speed": 19810,
+      "durability": 114514,
+      "harvestLevel": 19
+    },
+    "handle": {
+      "modifier": 2.0,
+      "durability": 150
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 20
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 500
+    }
+  },
+  "color": "#58fffe",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2500,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "BX finalingot",
+    "zh_cn": "究极屑大轩"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:bxloveu-bx_superingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1"
+    ],
+    "HEAD": [
+      "tconevo.soul_rend3","tconevo.evolved","tconevo.astral","alien","tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","tconevo.foot_fleet","berserk","tconevo.aftershock3","crude1","crude2"
+    ],
+    "HANDLE": [
+      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1"
+    ],
+    "BOW": [
+      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","tconevo.null_almighty_armor"
+    ],
+    "PLATES": [
+      "tconevo.culling","tconevo.astral_armor","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","tconevo.celestial_armor"
+    ],
+    "TRIM": [
+      "tconevo.culling","tconevo.astral_armor","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","heavy_armor","tconevo.gale.force2_armor"
+    ]
+  }
+}

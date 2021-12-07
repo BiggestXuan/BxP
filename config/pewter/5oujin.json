@@ -1,0 +1,122 @@
+{
+  "name": "oujin",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 3.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 47.5,
+      "speed": 12.5,
+      "durability": 2600,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 1.8,
+      "durability": 175
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 0.2
+    },
+    "extra": {
+      "durability": 125
+    }
+  },
+  "color": "#8a2be2",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2500,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "oujin",
+    "zh_cn": "暗无"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:bxloveu-ou_gold"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.juggernaut","tconevo.overwhelm"
+    ],
+    "HEAD": [
+      "tconevo.evolved","tconevo.astral","tconevo.juggernaut","tconevo.overwhelm","coldblooded"
+    ],
+    "HANDLE": [
+      "tconevo.juggernaut","tconevo.astral","tconevo.overwhelm"
+    ],
+    "BOW": [
+      "tconevo.juggernaut","tconevo.overwhelm","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.juggernaut","tconevo.overwhelm"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.reactive_armor","dense_armor","heavy_armor","shielding_armor"
+    ],
+    "PLATES": [
+      "tconevo.reactive_armor","dense_armor"
+    ],
+    "TRIM": [
+      "tconevo.reactive_armor","dense_armor"
+    ]
+  }
+}

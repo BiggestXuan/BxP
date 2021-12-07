@@ -1,0 +1,122 @@
+{
+  "name": "surplus",
+  "tool": {
+    "bow": {
+      "speed": 0.6,
+      "range": 0.7,
+      "bonusDamage": 4.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 7.2,
+      "speed": 6.9,
+      "durability": 1652,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 5.2,
+      "durability": 500
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 0.2
+    },
+    "extra": {
+      "durability": 200
+    }
+  },
+  "color": "#ffd700",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 400,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 3000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "surplus",
+    "zh_cn": "撒普拉斯"
+  },
+  "smeltingItems": {
+    "ingot": [
+     "additions:bxloveu-tulye_ingot"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.evolved"
+    ],
+    "HEAD": [
+      "lightweight","tconevo.evolved","coldblooded","sassy","devilsstrength","tconevo.astral","tconevo.crystalline","tconevo.soul_rend","tconevo.culling","tconevo.foot_fleet","congenial","dark","berserk","alien","tconevo.aftershock3","crude1","crude2","tconevo.corrupting","insatiable","tconevo.modifiable1","tconevo.opportunist","global","brownmagic","terrafirmal1","elemental","twilit","precipitate","flammable","autosmelt","superheat","dreadpurity","coraliumplague","dreadplague"
+    ],
+    "HANDLE": [
+      "tconevo.evolved"
+    ],
+    "BOW": [
+      "tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.evolved"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting","tconevo.celestial_armor","heavy_armor","tconevo.gale.force2_armor","lightweight_armor","invigorating_armor","prideful_armor","steady_armor","tconevo.reactive_armor","dunanstransport_armor","camdaibay_armor","tconevo.superdense.armor","shielding_armor","enderport_armor","mundane1_armor","rough_armor","tconevo.will_strength_armor","alien_armor","magnetic1_armor","baconlicious_armor","blessed_armor","dreadpurity","coraliumplague","dreadplague","cheap_armor","tconevo.hearth_embrace_armor","absorbent_armor","tconevo.chilling_touch_armor"
+    ],
+    "PLATES": [
+      "tconevo.evolved_armor"
+    ],
+    "TRIM": [
+      "tconevo.evolved_armor"
+    ]
+  }
+}

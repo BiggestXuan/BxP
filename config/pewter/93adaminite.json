@@ -1,0 +1,126 @@
+{
+  "name": "adaminite",
+  "tool": {
+    "bow": {
+      "speed": 0.2,
+      "range": 1.5,
+      "bonusDamage": 5.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 62,
+      "speed": 14,
+      "durability": 3200,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2.2,
+      "durability": 205
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 0.2
+    },
+    "extra": {
+      "durability": 125
+    }
+  },
+  "color": "#dc143c",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2500,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "adaminite",
+    "zh_cn": "精金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "thaumadditions:adaminite_ingot"
+    ],
+    "block": [
+      "thaumadditions:adaminite_block"
+    ],
+    "nugget": [
+      "thaumadditions:adaminite_nugget"
+    ],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.juggernaut","congenial","insatiable"
+    ],
+    "HEAD": [
+      "tconevo.evolved","tconevo.astral","tconevo.juggernaut","congenial","coldblooded","tconevo.aftershock2"
+    ],
+    "HANDLE": [
+      "tconevo.juggernaut","tconevo.astral","congenial","insatiable"
+    ],
+    "BOW": [
+      "tconevo.juggernaut","congenial","insatiable","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.juggernaut","congenial","insatiable"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.reactive_armor","dense_armor","heavy_armor","shielding_armor","steady_armor"
+    ],
+    "PLATES": [
+      "tconevo.reactive_armor","dense_armor","steady_armor"
+    ],
+    "TRIM": [
+      "tconevo.reactive_armor","dense_armor","steady_armor"
+    ]
+  }
+}

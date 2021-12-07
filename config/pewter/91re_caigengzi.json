@@ -1,0 +1,122 @@
+{
+  "name": "re_caigengzi",
+  "tool": {
+    "bow": {
+      "speed": 0.3,
+      "range": 4.5,
+      "bonusDamage": 46.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 202,
+      "speed": 48,
+      "durability": 250,
+      "harvestLevel": 15
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 200
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 1
+    },
+    "bowstring": {
+      "modifier": 0.1
+    },
+    "extra": {
+      "durability": 200
+    }
+  },
+  "color": "#ba55d3",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "ench caigengzi",
+    "zh_cn": "附魔菜梗子"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:bxloveu-re_gengzi"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "coldblooded","sassy","devilsstrength","dark"
+    ],
+    "HEAD": [
+      "tconevo.evolved","coldblooded","sassy","devilsstrength","dark","berserk","tconevo.astral","tconevo.crystalline"
+    ],
+    "HANDLE": [
+      "coldblooded","sassy","devilsstrength","dark"
+    ],
+    "BOW": [
+      "coldblooded","sassy","devilsstrength","dark","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "coldblooded","sassy","devilsstrength","dark"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","prideful_armor","steady_armor","tconevo.reactive_armor","tconevo.astral_armor","lightweight_armor","invigorating_armor"
+    ],
+    "PLATES": [
+      "prideful_armor","lightweight_armor","invigorating_armor","tconevo.celestial_armor"
+    ],
+    "TRIM": [
+      "vengeful_armor","lightweight_armor","invigorating_armor","tconevo.celestial_armor"
+    ]
+  }
+}

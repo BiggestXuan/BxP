@@ -1,0 +1,127 @@
+{
+  "name": "bx_ingot",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 6.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 16.5,
+      "speed": 7.0,
+      "durability": 1700,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.15,
+      "durability": 205
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 20
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 225
+    }
+  },
+  "color": "#b6fa16",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1800,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "BX ingot",
+    "zh_cn": "大轩"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:bxloveu-bx_ingot",
+      "bxp:superbxore"
+    ],
+    "block": [
+      "bxp:bxblock"
+    ],
+    "nugget": [
+      "bxp:bxnugget"
+    ],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.culling"
+    ],
+    "HEAD": [
+      "tconevo.soul_rend","tconevo.astral","tconevo.evolved","tconevo.culling","tconevo.foot_fleet"
+    ],
+    "HANDLE": [
+      "tconevo.culling"
+    ],
+    "BOW": [
+      "tconevo.culling","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.culling"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling"
+    ],
+    "PLATES": [
+      "tconevo.culling"
+    ],
+    "TRIM": [
+      "tconevo.culling","heavy_armor"
+    ]
+  }
+}

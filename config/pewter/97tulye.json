@@ -1,0 +1,122 @@
+{
+  "name": "tulye",
+  "tool": {
+    "bow": {
+      "speed": 0.6,
+      "range": 0.7,
+      "bonusDamage": 0.1
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 2.6,
+      "speed": 1.0,
+      "durability": 100,
+      "harvestLevel": 2
+    },
+    "handle": {
+      "modifier": 0.2,
+      "durability": 15
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 0.2
+    },
+    "extra": {
+      "durability": -15
+    }
+  },
+  "color": "#f0f8ff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 400,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 100,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "tulye",
+    "zh_cn": "呆毛"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:bxloveu-tulye_haie"
+    ],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "lightweight"
+    ],
+    "HEAD": [
+      "lightweight"
+    ],
+    "HANDLE": [
+      "lightweight"
+    ],
+    "BOW": [
+      "lightweight"
+    ],
+    "PROJECTILE": [
+      "lightweight"
+    ],
+    "CORE": [
+      "shielding_armor"
+    ],
+    "PLATES": [
+      "shielding_armor"
+    ],
+    "TRIM": [
+      "shielding_armor"
+    ]
+  }
+}

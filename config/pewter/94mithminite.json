@@ -1,0 +1,126 @@
+{
+  "name": "mithminite",
+  "tool": {
+    "bow": {
+      "speed": 0.35,
+      "range": 1.0,
+      "bonusDamage": 19.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 170,
+      "speed": 22.5,
+      "durability": 12100,
+      "harvestLevel": 45
+    },
+    "handle": {
+      "modifier": 3,
+      "durability": 550
+    },
+    "arrowShaft": {
+      "modifier": 0.1,
+      "bonusAmmo": 15
+    },
+    "bowstring": {
+      "modifier": 0.2
+    },
+    "extra": {
+      "durability": 1250
+    }
+  },
+  "color": "#ff1493",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2500,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.9,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE"
+  ],
+  "nameLocales": {
+    "en_us": "mithminite",
+    "zh_cn": "秘金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "thaumadditions:mithminite_ingot"
+    ],
+    "block": [
+      "thaumadditions:mithminite_block"
+    ],
+    "nugget": [
+      "thaumadditions:mithminite_nugget"
+    ],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15.5,
+      "defense": 13.0
+    },
+    "plates": {
+      "modifier": 0.75,
+      "durability": 6.0,
+      "toughness": 0.0
+    },
+    "trim": {
+      "extraDurability": 6.0
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "congenial","alien","congenial","crude2"
+    ],
+    "HEAD": [
+      "tconevo.evolved","tconevo.astral","congenial","dark","berserk","alien","tconevo.aftershock3","crude1","crude2"
+    ],
+    "HANDLE": [
+      "congenial","alien","congenial","crude2"
+    ],
+    "BOW": [
+      "congenial","alien","congenial","crude2","tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "congenial","alien","congenial","crude2"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","tconevo.superdense.armor","featherweight_armor","dunanstransport_armor","camdaibay_armor"
+    ],
+    "PLATES": [
+      "lightweight_armor","invigorating_armor","tconevo.celestial_armor","dunanstransport_armor", "camdaibay_armor"
+    ],
+    "TRIM": [
+      "lightweight_armor","invigorating_armor","tconevo.celestial_armor","dunanstransport_armor", "camdaibay_armor"
+    ]
+  }
+}
