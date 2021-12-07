@@ -35,8 +35,7 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
         event.player.sendRichTextMessage(("欢迎"+format.gold("吉祥物：")+format.green(player.name)+"加入游戏！"));
         return;
     }}
-    for i in name{
-        if(player.name != i){
-        event.player.sendRichTextMessage(("欢迎玩家"+format.green(player.name)+"加入游戏！"));
-    }}
+
+event.player.sendRichTextMessage(("欢迎玩家"+format.green(player.name)+"加入游戏！"));
+
 });
