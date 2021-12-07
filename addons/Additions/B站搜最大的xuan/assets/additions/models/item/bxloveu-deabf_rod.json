@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "additions:items/bxloveu-deabf_rod-layer0"
+  }
+}
