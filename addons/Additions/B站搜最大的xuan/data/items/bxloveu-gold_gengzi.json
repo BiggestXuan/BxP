@@ -1,0 +1,19 @@
+{
+  "name": "§e金梗子",
+  "tooltip": "§e金质的菜梗子，吃掉后能回复大量生命",
+  "hunger": 10,
+  "saturation": 0.7,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:instant_health",
+        "duration": 1,
+        "amplifier": 5,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -1,0 +1,13 @@
+{
+  "item_block": {
+    "name": "§b高阶钻石块",
+    "type": "additions:block_simple"
+  },
+  "name": "§b高阶钻石块",
+  "material": "minecraft:stone",
+  "hardness": 15.0,
+  "resistance": 25.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

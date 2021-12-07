@@ -1,0 +1,29 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-paper_xiangshushumiao",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "xp 500 @s",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 12000,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

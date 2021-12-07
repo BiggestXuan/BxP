@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§e轩精矿",
+    "ore_dict": "orebxgold",
+    "type": "additions:block_simple"
+  },
+  "name": "§e轩精矿",
+  "material": "minecraft:stone",
+  "hardness": 40.0,
+  "resistance": 100.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,20 @@
+{
+  "cause": {
+    "item": {
+      "item": "bxp:tcpaper_1",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/tc research @s SFR_VOID_SOLAR_PANEL",
+      "command_sender_name": "@s",
+      "hide_feedback": false,
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

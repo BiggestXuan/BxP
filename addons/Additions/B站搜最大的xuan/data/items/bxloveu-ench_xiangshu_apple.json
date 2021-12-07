@@ -1,0 +1,10 @@
+{
+  "name": "§5魔法橡树苹果",
+  "shines": true,
+  "tooltip": [
+    "放在背包永久获得生命恢复I，抗性提升I，生命吸收IV，饱和",
+    "§a§o[水友物品]-xiangshushumiao"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

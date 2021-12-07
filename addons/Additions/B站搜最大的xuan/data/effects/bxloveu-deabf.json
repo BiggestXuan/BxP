@@ -1,0 +1,30 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-deabf_rod",
+      "damage": "any"
+    },
+    "hand": "MAINHAND",
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:damage_item"
+    },
+    {
+      "loot_table": "minecraft:gameplay/fishing",
+      "type": "additions:loot_table_at"
+    },
+    {
+      "loot_table": "additions:bxloveu-deabf_rod",
+      "chance": 0.2,
+      "type": "additions:loot_table_at"
+    },
+    {
+      "command": "/summon creeper ~ ~1 ~ {Fuse:7}",
+      "command_sender_name": "@s",
+      "chance": 0.08,
+      "type": "additions:command"
+    }
+  ]
+}

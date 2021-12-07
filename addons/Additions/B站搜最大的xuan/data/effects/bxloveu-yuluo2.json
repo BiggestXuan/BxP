@@ -1,0 +1,55 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-yuluo_stick",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "command": "/execute @s ~ 10 ~ fill ~2 ~ ~2 ~-2 4 ~-2 air 0 replace stone 1",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/execute @s ~ 10 ~ fill ~2 ~ ~2 ~-2 4 ~-2 air 0 replace gravel 0",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/execute @s ~ 10 ~ fill ~2 ~ ~2 ~-2 4 ~-2 air 0 replace stone 0",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/execute @s ~ 10 ~ fill ~2 ~ ~2 ~-2 4 ~-2 air 0 replace stone 5",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/execute @s ~ 10 ~ fill ~2 ~ ~2 ~-2 4 ~-2 air 0 replace dirt 0",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/execute @s ~ 10 ~ fill ~2 ~ ~2 ~-2 4 ~-2 air 0 replace stone 3",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/execute @s ~ ~ ~ fill ~2 10 ~2 ~-2 4 ~-2 air 0 destroy",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "/summon bxp:yuluo ~ ~ ~",
+      "command_sender_name": "@s",
+      "chance": 0.1,
+      "type": "additions:command"
+    }
+  ]
+}

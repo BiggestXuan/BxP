@@ -1,0 +1,22 @@
+{
+  "name": "晓诺苹果",
+  "tooltip": [
+    "吃完了获得120分钟饱和",
+    "§4§o[水友物品]-Jaoxaono"
+  ],
+  "hunger": 0,
+  "saturation": 0.0,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:saturation",
+        "duration": 144000,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}
