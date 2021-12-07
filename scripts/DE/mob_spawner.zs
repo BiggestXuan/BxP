@@ -1,0 +1,1 @@
+recipes.remove(<draconicevolution:draconic_spawner>);
