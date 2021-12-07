@@ -36,6 +36,6 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
         return;
     }}
 
-event.player.sendRichTextMessage(("欢迎玩家"+format.green(player.name)+"加入游戏！"));
+    event.player.sendRichTextMessage(("欢迎玩家"+format.green(player.name)+"加入游戏！"));
 
 });
