@@ -1,0 +1,11 @@
+{
+    "name": "§2魔法橡树苹果",
+    "icon": "additions:bxloveu-ench_xiangshu_apple",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "用$(2)橡树树苗青苹果$()和$(2)金奇点$()在奥术注魔获得$(br2)效果：放在背包获得无限饱和和削弱版附魔金苹果效果$(br2)归属于：$(4)$(l)xiangshushumiao"
+        }
+    ]
+}

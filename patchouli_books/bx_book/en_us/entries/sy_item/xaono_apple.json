@@ -1,0 +1,11 @@
+{
+    "name": "§4晓诺苹果",
+    "icon": "additions:bxloveu-apple_xaono",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用可爱的鱼和$(2)大轩锭$()或$(br)$(2)附魔大轩锭$()在种子催生器合成$(br2)效果：食用后获得30分钟饱和$(br2)$(7)EMC:231,816$()$(br2)归属于：$(4)$(l)Jaoxaono"
+        }
+    ]
+}

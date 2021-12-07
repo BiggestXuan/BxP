@@ -1,0 +1,43 @@
+{
+    "name": "第一章",
+    "icon": "additions:bxloveu-bx_uningot",
+    "category": "patchouli:game_stage",
+    "pages": [
+        {
+            "type":"text",
+            "text":"这是一个由大轩所创建和统治的世界，整合包被重度魔改了，你可能不知道要做啥，这本书和FTB任务会指导你$(br2)首先，你需要获得$(1)石英$()，$(br)按照右侧的配方合成不稳定的大轩锭 $(br2)从0.5.0版本开始，你可以在主世界找到大轩矿"
+        },
+        {
+            "type":"crafting",
+            "recipe":"ct_shaped-1200072961",
+            "text":"$(br2)此后，请击杀凋零，获得$(br)$(5)下界之星$()，合成大轩的女装$(br)"
+        },
+        {
+            "type":"crafting",
+            "recipe":"ct_shaped-884322598",
+            "recipe2":"ct_shaped-873117735"
+        },
+        {
+            "type":"crafting",
+            "recipe":"ct_shaped1094266508",
+            "recipe2":"ct_shaped313122847"
+        },
+        {
+            "type":"text",
+            "text":"此后，从$(5)星辉魔法$()和$(5)龙之研究$()方向发展，直到达到天辉祭坛或以上，合成龙芯和双足飞龙核心。$(br2)然后合成泰拉凝聚板，以及菜梗子。$(br2)使用符文祭坛合成$(6)轩精矿$()，使用精灵门交易获得$(br)$(6)轩精锭$()，击败盖亚获得盖亚之魂，合成$(6)大轩精华粉$()。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"ct_shaped-425332670",
+            "recipe2":"ct_shaped-1645209461"
+        },
+        {
+            "type":"text",
+            "text":"然后请发展$(c)血魔法$()，使用血之祭坛合成符文矩阵，合成悖论物质。$(br2)尝试自己做一个裂缝，然后获得虚空种子，通过泰拉凝聚板合成$(5)虚空金属锭$()。$(br2)根据上述所有内容合成$(br)$(3)大轩锭$()。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"bloodmagic:altar"
+        }
+    ]
+}
