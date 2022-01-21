@@ -15,16 +15,17 @@ import crafttweaker.player.IPlayer;
 
 events.onBlockBreak(function(event as BlockBreakEvent){
     var block as IBlock = event.block;
+    var player as IPlayer= event.player;
     if(!isNull(block) && block.definition.id =="minecraft:cactus"){
-        if(event.player.creative){
+        if(player.creative){
             return;
         }
-        if(event.player.health >=7){
-            event.player.health -=6;
+        if(player.health >=7){
+            player.health -=6;
             return ;
         }
         else{
-            event.player.sendStatusMessage(format.red("你至少需要7点生命值才能破坏仙人掌"));
+            player.sendStatusMessage(format.red("你至少需要7点生命值才能破坏仙人掌"));
             return event.cancel();
         }
     }
@@ -55,35 +56,6 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     return ;
 });
 
-var map as string[int]={
-    1 : "minecraft:stone",
-    2 : "minecraft:iron_ore",
-    3 : "minecraft:gold_ore",
-    4 : "minecraft:quartz_ore",
-    5 : "minecraft:redstone_ore",
-    7 : "minecraft:lapis_ore",
-    8 : "abyssalcraft:coraliumore",
-    10 : "minecraft:diamond_ore",
-    12 : "scalinghealth:crystalore",
-    13 : "draconicevolution:draconium_ore",
-    15 : "minecraft:emerald_ore"
-};
-
-for i,j in map{
-    events.onBlockBreak(function(event as BlockBreakEvent){
-        var block as IBlock = event.block;
-        if(!isNull(block) && block.definition.id == j){
-            if(event.player.creative){
-                return;
-            }
-            if(event.player.xp < i ){
-                event.cancel();
-                event.player.sendStatusMessage(format.red("你至少需要"+i+"级才能破坏"+block.definition.displayName));
-            }
-        }
-    }
-);}
-
 var blocks as string[]=[
     "bxp:bxore","bxp:manaore","bxp:blooddiamondore","bxp:mithinore","bxp:fusionore","bxp:netherstarore","bxp:superbxore"
 ];
@@ -106,3 +78,40 @@ for i in blocks{
         }
     });
 }
+
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
+    var player as IPlayer = event.player;
+    var block as IBlock = event.block;
+    var quartz as string[]=[
+        "minecraft:quartz_ore",
+        "thaumcraft:ore_quartz"
+    ];
+    /*print(block.definition.id);
+     */
+    if(isNull(player) || isNull(block) || isNull(block.definition) || isNull(block.definition.id)) return;
+    for i in quartz{
+        if(block.definition.id == i){
+            if(event.silkTouch){
+                event.drops = [<minecraft:quartz_ore>];
+                return;
+            }
+            if(!event.isPlayer){
+                event.drops = [<minecraft:quartz>];
+                return;
+            }
+            event.drops = [<minecraft:quartz>];
+            event.addItem(<minecraft:quartz> %75);    
+            event.addItem(<minecraft:quartz>*2 %40);
+            event.addItem(<minecraft:quartz>*3 %20);
+            event.addItem(<minecraft:quartz>*4 %10);
+            if(event.fortuneLevel !=0){
+                var level as int = event.fortuneLevel;
+                var amount as int = level *2;
+                event.addItem(<minecraft:quartz>*amount %30);
+                event.addItem(<minecraft:quartz>*amount*2 %5);
+                event.addItem(<minecraft:quartz>*amount*3 %2);
+            }
+            else return;
+        }
+    }
+});

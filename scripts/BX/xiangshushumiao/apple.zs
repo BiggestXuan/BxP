@@ -4,7 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import scripts.Agri.other.df;
-import scripts.avaritia.main.nqd;
+import scripts.Avaritia.main.nqd;
 
 var apple=<minecraft:apple>;
 var apple1=<additions:bxloveu-xiangshushumiao_apple>;
@@ -20,14 +20,14 @@ var log as IItemStack[]=[
     <minecraft:log2:1>
 ];
 
-RecipeBuilder.newBuilder("shumiao","seed",100).
-addItemInput(sapling[0]).
-addItemInput(<additions:bxloveu-apple_xaono>).
-addFluidInput(<liquid:water>*500).
-addEnergyPerTickInput(200).
-addItemOutput(log[0]*16).
-addItemOutput(apple1).setChance(0.001).
-build();
+RecipeBuilder.newBuilder("shumiao","seed",100)
+.addItemInput(sapling[0])
+.addItemInput(<additions:bxloveu-apple_xaono>)
+.addFluidInput(<liquid:water>*500)
+.addEnergyPerTickInput(200)
+.addItemOutput(log[0]*16)
+.addItemOutput(apple1).setChance(0.01)
+.build();
    
 
 mods.thaumcraft.Infusion.registerRecipe(

@@ -25,6 +25,7 @@ function exp(xp as int) as int{
 events.onPlayerRespawn(function(event as PlayerRespawnEvent){
     val player as IPlayer = event.player;
     val xp1 as int =player.xp;
+    if(player.creative) return;
     for i in 0 .. 36{
         if(!isNull(player.getInventoryStack(i)) && player.getInventoryStack(i).definition.id == "bxp:deathprotect" ){
             event.player.sendStatusMessage(format.green("使用死亡保护，本次死亡或返回无惩罚"));

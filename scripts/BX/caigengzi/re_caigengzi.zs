@@ -46,7 +46,7 @@ var count=1;
 例如5*0.9=0，这是因为int*float类型不一样，zs自动把float转化为int了，
 所以就是5*0=0
 再就是在函数内部参与浮点型的运算会报错数组越界
-*/
+ */
 function js(x as IItemStack[]) as int{
     var sd as int=1;
     if (x in dragon[0]){
