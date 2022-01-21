@@ -1,0 +1,351 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:textures/gui/minecraft.png",
+            "posX" : -125,
+            "posY" : 0,
+            "width" : 252,
+            "height" : 86,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "menu.languages",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+
+        "hosting":
+        {
+            "text":"一个人不好玩？那就来qq群吧",
+            "normalTextColor":654646,
+			"texture":"mainmenu:tm.png",
+            "posX":-60,
+            "posY":150,
+            "width":120,
+            "height":35,
+			"action":{
+				"type":"openLink",
+				"link":"https://qm.qq.com/cgi-bin/qm/qr?k=vqBv-vLPMkv9wuHHVV-8BApfvkzGHe2u"
+			}
+        },
+		
+		"bilibili":
+		{
+			"texture":"mainmenu:textures/icon/bilibili.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 10,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://space.bilibili.com/184623371"
+			},
+			"hoverText" : "可以关注我吗？",
+			"alignment": "top_right"
+		},
+		
+		"xigua":
+		{
+			"texture":"mainmenu:textures/icon/xigua.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 30,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://www.ixigua.com/home/2598847098658295"
+			},
+			"hoverText" : "可以关注我吗？",
+			"alignment": "top_right"
+		},
+		
+		"qq":
+		{
+			"texture":"mainmenu:textures/icon/qq.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 50,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://qm.qq.com/cgi-bin/qm/qr?k=vqBv-vLPMkv9wuHHVV-8BApfvkzGHe2u"
+			},
+			"hoverText" : "可以来聊天吗？",
+			"alignment": "top_right"
+		},
+		
+		"github":
+		{
+			"texture":"mainmenu:textures/icon/github.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 70,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://github.com/BiggestXuan/BxP"
+			},
+			"hoverText" : "项目开源地址？",
+			"alignment": "top_right"
+		},
+		
+		"csdn":
+		{
+			"texture":"mainmenu:textures/icon/csdn.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 90,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://codechina.csdn.net/Biggest_Xuan/bxp"
+			},
+			"hoverText" : "旧版开源地址？",
+			"alignment": "top_right"
+		},
+		"ifadian":
+		{
+			"texture":"mainmenu:textures/icon/patreon.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 110,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://afdian.net/@Biggest_Xuan"
+			},
+			"hoverText" : "赞助我！",
+			"alignment": "top_right"
+		}
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "§9Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -150,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+		"hello": 
+	{
+		"text": "§9你好，§d#username#§9！",
+		"hoverText": "§9你好，§e#username#§9！",
+        "posX": 2,
+        "posY": 12,
+        "color": -1,
+        "alignment": "top_left"
+        },
+		"date":{
+		"text":"§9今天是  §d#date#",
+		"posX":2,
+		"posY":26,
+		"color":-1,
+		"alignment": "top_left"
+		},
+		"time":{
+		"text":"§9现在是  §d#time#",
+		"posX":2,
+		"posY":40,
+		"color":-1,
+		"alignment": "top_left"
+		},
+		"version":{
+		"text":"§9整合包版本  §d1.4.0",
+		"posX":2,
+		"posY":54,
+		"color":-1,
+		"alignment": "top_left"
+		},
+		"mcversion":{
+		"text":"§9Minecraft  §d#mcversion#",
+		"posX":2,
+		"posY":-46,
+		"color":-1,
+		"alignment": "bottom_left"
+		},
+		"forgeverson":{
+		"text":"§9Forge  §d#forgeversion#",
+		"posX":2,
+		"posY":-34,
+		"color":-1,
+		"alignment": "bottom_left"
+		},
+		"modinfo":{
+		"text":"§9Mod加载  §d#modsloaded# §9个",
+		"posX":2,
+		"posY":-22,
+		"color":-1,
+		"alignment": "bottom_left"
+		},
+		"modactive":{
+		"text":"§9Mod活跃  §d#modsactive# §9个",
+		"posX":2,
+		"posY":-10,
+		"color":-1,
+		"alignment": "bottom_left"
+		}
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 90,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "background": {
+            "image": "",
+            "mode" :"fill",
+				"slideshow": {
+                "images": 
+				[
+					"mainmenu:bg.png",
+					"mainmenu:bg1.png",
+					"mainmenu:bg2.png",
+					"mainmenu:bg3.png",
+					"mainmenu:bg4.png",
+					"mainmenu:bg5.png",
+					"mainmenu:bg6.png",
+					"mainmenu:bg7.png",
+					"mainmenu:bg8.png",
+					"mainmenu:bg9.png",
+					"mainmenu:bg10.png",
+					"mainmenu:bg11.png",
+					"mainmenu:bg12.png",
+					"mainmenu:bg13.png",
+					"mainmenu:bg14.png",
+					"mainmenu:bg15.png",
+					"mainmenu:bg16.png"
+				]
+				}
+			}
+    }
+}

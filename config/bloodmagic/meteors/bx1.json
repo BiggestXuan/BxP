@@ -1,0 +1,32 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "bxp",
+      "path": "unbxblock"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 400,
+      "oreName": "stone"
+    },
+    {
+      "weight": 100,
+      "oreName": "OreUnBX"
+    },
+    {
+      "weight": 20,
+      "oreName": "orebxgold"
+    },
+    {
+      "weight": 300,
+      "oreName": "oreIron"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 6,
+  "maxWeight": 820,
+  "version": 4,
+  "cost": 1000000
+}
