@@ -1,0 +1,10 @@
+{
+  "name": "天天的球球",
+  "shines": true,
+  "tooltip": [
+    "§e球球在背包可以获得跳跃提升，速度和急迫",
+    "§a§o[水友物品]-ttcpr99"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

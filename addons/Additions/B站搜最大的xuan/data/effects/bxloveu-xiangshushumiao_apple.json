@@ -1,0 +1,9 @@
+{
+  "name": "橡树树苗青苹果",
+  "tooltip": [
+    "放在背包可以无限获得饱和",
+    "§a§o[水友物品]-xiangshushumiao"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "§b姜翁垂钓",
+  "tooltip": [
+    "§a愿者上钩",
+    "  ",
+    "§a§o[水友物品]-DeaBF"
+  ],
+  "max_stack": 1,
+  "material": "WOOD",
+  "type": "additions:sword"
+}
