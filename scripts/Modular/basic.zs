@@ -204,3 +204,11 @@ sc2(fl_input);
 sc2(fl_output);
 sc2(rf_input);
 sc2(rf_output);
+
+recipes.remove(<modularmachinery:blockcontroller>);
+
+recipes.addShaped(<modularmachinery:blockcontroller>,[
+    [null,<minecraft:diamond>,null],
+    [<minecraft:redstone_block>,<bxp:unbxblock>,<minecraft:redstone_block>],
+    [<additions:bxloveu-bx_ingot>,<minecraft:redstone_block>,<additions:bxloveu-bx_ingot>]
+]);

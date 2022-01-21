@@ -53,6 +53,7 @@ mods.avaritia.ExtremeCrafting.addShapeless("rainbow",<solarflux:custom_solar_pan
 <solarflux:solar_panel_wyvern>,
 <solarflux:solar_panel_draconic>,
 <solarflux:solar_panel_chaotic>,
+<solarflux:solar_panel_infinity>,
 <additions:bxloveu-bx_enchingot>,
 <additions:bxloveu-bx_enchingot>,
 <additions:bxloveu-bx_enchingot>,
