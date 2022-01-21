@@ -1,0 +1,1145 @@
+{
+    "registryname": "bm",
+	"localizedname": "血之祭坛自动化装置",
+	"requires-blueprint": false,
+	"color": "dc143c",
+    "parts": [
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 16,
+            
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 16,
+            
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "bloodmagic:altar@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "bloodmagic:blood_rune"
+            ]
+        }
+    ]}

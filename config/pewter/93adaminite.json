@@ -2,7 +2,7 @@
   "name": "adaminite",
   "tool": {
     "bow": {
-      "speed": 0.2,
+      "speed": 1.0,
       "range": 1.5,
       "bonusDamage": 5.5
     },
@@ -99,28 +99,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.juggernaut","congenial","insatiable"
+      "tconevo.juggernaut","insatiable","exp_is_power"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","tconevo.juggernaut","congenial","coldblooded","tconevo.aftershock2"
+      "tconevo.evolved","tconevo.astral","tconevo.juggernaut","tconevo.aftershock2","exp_is_power"
     ],
     "HANDLE": [
-      "tconevo.juggernaut","tconevo.astral","congenial","insatiable"
+      "tconevo.juggernaut","tconevo.astral","insatiable"
     ],
     "BOW": [
-      "tconevo.juggernaut","congenial","insatiable","tconevo.evolved"
+      "tconevo.juggernaut","insatiable","tconevo.evolved"
     ],
     "PROJECTILE": [
-      "tconevo.juggernaut","congenial","insatiable"
+      "tconevo.juggernaut","insatiable"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.reactive_armor","dense_armor","heavy_armor","shielding_armor","steady_armor"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.reactive_armor","shielding_armor"
     ],
     "PLATES": [
-      "tconevo.reactive_armor","dense_armor","steady_armor"
+      "tconevo.reactive_armor","aexp_armor"
     ],
     "TRIM": [
-      "tconevo.reactive_armor","dense_armor","steady_armor"
+      "tconevo.reactive_armor","aexp_armor"
     ]
   }
 }

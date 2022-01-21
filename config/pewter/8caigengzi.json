@@ -2,7 +2,7 @@
   "name": "caigengzi",
   "tool": {
     "bow": {
-      "speed": 0.8,
+      "speed": 0.4,
       "range": 0.5,
       "bonusDamage": 0.2
     },
@@ -110,7 +110,7 @@
       "squeaky"
     ],
     "CORE": [
-      "calcic_armor"
+      "calcic_armor","aexplode1_armor"
     ],
     "PLATES": [
       "skeletal_armor"

@@ -2,7 +2,7 @@
   "name": "mithrillium",
   "tool": {
     "bow": {
-      "speed": 0.32,
+      "speed": 0.7,
       "range": 1.5,
       "bonusDamage": 7.5
     },
@@ -99,25 +99,25 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "congenial"
+      "exp_is_power"
     ],
     "HEAD": [
-      "tconevo.soul_rend","tconevo.astral","tconevo.evolved","congenial","tconevo.foot_fleet"
+      "tconevo.astral","tconevo.evolved","tconevo.foot_fleet"
     ],
     "HANDLE": [
-      "congenial"
+      "exp_is_power"
     ],
     "BOW": [
-      "congenial","tconevo.evolved"
+      "tconevo.evolved"
     ],
     "PROJECTILE": [
-      "congenial"
+      
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","congenial"
+      "tconevo.evolved_armor","tconevo.astral_armor"
     ],
     "PLATES": [
-      "congenial"
+      "congenial","aexp_armor"
     ],
     "TRIM": [
       "congenial","heavy_armor"

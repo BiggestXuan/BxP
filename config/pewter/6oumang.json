@@ -2,7 +2,7 @@
   "name": "oumang",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 0.7,
       "range": 1.0,
       "bonusDamage": 3.5
     },
@@ -95,13 +95,13 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.luminiferous","crude1"
+      "tconevo.luminiferous","crude1","spooky_anwu","health_kill"
     ],
     "HEAD": [
-      "tconevo.luminiferous","tconevo.astral","crude1","jagged"
+      "tconevo.luminiferous","tconevo.astral","crude1","final_you"
     ],
     "HANDLE": [
-      "tconevo.luminiferous","crude1"
+      "tconevo.luminiferous","crude1","spooky_anwu","health_kill"
     ],
     "BOW": [
       "tconevo.luminiferous","crude1","tconevo.evolved"
@@ -110,7 +110,7 @@
       "tconevo.luminiferous","crude1"
     ],
     "CORE": [
-     "prideful_armor","tconevo.astral_armor","tconevo.will_strength_armor","rough_armor"
+     "prideful_armor","tconevo.astral_armor","tconevo.will_strength_armor", "ahealth_armor"
     ],
     "PLATES": [
       "prideful_armor"

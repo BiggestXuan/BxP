@@ -1,0 +1,2627 @@
+{
+    "registryname": "tc",
+	"localizedname": "奥术注魔自动化装置",
+	"requires-blueprint": false,
+	"color": "bebebe",
+    "parts": [
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:infusion_matrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0",
+                "thaumcraft:pillar_arcane"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stone_arcane@0",
+                "thaumcraft:pillar_arcane"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stone_arcane@0",
+                "thaumcraft:pillar_arcane"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stone_arcane@0",
+                "thaumcraft:pillar_arcane"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thaumcraft:candle_white",
+                "thaumcraft:candle_red",
+                "thaumcraft:candle_blue",
+                "thaumcraft:candle_green",
+                "thaumcraft:candle_black",
+                "thaumcraft:candle_yellow",
+                "thaumcraft:candle_magenta",
+                "thaumcraft:candle_lightblue",
+                "thaumcraft:candle_pink",
+                "thaumcraft:candle_gray",
+                "thaumcraft:candle_silver",
+                "thaumcraft:candle_cyan",
+                "thaumcraft:candle_brown",
+                "thaumcraft:candle_purple",
+                "thaumcraft:candle_orange",
+                "thaumcraft:candle_lime"
+            ]
+        }
+    ]}

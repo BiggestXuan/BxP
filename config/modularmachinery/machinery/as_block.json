@@ -1,0 +1,39 @@
+{
+    "registryname": "as_block",
+	"localizedname": "聚星缸自动化装置",
+	"requires-blueprint": false,
+	"color": "ffffff",
+    "parts": [
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockwell@0"
+            ]
+        }
+    ]}

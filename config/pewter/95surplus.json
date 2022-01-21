@@ -2,7 +2,7 @@
   "name": "surplus",
   "tool": {
     "bow": {
-      "speed": 0.6,
+      "speed": 0.01,
       "range": 0.7,
       "bonusDamage": 4.5
     },
@@ -98,7 +98,7 @@
       "tconevo.evolved"
     ],
     "HEAD": [
-      "lightweight","tconevo.evolved","coldblooded","sassy","devilsstrength","tconevo.astral","tconevo.crystalline","tconevo.soul_rend","tconevo.culling","tconevo.foot_fleet","congenial","dark","berserk","alien","tconevo.aftershock3","crude1","crude2","tconevo.corrupting","insatiable","tconevo.modifiable1","tconevo.opportunist","global","brownmagic","terrafirmal1","elemental","twilit","precipitate","flammable","autosmelt","superheat","dreadpurity","coraliumplague","dreadplague"
+      "lightweight","tconevo.evolved","coldblooded","sassy","devilsstrength","tconevo.astral","tconevo.crystalline","tconevo.soul_rend","tconevo.culling","tconevo.foot_fleet","dark","berserk","alien","tconevo.aftershock3","crude1","crude2","tconevo.corrupting","insatiable","tconevo.modifiable1","tconevo.opportunist","global","brownmagic","terrafirmal1","elemental","twilit","precipitate","flammable","autosmelt","superheat","dreadpurity","coraliumplague","dreadplague"
     ],
     "HANDLE": [
       "tconevo.evolved"

@@ -2,7 +2,7 @@
   "name": "bx_ingot",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 0.8,
       "range": 1.0,
       "bonusDamage": 6.5
     },
@@ -100,13 +100,13 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.culling"
+      "tconevo.culling","bx1"
     ],
     "HEAD": [
-      "tconevo.soul_rend","tconevo.astral","tconevo.evolved","tconevo.culling","tconevo.foot_fleet"
+      "tconevo.soul_rend","tconevo.astral","tconevo.evolved","bx2","void_mental_is_too_low"
     ],
     "HANDLE": [
-      "tconevo.culling"
+      "tconevo.culling","bx1"
     ],
     "BOW": [
       "tconevo.culling","tconevo.evolved"
@@ -115,7 +115,7 @@
       "tconevo.culling"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","abx2_armor"
     ],
     "PLATES": [
       "tconevo.culling"

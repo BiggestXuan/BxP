@@ -99,13 +99,13 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "shocking"
+      "shocking","bx_video"
     ],
     "HEAD": [
-      "shocking","tconevo.astral","sharp"
+      "shocking","tconevo.astral","bx1","bx_video"
     ],
     "HANDLE": [
-      "shocking"
+      "shocking","bx_video"
     ],
     "BOW": [
       "shocking"
@@ -114,7 +114,7 @@
       "shocking"
     ],
     "CORE": [
-     "xu_xp_boost","tconevo.astral_armor","stiff"
+     "xu_xp_boost","tconevo.astral_armor","abx1"
     ],
     "PLATES": [
       "xu_xp_boost"

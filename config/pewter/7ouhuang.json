@@ -2,7 +2,7 @@
   "name": "ouhuang",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 2.6,
       "range": 1.0,
       "bonusDamage": 22.0
     },
@@ -95,13 +95,13 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "congenial","alien"
+      "bx3","exp_is_power"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","congenial","dark","berserk","alien"
+      "tconevo.evolved","tconevo.astral","berserk","alien","void_mental_is_too_low","bx3"
     ],
     "HANDLE": [
-      "congenial","alien"
+      "bx3","exp_is_power"
     ],
     "BOW": [
       "congenial","alien","tconevo.evolved"
@@ -110,7 +110,7 @@
       "congenial","alien"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","tconevo.superdense.armor","infernal_armor","lightweight_armor","invigorating_armor"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","tconevo.superdense.armor","ahealth_armor"
     ],
     "PLATES": [
       "lightweight_armor","invigorating_armor","tconevo.celestial_armor"

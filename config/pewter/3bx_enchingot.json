@@ -2,7 +2,7 @@
   "name": "bx_enchingot",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 1.5,
       "range": 1.0,
       "bonusDamage": 17.0
     },
@@ -95,13 +95,13 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.culling","tconevo.corrupting"
+      "tconevo.culling","tconevo.corrupting","bx2"
     ],
     "HEAD": [
-      "tconevo.soul_rend3","tconevo.astral","tconevo.evolved","alien","tconevo.culling","tconevo.corrupting","tconevo.foot_fleet"
+      "tconevo.soul_rend3","tconevo.astral","tconevo.evolved","bx3","void_mental_is_too_low"
     ],
     "HANDLE": [
-      "tconevo.culling","tconevo.corrupting"
+      "tconevo.culling","tconevo.corrupting","bx2"
     ],
     "BOW": [
       "tconevo.culling","tconevo.corrupting","tconevo.evolved"
@@ -110,7 +110,7 @@
       "tconevo.culling","tconevo.corrupting"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting","abx3_armor","ahealth_armor"
     ],
     "PLATES": [
       "tconevo.culling","tconevo.corrupting","tconevo.celestial_armor"

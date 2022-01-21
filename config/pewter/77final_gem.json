@@ -1,24 +1,24 @@
 {
-  "name": "glitch",
+  "name": "finalgem",
   "tool": {
     "bow": {
-      "speed": 0.5,
+      "speed": 3.0,
       "range": 1.0,
-      "bonusDamage": 1.0
+      "bonusDamage": 16.0
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 8.6,
-      "speed": 3.5,
-      "durability": 900,
-      "harvestLevel": 4
+      "attackDamage": 58.88,
+      "speed": 15.0,
+      "durability": 8888,
+      "harvestLevel": 8
     },
     "handle": {
-      "modifier": 0.2,
-      "durability": 15
+      "modifier": 2.5,
+      "durability": 1500
     },
     "arrowShaft": {
       "modifier": 0.1,
@@ -28,14 +28,14 @@
       "modifier": 0.2
     },
     "extra": {
-      "durability": -15
+      "durability": 700
     }
   },
-  "color": "#00ced1",
+  "color": "#708090",
   "craftable": false,
   "madeInToolForge": true,
   "createMeltingRecipes": true,
-  "meltingTemperature": 400,
+  "meltingTemperature": 4000,
   "looks": {
     "shininess": 0.25,
     "brightness": 0.9,
@@ -56,16 +56,14 @@
     "PROJECTILE"
   ],
   "nameLocales": {
-    "en_us": "glitch",
-    "zh_cn": "故障灌注"
+    "en_us": "finalgem",
+    "zh_cn": "终焉水晶"
   },
   "smeltingItems": {
     "ingot": [
-      "deepmoblearning:glitch_infused_ingot"
+      "additions:bxloveu-final_diamond"
     ],
-    "block": [
-      "deepmoblearning:infused_ingot_block"
-    ],
+    "block": [],
     "nugget": [],
     "ore": [],
     "dust": [],
@@ -97,28 +95,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "dense","heavy"
+      "tconevo.luminiferous","crude1","bx_video"
     ],
     "HEAD": [
-      "tconevo.astral","sharp","dense"
+      "tconevo.evolved","tconevo.astral","tconevo.juggernaut","bx_kill"
     ],
     "HANDLE": [
-      "dense","heavy"
+      "tconevo.luminiferous","crude1","bx_video"
     ],
     "BOW": [
-      "dense","heavy"
+      "tconevo.luminiferous","crude1","tconevo.evolved","tconevo.astral"
     ],
     "PROJECTILE": [
-      "dense","heavy"
+      "tconevo.luminiferous","crude1"
     ],
     "CORE": [
-     "tconevo.astral_armor","tconevo.celestial_armor"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","aboss4_armor"
     ],
     "PLATES": [
-      "heavy_armor","tconevo.gale_force1_armor"
+      "shielding_armor","prideful_armor","blessed_armor"
     ],
     "TRIM": [
-      "heavy_armor","tconevo.gale_force1_armor"
+      "shielding_armor","prideful_armor","blessed_armor"
     ]
   }
 }

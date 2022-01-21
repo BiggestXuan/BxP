@@ -2,7 +2,7 @@
   "name": "oujin",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 1.2,
       "range": 1.0,
       "bonusDamage": 3.5
     },
@@ -95,13 +95,13 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.juggernaut","tconevo.overwhelm"
+      "tconevo.juggernaut","tconevo.overwhelm","health_kill"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","tconevo.juggernaut","tconevo.overwhelm","coldblooded"
+      "tconevo.evolved","tconevo.astral","tconevo.overwhelm","spooky_anwu"
     ],
     "HANDLE": [
-      "tconevo.juggernaut","tconevo.astral","tconevo.overwhelm"
+      "tconevo.juggernaut","tconevo.astral","tconevo.overwhelm","health_kill"
     ],
     "BOW": [
       "tconevo.juggernaut","tconevo.overwhelm","tconevo.evolved"
@@ -110,7 +110,7 @@
       "tconevo.juggernaut","tconevo.overwhelm"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.reactive_armor","dense_armor","heavy_armor","shielding_armor"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.reactive_armor","dense_armor","ai_am_zombie"
     ],
     "PLATES": [
       "tconevo.reactive_armor","dense_armor"

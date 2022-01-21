@@ -2,7 +2,7 @@
   "name": "mithminite",
   "tool": {
     "bow": {
-      "speed": 0.35,
+      "speed": 1.5,
       "range": 1.0,
       "bonusDamage": 19.5
     },
@@ -99,28 +99,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "congenial","alien","congenial","crude2"
+      "alien","crude2"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","congenial","dark","berserk","alien","tconevo.aftershock3","crude1","crude2"
+      "tconevo.evolved","tconevo.astral","dark","alien","tconevo.aftershock3","crude2","exp_is_power"
     ],
     "HANDLE": [
-      "congenial","alien","congenial","crude2"
+      "alien","crude2"
     ],
     "BOW": [
-      "congenial","alien","congenial","crude2","tconevo.evolved"
+      "alien","crude2","tconevo.evolved"
     ],
     "PROJECTILE": [
-      "congenial","alien","congenial","crude2"
+      "alien","crude2"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","tconevo.superdense.armor","featherweight_armor","dunanstransport_armor","camdaibay_armor"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","tconevo.superdense.armor","aexp_armor"
     ],
     "PLATES": [
-      "lightweight_armor","invigorating_armor","tconevo.celestial_armor","dunanstransport_armor", "camdaibay_armor"
+      "lightweight_armor","invigorating_armor","tconevo.celestial_armor", "camdaibay_armor"
     ],
     "TRIM": [
-      "lightweight_armor","invigorating_armor","tconevo.celestial_armor","dunanstransport_armor", "camdaibay_armor"
+      "lightweight_armor","invigorating_armor","tconevo.celestial_armor", "camdaibay_armor"
     ]
   }
 }

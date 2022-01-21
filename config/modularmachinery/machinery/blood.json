@@ -1,0 +1,73 @@
+{
+    "registryname": "blood",
+	"localizedname": "血液自动化装置",
+	"requires-blueprint": false,
+	"color": "f4710b",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "vampirism:blood_sieve@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "vampirism:blood_grinder@0"
+            ]
+        }
+    ]}

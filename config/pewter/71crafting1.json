@@ -1,24 +1,24 @@
 {
-  "name": "glitch",
+  "name": "crafting1",
   "tool": {
     "bow": {
-      "speed": 0.5,
+      "speed": 0.4,
       "range": 1.0,
-      "bonusDamage": 1.0
+      "bonusDamage": 2.0
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 8.6,
-      "speed": 3.5,
-      "durability": 900,
-      "harvestLevel": 4
+      "attackDamage": 4.5,
+      "speed": 4.0,
+      "durability": 500,
+      "harvestLevel": 2
     },
     "handle": {
-      "modifier": 0.2,
-      "durability": 15
+      "modifier": 1,
+      "durability": 50
     },
     "arrowShaft": {
       "modifier": 0.1,
@@ -28,14 +28,14 @@
       "modifier": 0.2
     },
     "extra": {
-      "durability": -15
+      "durability": 100
     }
   },
-  "color": "#00ced1",
-  "craftable": false,
-  "madeInToolForge": true,
-  "createMeltingRecipes": true,
-  "meltingTemperature": 400,
+  "color": "#b0e0e6",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 2500,
   "looks": {
     "shininess": 0.25,
     "brightness": 0.9,
@@ -56,16 +56,14 @@
     "PROJECTILE"
   ],
   "nameLocales": {
-    "en_us": "glitch",
-    "zh_cn": "故障灌注"
+    "en_us": "crafting1",
+    "zh_cn": "下级精华"
   },
   "smeltingItems": {
     "ingot": [
-      "deepmoblearning:glitch_infused_ingot"
+      "mysticalagriculture:crafting"
     ],
-    "block": [
-      "deepmoblearning:infused_ingot_block"
-    ],
+    "block": [],
     "nugget": [],
     "ore": [],
     "dust": [],
@@ -97,28 +95,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "dense","heavy"
+      "lightweight"
     ],
     "HEAD": [
-      "tconevo.astral","sharp","dense"
+      "ecological","child_kill"
     ],
     "HANDLE": [
-      "dense","heavy"
+      "lightweight"
     ],
     "BOW": [
-      "dense","heavy"
+      "lightweight"
     ],
     "PROJECTILE": [
-      "dense","heavy"
+      "lightweight"
     ],
     "CORE": [
-     "tconevo.astral_armor","tconevo.celestial_armor"
-    ],
+      "ecological_armor","achild_armor"
+          ],
     "PLATES": [
-      "heavy_armor","tconevo.gale_force1_armor"
+      "ecological_armor","achild_armor"
     ],
     "TRIM": [
-      "heavy_armor","tconevo.gale_force1_armor"
+      "ecological_armor","achild_armor"
     ]
   }
 }

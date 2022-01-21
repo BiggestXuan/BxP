@@ -2,7 +2,7 @@
   "name": "tulye",
   "tool": {
     "bow": {
-      "speed": 0.6,
+      "speed": 0.5,
       "range": 0.7,
       "bonusDamage": 0.1
     },
@@ -110,13 +110,13 @@
       "lightweight"
     ],
     "CORE": [
-      "shielding_armor"
+      "shielding_armor","atulye_armor"
     ],
     "PLATES": [
-      "shielding_armor"
+      "shielding_armor","atulye_armor"
     ],
     "TRIM": [
-      "shielding_armor"
+      "shielding_armor","atulye_armor"
     ]
   }
 }

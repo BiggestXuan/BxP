@@ -2,7 +2,7 @@
   "name": "bx_finalingot",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 2.5,
       "range": 1.0,
       "bonusDamage": 56.0
     },
@@ -95,28 +95,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1"
+      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.aftershock3","crude1","bx3"
     ],
     "HEAD": [
-      "tconevo.soul_rend3","tconevo.evolved","tconevo.astral","alien","tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","tconevo.foot_fleet","berserk","tconevo.aftershock3","crude1","crude2"
+      "tconevo.evolved","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","tconevo.foot_fleet","bx4"
     ],
     "HANDLE": [
-      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1"
+      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","berserk","tconevo.aftershock3","crude1","bx3"
     ],
     "BOW": [
-      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1","tconevo.evolved"
+      "tconevo.culling","tconevo.corrupting","tconevo.astral","tconevo.infinitum","berserk","tconevo.aftershock3","crude1","tconevo.evolved"
     ],
     "PROJECTILE": [
-      "tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","berserk","tconevo.aftershock3","crude1"
+      "tconevo.culling","tconevo.corrupting","tconevo.infinitum","berserk","tconevo.aftershock3","crude1"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","tconevo.null_almighty_armor"
+      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.culling","tconevo.corrupting","tconevo.infinitum","tconevo.null_almighty_armor","abx4_armor"
     ],
     "PLATES": [
-      "tconevo.culling","tconevo.astral_armor","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","tconevo.celestial_armor"
+      "tconevo.culling","tconevo.astral_armor","tconevo.corrupting","tconevo.infinitum","tconevo.celestial_armor"
     ],
     "TRIM": [
-      "tconevo.culling","tconevo.astral_armor","tconevo.corrupting","tconevo.infinitum","tconevo.omnipotence","heavy_armor","tconevo.gale.force2_armor"
+      "tconevo.culling","tconevo.astral_armor","tconevo.corrupting","tconevo.infinitum","heavy_armor","tconevo.gale.force2_armor"
     ]
   }
 }

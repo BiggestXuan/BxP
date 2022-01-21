@@ -1,24 +1,24 @@
 {
-  "name": "glitch",
+  "name": "crafting5",
   "tool": {
     "bow": {
-      "speed": 0.5,
+      "speed": 1.5,
       "range": 1.0,
-      "bonusDamage": 1.0
+      "bonusDamage": 7.0
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 8.6,
-      "speed": 3.5,
-      "durability": 900,
-      "harvestLevel": 4
+      "attackDamage": 21.2,
+      "speed": 8.5,
+      "durability": 12000,
+      "harvestLevel": 6
     },
     "handle": {
-      "modifier": 0.2,
-      "durability": 15
+      "modifier": 1.8,
+      "durability": 700
     },
     "arrowShaft": {
       "modifier": 0.1,
@@ -28,14 +28,14 @@
       "modifier": 0.2
     },
     "extra": {
-      "durability": -15
+      "durability": 500
     }
   },
-  "color": "#00ced1",
-  "craftable": false,
-  "madeInToolForge": true,
-  "createMeltingRecipes": true,
-  "meltingTemperature": 400,
+  "color": "#ee0000",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 2500,
   "looks": {
     "shininess": 0.25,
     "brightness": 0.9,
@@ -56,16 +56,14 @@
     "PROJECTILE"
   ],
   "nameLocales": {
-    "en_us": "glitch",
-    "zh_cn": "故障灌注"
+    "en_us": "crafting5",
+    "zh_cn": "终极精华"
   },
   "smeltingItems": {
     "ingot": [
-      "deepmoblearning:glitch_infused_ingot"
+      "mysticalagriculture:crafting:4"
     ],
-    "block": [
-      "deepmoblearning:infused_ingot_block"
-    ],
+    "block": [],
     "nugget": [],
     "ore": [],
     "dust": [],
@@ -97,28 +95,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "dense","heavy"
+      "coldblooded","tconevo.aftershock1"
     ],
     "HEAD": [
-      "tconevo.astral","sharp","dense"
+      "tconevo.juggernaut","coldblooded","tconevo.aftershock1","low_kill_big"
     ],
     "HANDLE": [
-      "dense","heavy"
+      "coldblooded","tconevo.aftershock1"
     ],
     "BOW": [
-      "dense","heavy"
+      "coldblooded","tconevo.aftershock1"
     ],
     "PROJECTILE": [
-      "dense","heavy"
+      "coldblooded","tconevo.aftershock1"
     ],
     "CORE": [
-     "tconevo.astral_armor","tconevo.celestial_armor"
+      "tconevo.celestial_armor","tconevo.astral_armor","aboss2_armor","achild_armor"
     ],
     "PLATES": [
-      "heavy_armor","tconevo.gale_force1_armor"
+      "heavy_armor","achild_armor"
     ],
     "TRIM": [
-      "heavy_armor","tconevo.gale_force1_armor"
+      "heavy_armor","achild_armor"
     ]
   }
 }

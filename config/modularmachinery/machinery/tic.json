@@ -1,0 +1,975 @@
+{
+    "registryname": "tic",
+	"localizedname": "焦黑炉自动化装置",
+	"requires-blueprint": false,
+	"color": "13131d",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "tconstruct:seared",
+                "tconstruct:seared_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": "casings_all"
+        }
+    ]}
