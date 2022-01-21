@@ -614,7 +614,7 @@
     },
     {
       "item": "mysticalagriculture:crafting|0",
-      "emc": 16
+      "emc": 4
     },
     {
       "item": "mysticalagriculture:crafting|5",
@@ -771,6 +771,66 @@
     {
       "item": "bxp:singularity_17|0",
       "emc": 183753550
+    },
+    {
+      "item": "bloodmagic:slate|0",
+      "emc": 256
+    },
+    {
+      "item": "bloodmagic:slate|1",
+      "emc": 512
+    },
+    {
+      "item": "bloodmagic:slate|2",
+      "emc": 1024
+    },
+    {
+      "item": "bloodmagic:slate|3",
+      "emc": 2048
+    },
+    {
+      "item": "bloodmagic:slate|4",
+      "emc": 4096
+    },
+    {
+      "item": "appliedenergistics2:material|0",
+      "emc": 256
+    },
+    {
+      "item": "appliedenergistics2:material|3",
+      "emc": 128
+    },
+    {
+      "item": "appliedenergistics2:material|2",
+      "emc": 128
+    },
+    {
+      "item": "appliedenergistics2:material|45",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:skull|1",
+      "emc": 23211
+    },
+    {
+      "item": "appliedenergistics2:material|47",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|1",
+      "emc": 32
+    },
+    {
+      "item": "mysticalagriculture:crafting|2",
+      "emc": 256
+    },
+    {
+      "item": "mysticalagriculture:crafting|3",
+      "emc": 2048
+    },
+    {
+      "item": "mysticalagriculture:crafting|4",
+      "emc": 16384
     }
   ]
 }
