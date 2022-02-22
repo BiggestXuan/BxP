@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "bxp:singularity/layer_0",
-    "layer1": "bxp:singularity/layer_14"
-  }
-}
