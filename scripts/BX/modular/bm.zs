@@ -10,7 +10,7 @@ var name as string = "bm_name";
 var count as int = 0;
 
 RecipeBuilder.newBuilder(name+count,"bm",100)
-.addFluidInput(<liquid:lifeessence>*25000)
+.addFluidInput(<liquid:lifeessence>*5000)
 .addItemInput(<thermalfoundation:fertilizer:1>)
 .addItemOutput(<thermalfoundation:fertilizer:2>)
 .build();
@@ -76,4 +76,11 @@ RecipeBuilder.newBuilder(name+count,"bm",100)
 .addFluidInput(<liquid:lifeessence>*150000)
 .addItemInput(<minecraft:diamond_block>)
 .addItemOutput(<additions:bxloveu-diamond_block>)
+.build();
+
+name+=1;
+RecipeBuilder.newBuilder(name+count,"bm",100)
+.addFluidInput(<liquid:lifeessence>*5000)
+.addItemInput(<bloodarsenal:base_item:3>)
+.addItemOutput(<bloodarsenal:base_item:4>)
 .build();

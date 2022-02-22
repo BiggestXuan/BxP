@@ -10,6 +10,7 @@ import crafttweaker.item.IItemStack;
 events.onPlayerItemPickup(function(event as PlayerItemPickupEvent){
     var item as IItemStack = event.stackCopy;
     var player as IPlayer = event.player;
+    if(player.hasGameStage("awakened_core")) return;
     if(!isNull(item) && player.creative){
         return;
     }

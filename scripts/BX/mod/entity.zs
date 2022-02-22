@@ -18,3 +18,6 @@ tulye.addDrop(<additions:bxloveu-tulye_haie>,1,1,0.5);
 
 var yuluo = <entity:bxp:yuluo>;
 yuluo.addDrop(bx[4],0,3,0.2);
+
+var cxk = <entity:minecraft:chicken>;
+cxk.addDrop(<additions:bxloveu-basketball>,1,1,0.33);

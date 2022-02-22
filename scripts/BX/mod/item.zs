@@ -1,9 +1,12 @@
 import scripts.BX.item.bx;
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
+
 import mods.enderio.AlloySmelter;
 import mods.botaniatweaks.Agglomeration;
+import mods.botania.RuneAltar;
 import mods.bloodmagic.BloodAltar;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
@@ -24,6 +27,14 @@ while(i<2){
     i+=1;
 }
 
+recipes.addShapeless(fl[1]*9,[fl[2]]);
+
+RuneAltar.addRecipe(fl[1],[<ore:treeSapling>],10000);
+
+Agglomeration.addRecipe(fl[2],
+[<ore:treeSapling>],
+100000
+);
 
 var bxo = <bxp:bxore>;
 furnace.addRecipe(bx[4],bxo,2);
@@ -125,14 +136,14 @@ recipes.addShapeless(nugget*9,[
 furnace.addRecipe(nugget,<bxp:superbxore>,15);
 
 var death = <bxp:deathprotect>;
-RecipeBuilder.newBuilder("death","seed",9000)
+RecipeBuilder.newBuilder("death","seed",4000)
 .addItemInput(<bountifulbaubles:trinketankhcharm>)
 .addItemInput(bx[5])
 .addItemInput(bx[10])
 .addItemInput(bx[11])
 .addEnergyPerTickInput(2000)
-.addItemOutput(<bountifulbaubles:trinketankhcharm>).setChance(0.65)
-.addItemOutput(death)
+.addItemOutput(<bountifulbaubles:trinketankhcharm>).setChance(0.99)
+.addItemOutput(death).setChance(0.5)
 .addItemOutput(death).setChance(0.35)
 .addItemOutput(death).setChance(0.2)
 .addItemOutput(death).setChance(0.08)
@@ -150,4 +161,5 @@ RecipeBuilder.newBuilder("death","seed",9000)
 <bxp:tcpaper_3>.addTooltip(format.green("解锁所有研究"));
 
 <bxp:superbxore>.addTooltip(format.red("只能通过坠星位标获得，不会自然生成"));
-<bxp:deathprotect>.addTooltip(format.green("免除死亡惩罚，使用后立即消失"));
+<bxp:deathprotect>.addTooltip(format.green("免除死亡惩罚，使用后立即消失，仅在觉醒核心前有效"));
+<bxp:bxblock>.addTooltip("可给生物燃料，星能液，聚星缸自动装置增加三倍产出");

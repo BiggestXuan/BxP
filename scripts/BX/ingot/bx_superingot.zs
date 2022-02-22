@@ -1,4 +1,5 @@
 import mods.thaumcraft.Infusion;
+import scripts.BX.item.bx;
 
 var ch =<avaritia:resource:5>;
 var ingot=<avaritia:resource:6>;
@@ -9,13 +10,23 @@ Infusion.registerRecipe(
     "",
     super,
     0.3,
-    [<aspect:aer>*25,<aspect:terra>*25,<aspect:ordo>*25,<aspect:ignis>*25,<aspect:perditio>*25,<aspect:aqua>*25,
-    <aspect:vacuos>*25,<aspect:lux>*25,<aspect:motus>*25,<aspect:gelum>*25,<aspect:vitreus>*25,<aspect:metallum>*25,
-    <aspect:mortuus>*25,<aspect:victus>*25,<aspect:potentia>*25,<aspect:permutatio>*25,<aspect:auram>*25,
-    <aspect:alkimia>*25,<aspect:vitium>*25,<aspect:tenebrae>*25,<aspect:alienis>*25,<aspect:volatus>*25,<aspect:herba>*25,
-    <aspect:humanus>*25,<aspect:machina>*25,<aspect:fabrico>*25,<aspect:exanimis>*25],
+    [<aspect:aer>*100,<aspect:terra>*100,<aspect:ordo>*100,<aspect:ignis>*100,<aspect:perditio>*100,<aspect:aqua>*100,
+    <aspect:vacuos>*100,<aspect:lux>*100,<aspect:motus>*100,<aspect:gelum>*100,<aspect:vitreus>*100,<aspect:metallum>*100,
+    <aspect:mortuus>*100,<aspect:victus>*100,<aspect:potentia>*100,<aspect:permutatio>*100,<aspect:auram>*100,
+    <aspect:alkimia>*100,<aspect:vitium>*100,<aspect:tenebrae>*100,<aspect:alienis>*100,<aspect:volatus>*100,<aspect:herba>*100,
+    <aspect:humanus>*100,<aspect:machina>*100,<aspect:fabrico>*100,<aspect:exanimis>*100],
     ch,
     [ingot,ingot,ingot,ingot]
 );
+Infusion.registerRecipe(
+    "super_bx2",
+    "",
+    super,
+    0.3,
+    [<aspect:biggestxuan>*10000],
+    ch,
+    [ingot,ingot,ingot,ingot,bx[4]]
+);
 
-mods.jei.JEI.addDescription(super,"这个可能有点肝，不过注魔风险较低\nJEI里面有部分源质需求没写完，左侧需要六种基础源质，右侧还需要fabrico和exanimis源质");
+mods.jei.JEI.addDescription(super,"这个可能有点肝，不过注魔风险较低\nJEI配方二里面有部分源质需求没写完，左侧需要六种基础源质，右侧还需要fabrico和exanimis源质");
+

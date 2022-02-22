@@ -4,5 +4,4 @@ mods.thermalexpansion.Insolator.addRecipe(
 <additions:bxloveu-cai_seed>,
 100000,
 <additions:bxloveu-oumang_seed>,
-2,10000);
-
+5,10000);

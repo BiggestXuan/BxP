@@ -25,7 +25,6 @@ RecipeBuilder.newBuilder(name+count,"as",100)
 .addItemInput(<astralsorcery:itemcraftingcomponent>)
 .addItemOutput(<astralsorcery:itemcraftingcomponent:4>)
 .addFluidInput(<liquid:astralsorcery.liquidstarlight>*1000)
-.addEnergyPerTickInput(200)
 .build();
 
 name+=1;
@@ -33,12 +32,8 @@ RecipeBuilder.newBuilder(name+count,"as",100)
 .addItemInput(<thermalfoundation:fertilizer:2>*9)
 .addItemInput(<additions:bxloveu-bx_dust>*4)
 .addItemInput(<minecraft:diamond>*4)
-.addItemInput(<additions:bxloveu-diamond_block>*3)
-.addItemInput(shengxi)
-.addFluidInput(<liquid:astralsorcery.liquidstarlight>*1000)
+.addStarlightInput(300,"astralsorcery.constellation.aevitas")
 .addItemOutput(<additions:bxloveu-super_fer>*12)
-.addItemOutput(shengxi)
-.addEnergyPerTickInput(2000)
 .build();
 
 name+=1;
@@ -52,11 +47,8 @@ RecipeBuilder.newBuilder(name+count,"as",100)
 .addItemInput(bx[1])
 .addItemInput(bx[2])
 .addItemInput(bx[3])
-.addItemInput(feigong)
-.addEnergyPerTickInput(5000)
-.addFluidInput(<liquid:astralsorcery.liquidstarlight>*3000)
+.addStarlightInput(500,"astralsorcery.constellation.discidia")
 .addItemOutput(<additions:bxloveu-bx_ingot>*5)
-.addItemOutput(feigong)
 .build();
 
 name+=1;
@@ -67,11 +59,8 @@ RecipeBuilder.newBuilder(name+count,"as",100)
 .addItemInput(<minecraft:gold_ingot>*8)
 .addItemInput(<draconicevolution:wyvern_core>*4)
 .addItemInput(<minecraft:gold_block>*6)
-.addItemInput(shengmang)
 .addItemOutput(<additions:bxloveu-gold_gengzi>*8)
-.addFluidInput(<liquid:astralsorcery.liquidstarlight>*5000)
-.addEnergyPerTickInput(25000)
-.addItemOutput(shengmang)
+.addStarlightInput(1200,"astralsorcery.constellation.lucerna")
 .build();
 
 name+=1;
@@ -90,8 +79,7 @@ RecipeBuilder.newBuilder(name+count,"as",100)
 .addItemInput(huansheng)
 .addItemInput(nanji)
 .addItemInput(time)
-.addFluidInput(<liquid:astralsorcery.liquidstarlight>*10000)
-.addEnergyPerTickInput(300000)
+.addStarlightInput(1500)
 .addItemOutput(<additions:bxloveu-star_power>*4)
 .addItemOutput(xuyu)
 .addItemOutput(shengxi)

@@ -19,6 +19,7 @@ events.onBlockPlace(function(event as BlockPlaceEvent){
         "modularmachinery:blockenergyinputhatch",
         "modularmachinery:blockenergyoutputhatch"
     ];
+    if(player.hasGameStage("awakened_core")) return;
     if (!isNull(block) && player.creative){
         return;
     }

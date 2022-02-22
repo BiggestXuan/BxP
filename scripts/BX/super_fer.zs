@@ -7,8 +7,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe(
 <additions:bxloveu-bx_dust>,<additions:bxloveu-bx_dust>,
 <additions:bxloveu-bx_dust>,<additions:bxloveu-bx_dust>,
 null,null,null,null,null,null,null,null,
-<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>,
-<additions:bxloveu-diamond_block>,<additions:bxloveu-diamond_block>,<additions:bxloveu-diamond_block>
+<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>
 ],
 "astralsorcery.constellation.aevitas"
 );

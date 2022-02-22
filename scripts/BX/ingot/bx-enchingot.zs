@@ -1,6 +1,6 @@
 mods.thaumcraft.Infusion.registerRecipe("ench_ingot","",<additions:bxloveu-bx_enchingot>,
 15,
-[<aspect:humanus>*100,<aspect:spiritus>*50,<aspect:cognitio>*50,<aspect:victus>*50],
+[<aspect:humanus>*100,<aspect:spiritus>*50,<aspect:cognitio>*50,<aspect:victus>*50,<aspect:biggestxuan>*300],
 <additions:bxloveu-bx_ingot>,
 [<additions:bxloveu-ou_gold>,
 <thaumadditions:adaminite_ingot>,

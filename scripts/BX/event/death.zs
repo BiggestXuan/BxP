@@ -26,10 +26,14 @@ events.onPlayerRespawn(function(event as PlayerRespawnEvent){
     val player as IPlayer = event.player;
     val xp1 as int =player.xp;
     if(player.creative) return;
+    if(player.hasGameStage("awakened_core")){
+        event.player.sendStatusMessage(format.green("龙之神力，死亡损失一级"));
+        return player.xp -=1;
+    }
     for i in 0 .. 36{
         if(!isNull(player.getInventoryStack(i)) && player.getInventoryStack(i).definition.id == "bxp:deathprotect" ){
             event.player.sendStatusMessage(format.green("使用死亡保护，本次死亡或返回无惩罚"));
-            server.commandManager.executeCommand(server,"/clear "+player.name+" bxp:deathprotect 0 1");
+            server.commandManager.executeCommand(server,"clear "+player.name+" bxp:deathprotect 0 1");
             return;
         }
     }

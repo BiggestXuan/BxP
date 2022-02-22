@@ -9,23 +9,6 @@ import scripts.BX.item.bx;
 var name as string = "blood_name";
 var count as int = 0;
 
-RecipeBuilder.newBuilder(name+count,"blood",100)
-.addFluidInput(<liquid:lifeessence>*2)
-.addFluidOutput(<liquid:vampirismblood>)
-.build();
-
-name+=1;
-RecipeBuilder.newBuilder(name+count,"blood",100)
-.addFluidInput(<liquid:blood>)
-.addFluidOutput(<liquid:lifeessence>*2)
-.build();
-
-name+=1;
-RecipeBuilder.newBuilder(name+count,"blood",100)
-.addFluidOutput(<liquid:lifeessence>*2)
-.addFluidInput(<liquid:vampirismblood>)
-.build();
-
 var map as IItemStack[int] = {
     40 : <minecraft:rotten_flesh>,
     1000 : <vampirism:human_heart>,

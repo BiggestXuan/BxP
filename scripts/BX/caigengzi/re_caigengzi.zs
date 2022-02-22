@@ -22,7 +22,7 @@ static dragon as IItemStack[]= [
     <draconicevolution:chaotic_core>  //6  uss
 ]; 
 
-var start as int=36000;
+var start as int=7200;
 
 var time as int=start*1;
 
@@ -34,7 +34,6 @@ addItemInput(bx).
 addItemInput(star).
 addItemInput(yss).
 addEnergyPerTickInput(2000).
-addFluidInput(<liquid:water>*10000).
 addItemOutput(really).
 build();
 
@@ -78,14 +77,13 @@ for i in dragon{
     var x as IItemStack[]=[];
     x +=i;
     var tick as int=js(x);
-    RecipeBuilder.newBuilder("gold"+count,"caigengzi",32000*tick/100).
+    RecipeBuilder.newBuilder("gold"+count,"caigengzi",7200*tick/100).
     addItemInput(caigengzi).
     addItemInput(bx).
     addItemInput(star).
     addItemInput(yss).
     addItemInput(i).
     addEnergyPerTickInput(2000).
-    addFluidInput(<liquid:water>*10000).
     addItemOutput(really).
     build();
     count+=1;
@@ -102,7 +100,7 @@ while (i<6){
     while (j<=6){
         x[1]=dragon[j];
         var rate as int=js(x);
-        var tick as int=(rate*32000)/10000;
+        var tick as int=(rate*7200)/10000;
         RecipeBuilder.newBuilder("gold"+count,"caigengzi",tick).
         addItemInput(caigengzi).
         addItemInput(bx).
@@ -111,7 +109,6 @@ while (i<6){
         addItemInput(dragon[i]).
         addItemInput(dragon[j]).
         addEnergyPerTickInput(2000).
-        addFluidInput(<liquid:water>*10000).
         addItemOutput(really).
         build();
         count+=1;
@@ -134,7 +131,7 @@ while (i<5){
             x[2]=dragon[k];
             var rate as int=js(x);
             var set as int=rate/10;
-            RecipeBuilder.newBuilder("gold"+count,"caigengzi",set*32/100).
+            RecipeBuilder.newBuilder("gold"+count,"caigengzi",set*72/1000).
             addItemInput(caigengzi).
             addItemInput(bx).
             addItemInput(star).
@@ -143,7 +140,6 @@ while (i<5){
             addItemInput(dragon[j]).
             addItemInput(dragon[k]).
             addEnergyPerTickInput(2000).
-            addFluidInput(<liquid:water>*10000).
             addItemOutput(really).
             build();
             count+=1;
@@ -157,7 +153,7 @@ while (i<5){
     k=j+1;
 }
 
-RecipeBuilder.newBuilder("final_goldgengzi","caigengzi",4297).
+RecipeBuilder.newBuilder("final_goldgengzi","caigengzi",862).
 addItemInput(caigengzi).
 addItemInput(bx).
 addItemInput(star).
@@ -170,6 +166,5 @@ addItemInput(dragon[4]).
 addItemInput(dragon[5]).
 addItemInput(dragon[6]).
 addEnergyPerTickInput(2000).
-addFluidInput(<liquid:water>*10000).
 addItemOutput(really).
 build();

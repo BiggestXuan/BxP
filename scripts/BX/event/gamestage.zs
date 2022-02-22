@@ -11,14 +11,14 @@ events.onGameStageAdded(function(event as GameStageAddedEvent){
     var stage = event.gameStage;
     var map as string[int]={
         20.0:"nether_star",
-        50.0:"wyvern_core",
-        150.0:"bx_ingot",
-        350.0:"fusion_ingot",
-        500.0:"dragon_heart",
-        1200.0:"awakened_core",
-        1500.0:"ench_ingot",
-        2700.0:"chaotic_core",
-        4000.0:"avaritia_ingot",
+        45.0:"wyvern_core",
+        120.0:"bx_ingot",
+        225.0:"fusion_ingot",
+        450.0:"dragon_heart",
+        700.0:"awakened_core",
+        1100.0:"ench_ingot",
+        1850.0:"chaotic_core",
+        3000.0:"avaritia_ingot",
         6000.0:"final_ingot",
     };
     if(isNull(stage)){

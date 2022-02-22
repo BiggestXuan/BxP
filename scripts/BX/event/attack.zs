@@ -25,7 +25,16 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
 	"avaritia_ingot",
 	"final_ingot",
 	"projecte",
-	"disabled"
+	"disabled",
+    "level_1",
+    "level_2",
+    "level_3",
+    "level_4",
+    "level_5",
+    "level_6",
+    "level_7",
+    "level_8",
+    "level_9"
     ];
     var mob as string[int]={
         5 : "Enderman",
@@ -36,9 +45,10 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
         20 : "Shulker",
         30 : "abyssalcraft.lessershoggoth"
     };
-    var normal as string[]=[
-        "Zombie","Spider","Creeper","Skeleton","Cow","Pig","Chicken","Sheep","Villager","Rabbit"
-    ];
+    var disabledLevel as bool = false;
+    if(player.hasGameStage("awakened_core")){
+        disabledLevel = true;
+    }
     if(!isNull(entity.definition.name) && player.creative && entity.definition.name == "jaoxaono"){  
         if(isNull(items)){
             return;
@@ -54,6 +64,7 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
         return ;
     }
     for name in sy{
+        if(disabledLevel) return;
         if(!isNull(entity.definition) && entity.definition.name == name){
             if(player.xp <20){
                 event.cancel();
@@ -62,24 +73,18 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
         }
     }
     if(!isNull(entity.definition) && entity.isBoss){
+        if(disabledLevel) return;
         if(player.xp <50){
             event.cancel();
             event.player.sendStatusMessage(format.red("你至少需要50级才能攻击"+entity.definition.name));
         }
     }
     for i,j in mob{
+        if(disabledLevel) return;
         if(!isNull(entity.definition) && entity.definition.name == j){
             if(player.xp < i ){
                 event.cancel();
                 event.player.sendStatusMessage(format.red("你至少需要"+i+"级才能攻击"+j));
-            }
-        }
-    }
-    for i in normal{
-        if(!isNull(entity.definition) && entity.definition.name == i){
-            if(player.xp == 0){
-                event.cancel();
-                event.player.sendStatusMessage(format.red("你至少需要1级才能攻击"+i));
             }
         }
     }

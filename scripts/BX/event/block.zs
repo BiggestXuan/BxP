@@ -8,6 +8,8 @@ import crafttweaker.event.IEventCancelable;
 import crafttweaker.block.IBlock;
 import crafttweaker.player.IPlayer;
 
+<byg:structurecheckblock>.asBlock().definition.setHarvestLevel("pickaxe",2);
+<byg:structurecheckblock>.asBlock().definition.hardness=10.0f;
 <minecraft:bedrock>.asBlock().definition.setHarvestLevel("pickaxe",10);
 <minecraft:bedrock>.asBlock().definition.hardness=50.0f;
 <minecraft:end_portal_frame>.asBlock().definition.setHarvestLevel("pickaxe",4);
@@ -16,6 +18,8 @@ import crafttweaker.player.IPlayer;
 events.onBlockBreak(function(event as BlockBreakEvent){
     var block as IBlock = event.block;
     var player as IPlayer= event.player;
+    var disabledLevel as bool = false;
+    if(player.hasGameStage("awakened_core")) return;
     if(!isNull(block) && block.definition.id =="minecraft:cactus"){
         if(player.creative){
             return;
@@ -34,6 +38,11 @@ events.onBlockBreak(function(event as BlockBreakEvent){
 
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     var block as IBlock =  event.block;
+    var player as IPlayer = event.player;
+    if(player.hasGameStage("awakened_core") && !isNull(block) && block.definition.id=="minecraft:bedrock"){
+        event.drops = [<minecraft:bedrock>];
+        return;
+    } 
     if(!isNull(block) && block.definition.id=="minecraft:bedrock"){
         if(event.player.xp >10){
             event.drops = [<minecraft:bedrock>];
@@ -46,6 +55,11 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
 
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     var block as IBlock =  event.block;
+    var player as IPlayer = event.player;
+    if(player.hasGameStage("awakened_core") && !isNull(block) && block.definition.id=="minecraft:end_portal_frame"){
+        event.drops = [<minecraft:end_portal_frame>];
+        return;
+    } 
     if(!isNull(block) && block.definition.id=="minecraft:end_portal_frame"){
         if(event.player.xp >8){
             event.drops = [<minecraft:end_portal_frame>];
@@ -64,6 +78,7 @@ for i in blocks{
     events.onBlockBreak(function(event as BlockBreakEvent){
         var block as IBlock = event.block;
         var player as IPlayer = event.player;
+        if(player.hasGameStage("awakened_core")) return;
         if(!isNull(block) && block.definition.id == i){
             if(player.creative){
                 return;
@@ -112,6 +127,90 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
                 event.addItem(<minecraft:quartz>*amount*3 %2);
             }
             else return;
+        }
+    }
+    if(block.definition.id == "minecraft:diamond_ore" || block.definition.id == "cyclicmagic:nether_diamond_ore"||block.definition.id == "cyclicmagic:end_diamond_ore" ){
+            if(event.silkTouch){
+                event.drops = [<minecraft:diamond_ore>];
+                return;
+            }
+            if(!event.isPlayer){
+                event.drops = [<minecraft:diamond>];
+                return;
+            }
+            event.drops = [<minecraft:diamond>];
+            event.addItem(<minecraft:diamond> %45);    
+            event.addItem(<minecraft:diamond>*2 %20);
+            event.addItem(<minecraft:diamond>*3 %5);
+            if(event.fortuneLevel !=0){
+                var level as int = event.fortuneLevel;
+                var amount as int = level *2;
+                event.addItem(<minecraft:diamond>*amount %30);
+                event.addItem(<minecraft:diamond>*amount*2 %5);
+                event.addItem(<minecraft:diamond>*amount*3 %2);
+            }
+            else return;
+        }
+    if(block.definition.id == "cyclicmagic:nether_gold_ore" || block.definition.id == "cyclicmagic:end_gold_ore"){
+        event.drops = [<minecraft:gold_ore>];
+    }
+    if(block.definition.id == "cyclicmagic:nether_iron_ore" || block.definition.id == "cyclicmagic:end_iron_ore"){
+        event.drops = [<minecraft:iron_ore>];
+    }
+    if(block.definition.id == "cyclicmagic:nether_lapis_ore" || block.definition.id == "minecraft:lapis_ore"|| block.definition.id == "cyclicmagic:end_lapis_ore"){
+        if(event.silkTouch){
+            event.drops = [<minecraft:lapis_ore>];
+            return;
+        }
+        event.drops = [<minecraft:dye:4>*4];
+        event.addItem(<minecraft:dye:4>*2 %75);
+        event.addItem(<minecraft:dye:4>*3 %40);
+        event.addItem(<minecraft:dye:4>*4 %15);
+        if(event.fortuneLevel !=0){
+            var level as int = event.fortuneLevel;
+            for i in 1 .. level+1{
+                event.addItem(<minecraft:dye:4>*level %40);
+            }
+        }
+        else return;
+    }
+    if(block.definition.id == "cyclicmagic:nether_coal_ore" || block.definition.id == "minecraft:coal_ore"|| block.definition.id == "cyclicmagic:end_coal_ore"){
+        if(event.silkTouch){
+            event.drops = [<minecraft:coal_ore>];
+            return;
+        }
+        event.drops = [<minecraft:coal>];
+        event.addItem(<minecraft:coal>*2 %40);
+        event.addItem(<minecraft:coal>*3 %25);
+        event.addItem(<minecraft:coal>*4 %5);
+        event.addItem(<mysticalagriculture:diamond_essence> %30);
+        event.addItem(<mysticalagriculture:diamond_essence> %15);
+        event.addItem(<mysticalagriculture:diamond_essence> %10);
+        if(event.fortuneLevel !=0){
+            var level as int = event.fortuneLevel;
+            for i in 1 .. level+1{
+                event.addItem(<minecraft:coal>*level %65);
+                event.addItem(<mysticalagriculture:diamond_essence> %30);
+            }
+        }
+        else return;
+    }
+    if(block.definition.id == "mysticalagriculture:inferium_ore" || block.definition.id == "mysticalagriculture:nether_inferium_ore" || block.definition.id == "mysticalagriculture:end_inferium_ore"){
+        if(event.silkTouch){
+            event.drops = [<mysticalagriculture:inferium_ore>];
+            return;
+        }
+        event.drops = [<mysticalagriculture:crafting>*4];
+        event.addItem(<mysticalagriculture:crafting>*2 %80);
+        event.addItem(<mysticalagriculture:crafting>*3 %70);
+        event.addItem(<mysticalagriculture:crafting>*3 %70);
+        event.addItem(<mysticalagriculture:crafting>*4 %60);
+        event.addItem(<mysticalagriculture:crafting>*5 %55);
+        if(event.fortuneLevel !=0){
+            var level as int = event.fortuneLevel;
+            for i in 1 .. level+1{
+                event.addItem(<mysticalagriculture:crafting>*level*3 %80);
+            }
         }
     }
 });

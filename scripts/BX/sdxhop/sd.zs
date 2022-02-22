@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import scripts.BX.caigengzi.re_caigengzi.dragon;
 
-RecipeBuilder.newBuilder("sd","sd",12000).
+RecipeBuilder.newBuilder("sd","sd",10000).
 addItemInput(<thaumadditions:adaminite_ingot>).
 addItemInput(<minecraft:nether_star>).
 addItemInput(<additions:bxloveu-bx_ingot>).
@@ -22,7 +22,7 @@ build();
 //高级包子
 var sd =<additions:bxloveu-sdxhop>;
 var re =<additions:bxloveu-really_sd>;
-mods.jei.JEI.addDescription(re,"使用多方块结构：包子の高炉合成\n合成只需要9个sdxhop的头，星晶和混沌核心\n但是由于合成时间过于长，你可以使用神秘时代金属减时减能\n多个神秘金属效果叠加\n对应的效果如下：\n虚空金属 -10%时间\n秘银：-20%时间\n精金 -40%时间\n秘金 -65%时间");
+mods.jei.JEI.addDescription(re,"使用多方块结构：包子の高炉合成\n合成只需要9个sdxhop的头，星晶和混沌核心\n但是由于合成时间过于长，你可以使用神秘时代金属减时减能\n多个神秘金属效果叠加\n对应的效果如下：\n虚空金属 -10%时间\n秘银：-35%时间\n精金 -55%时间\n秘金 -80%时间");
 static tc as IItemStack[]=[
     <thaumcraft:ingot:1>,
     <thaumadditions:mithrillium_ingot>,
@@ -36,18 +36,18 @@ function js(x as IItemStack[]) as int{
         sd=90*sd;
     }
     if (x in tc[1]){
-        sd=80*sd;
+        sd=65*sd;
     }
     if (x in tc[2]){
-        sd=60*sd;
+        sd=45*sd;
     }
     if (x in tc[3]){
-        sd=35*sd;
+        sd=20*sd;
     }
     return sd;
 }
 
-RecipeBuilder.newBuilder("sd0","sd",48000).
+RecipeBuilder.newBuilder("sd0","sd",16000).
 addItemInput(sd*9).
 addItemInput(<additions:bxloveu-star_power>).
 addItemInput(dragon[6]).
@@ -60,7 +60,7 @@ for i in tc{
     var ls as IItemStack[]=[];
     ls+=i;
     var tick as int=0;
-    tick=js(ls)*480;
+    tick=js(ls)*160;
     RecipeBuilder.newBuilder("sd0"+count,"sd",tick).
     addItemInput(sd*9).
     addItemInput(<additions:bxloveu-star_power>).
@@ -80,7 +80,7 @@ while i<=2{
     while j<=3{
         ls[1]=tc[j];
         var tick as int=0;
-        tick=js(ls)*48/10;
+        tick=js(ls)*16/10;
         RecipeBuilder.newBuilder("sd0"+count,"sd",tick).
         addItemInput(sd*9).
         addItemInput(<additions:bxloveu-star_power>).
@@ -109,7 +109,7 @@ while i<=1{
         while k<=3{
             ls[2]=tc[k];
             var tick as int=0;
-            tick=js(ls)*48/1000;
+            tick=js(ls)*16/1000;
             RecipeBuilder.newBuilder("sd0"+count,"sd",tick).
             addItemInput(sd*9).
             addItemInput(<additions:bxloveu-star_power>).
@@ -131,7 +131,7 @@ while i<=1{
     k=j+1;
 }
 
-RecipeBuilder.newBuilder("sd0"+666,"sd",7258).
+RecipeBuilder.newBuilder("sd0"+666,"sd",843).
 addItemInput(sd*9).
 addItemInput(<additions:bxloveu-star_power>).
 addItemInput(dragon[6]).

@@ -18,11 +18,12 @@ RecipeBuilder.newBuilder(name+count,"tic",200)
 
 count+=1;
 RecipeBuilder.newBuilder(name+count,"tic",200)
-.addItemInput(<minecraft:obsidian>*8)
-.addItemInput(<taiga:tiberium_crystal>*4)
-.addItemInput(<taiga:eezo_ingot>)
-.addItemOutput(<taiga:seismum_ingot>*4)
-.addFluidInput(<liquid:pyrotheum>*25)
+.addItemInput(<minecraft:obsidian>*32)
+.addItemInput(<taiga:tiberium_crystal>*80)
+.addItemInput(<taiga:basalt_block>)
+.addItemInput(<taiga:eezo_ingot>*4)
+.addItemOutput(<taiga:seismum_ingot>*16)
+.addFluidInput(<liquid:pyrotheum>*75)
 .build();
 
 count+=1;

@@ -31,7 +31,7 @@ var j as int =0;  //遍历lx,chance
 var count as int =0; //遍历name
 var name as string[] =["c-1","c-2","c-3","c-4","c-5","c-6","c-7","c-8"];
 
-while i<=1{RecipeBuilder.newBuilder(name[count],"oh",69000).
+while i<=1{RecipeBuilder.newBuilder(name[count],"oh",2000).
 addItemInput(input[i]).
 addItemInput(lx[j]).
 addFluidInput(lava*200).
