@@ -8,7 +8,6 @@ var nether as IItemStack[]=[
     <thermalfoundation:ore:6>,
     <thaumcraft:ore_quartz>,
     <scalinghealth:crystalore>,
-    <taiga:eezo_ore>,
     <taiga:karmesine_ore>,
     <taiga:ovium_ore>,
     <taiga:jauxum_ore>,
@@ -17,7 +16,6 @@ var nether as IItemStack[]=[
 var fusion as IItemStack[]=[
     <bxp:netherstarore>,
     <bxp:blooddiamondore>,
-    <taiga:tiberium_ore>,
     <taiga:prometheum_ore>,
     <taiga:valyrium_ore>
 ];
@@ -27,6 +25,8 @@ var end as IItemStack[]=[
     <taiga:palladium_ore>,
     <taiga:abyssum_ore>
 ];
+
+OreStages.addReplacement("nether_star",<taiga:eezo_ore>,<minecraft:bedrock>);
 
 for i in nether{
     OreStages.addReplacement("nether_star",i);

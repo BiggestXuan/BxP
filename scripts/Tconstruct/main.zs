@@ -16,3 +16,5 @@ recipes.addShaped(<tconstruct:materials:50>,[
 ]);
 
 <tconstruct:materials:50>.addTooltip(format.green("可合成"));
+
+recipes.addShapeless(<tconstruct:materials>*8,[<ore:blockSeared>,<ore:blockSeared>]);

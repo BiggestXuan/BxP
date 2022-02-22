@@ -22,3 +22,5 @@ while(i<5){
     enrichment.addRecipe(input[i],output[i]*2);
     i+=1;
 }
+
+enrichment.addRecipe(<minecraft:quartz>,<appliedenergistics2:material:11>);

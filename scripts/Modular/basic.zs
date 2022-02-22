@@ -212,3 +212,25 @@ recipes.addShaped(<modularmachinery:blockcontroller>,[
     [<minecraft:redstone_block>,<bxp:unbxblock>,<minecraft:redstone_block>],
     [<additions:bxloveu-bx_ingot>,<minecraft:redstone_block>,<additions:bxloveu-bx_ingot>]
 ]);
+
+recipes.addShaped(<gugu-utils:sparkmanahatch>*4,[
+    [block,<botania:spark>,block],
+    [<botania:spark>,block,<botania:spark>],
+    [block,<botania:spark>,block]
+]);
+
+recipes.addShapeless(<gugu-utils:starlightinputhatch>,[
+    <astralsorcery:itemcraftingcomponent>,block
+]);
+
+recipes.addShapeless(<gugu-utils:starlightinputhatch:1>,[
+    <astralsorcery:itemcraftingcomponent:4>,block
+]);
+
+recipes.addShapeless(<gugu-utils:starlightinputhatch:2>,[
+    <astralsorcery:itemcraftingcomponent:4>,block,bx[5]
+]);
+
+recipes.addShapeless(<gugu-utils:aspecthatch>,[
+    block,<thaumcraft:essentia_output>
+]);

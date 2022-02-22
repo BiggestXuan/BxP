@@ -11,7 +11,7 @@ Infusion.registerRecipe("yuyan","BATHSALTS",<additions:bxloveu-warp_gem>,
 var w =<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]});
 Infusion.registerRecipe("flux","",<thaumcraft:creative_flux_sponge>,
 15,
-[<aspect:vitium>*1000],
+[<aspect:biggestxuan>*1000],
 <minecraft:sponge>,
 [w,w,w,w,w,w,w,w]
 );

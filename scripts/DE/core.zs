@@ -20,7 +20,7 @@ FusionCrafting.add(<draconicevolution:awakened_core>,<minecraft:nether_star>,Fus
 <minecraft:nether_star>,
 <minecraft:nether_star>,
 <draconicevolution:draconic_block>,
-<additions:bxloveu-bx_ingot>,
+<additions:bxloveu-bx_ingot>
 ]);
 
 FusionCrafting.add(<draconicevolution:chaos_shard>,<additions:bxloveu-bx_enchingot>,FusionCrafting.DRACONIC,30000000,[

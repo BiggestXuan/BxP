@@ -19,19 +19,19 @@ for i in panel{
 var i as int = 0;
 while(i<7){
     recipes.addShapeless(panel[i+1],[
-        panel[i],panel[i],panel[i],panel[i],panel[i]
+        panel[i],panel[i],panel[i],panel[i]
     ]);
 	i+=1;
 }
 
 var iron = <minecraft:iron_ingot>;
 var glass = <minecraft:glass>;
-recipes.addShaped(panel[0]*4,[
+recipes.addShaped(panel[0]*6,[
     [iron,iron,iron],
     [null,bx[4],null],
     [glass,glass,glass]
 ]);
-recipes.addShaped(panel[0]*10,[
+recipes.addShaped(panel[0]*15,[
     [iron,iron,iron],
     [bx[4],bx[4],bx[4]],
     [glass,glass,glass]

@@ -18,3 +18,11 @@ recipes.addShaped(<mekanism:machineblock>,[
 recipes.remove(<mekanism:machineblock2:15>);
 
 recipes.addShapeless(<mekanism:machineblock2:15>,[<mekanism:machineblock2:14>]);
+
+recipes.remove(<mekanism:machineblock2:1>);
+
+recipes.addShaped(<mekanism:machineblock2:1>,[
+    [<mekanism:enrichedalloy>,<mekanism:controlcircuit>,<mekanism:enrichedalloy>],
+    [<mekanism:controlcircuit>,<mekanism:basicblock:9>,<mekanism:controlcircuit>],
+    [<mekanism:enrichedalloy>,<mekanism:controlcircuit>,<mekanism:enrichedalloy>]
+]);

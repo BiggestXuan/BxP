@@ -1,9 +1,16 @@
+#priority 15
+
 import mods.ItemStages.addItemStage;
 import mods.DimensionStages.addDimensionStage;
 import scripts.BX.item.bx;
 import scripts.Project.main.prostage;
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.IMod;
+
+var mod as IMod = loadedMods["avaritia"];
+for item in mod.items{
+    addItemStage("chaotic_core",item);
+}
 
 var count as int[]=[
     0,1,2,3
@@ -23,12 +30,16 @@ var wyvern as IItemStack[]=[
     <additions:bxloveu-bx_goldingot>,
     <additions:bxloveu-bx_dust>,
     <bxp:netherstarore>,
-    <additions:bxloveu-yuluo_stick>
+    <additions:bxloveu-yuluo_stick>,
+    <additions:bxloveu-bx_seed>,
+    <additions:bxloveu-xuanjing_seed>,
+    <additions:bxloveu-nether_star_seed>
 ];
 for i in wyvern{
     addItemStage("wyvern_core",i);
 
 }
+addDimensionStage("wyvern_core",4);
 
 var bx_ingot as IItemStack[]=[
     <tconevo:material>,
@@ -39,7 +50,20 @@ var bx_ingot as IItemStack[]=[
     <thaumadditions:mithrillium_ingot>,
     <bxp:fusionore>,
     <additions:bxloveu-gold_gengzi>,
-    <mekanism:controlcircuit:2>
+    <mekanism:controlcircuit:2>,
+    <minecraft:bedrock>,
+    <additions:bxloveu-gold_caigengzi_nugget>,
+    <additions:bxloveu-gold_caigengzi_seed>,
+    <additions:bxloveu-mith_seed>,
+    <additions:bxloveu-seed_7>,
+    <mekanism:machineblock:4>,
+    <bloodarsenal:blood_diamond:3>,
+    <additions:bxloveu-blood_diamond_seed>,
+    <thermalfoundation:fertilizer>,
+    <thermalfoundation:fertilizer:1>,
+    <thermalfoundation:fertilizer:2>,
+    <additions:bxloveu-super_fer>
+    
 ];
 for i in bx_ingot{
     addItemStage("bx_ingot",i);
@@ -51,7 +75,11 @@ var fusion as IItemStack[]=[
     <additions:bxloveu-ou_gold>,
     <thaumadditions:adaminite_ingot>,
     <twilightforest:fiery_ingot>,
-    <bxp:mithinore>
+    <bxp:mithinore>,
+    <additions:bxloveu-adamin_seed>,
+    <additions:bxloveu-oujin_nugget>,
+    <additions:bxloveu-oujin_seed>,
+    <additions:bxloveu-seed_8>
 ];
 for i in fusion{
     addItemStage("fusion_ingot",i);
@@ -69,7 +97,12 @@ var awakened as IItemStack[]=[
     <additions:bxloveu-sdxhop>,
     bx[6],
     <tconevo:metal:5>,
-    <minecraft:bedrock>
+    <additions:bxloveu-dragon_egg_seed>,
+    <additions:bxloveu-dragon_heart_seed>,
+    <additions:bxloveu-dragon_egg_nugget>,
+    <additions:bxloveu-dragon_heart_nugget>,
+    <additions:bxloveu-enchbx_nugget>,
+    <additions:bxloveu-ench_ingot_seed>
 ];
 for i in awakened{
     addItemStage("awakened_core",i);
@@ -82,15 +115,18 @@ var ench as IItemStack[]=[
     <additions:bxloveu-re_gengzi>,
     <thaumadditions:mithminite_ingot>,
     <mekanism:controlcircuit:3>,
-    <mekanism:machineblock:4>,
-    <draconicevolution:chaos_shard>
+    <draconicevolution:chaos_shard>,
+    <additions:bxloveu-ouhuang_seed>,
+    <additions:bxloveu-ouhuang_nugget>,
+    <additions:bxloveu-wind_ingot>,
+    <additions:bxloveu-seed_9>
 ];
 for i in ench{
     addItemStage("ench_ingot",i);
 }
 
-var mod as IMod = loadedMods["abyssalcraft"];
-for item in mod.items{
+var mods as IMod = loadedMods["abyssalcraft"];
+for item in mods.items{
     addItemStage("bx_ingot",item);
 }
 
@@ -104,13 +140,56 @@ var chaotic as IItemStack[]=[
     <avaritia:resource:4>,
     <avaritia:neutron_collector>,
     <avaritia:neutronium_compressor>,
-    <additions:bxloveu-tulye_ingot>
+    <additions:bxloveu-tulye_ingot>,
+    <projecte:transmutation_table>,
+    <projectex:matter>,
+    <projectex:matter:1>,
+    <projectex:matter:2>,
+    <projectex:matter:3>,
+    <projectex:matter:4>,
+    <projectex:matter:5>,
+    <projectex:matter:6>,
+    <projectex:matter:7>,
+    <projectex:matter:8>,
+    <projectex:matter:9>,
+    <projectex:matter:10>,
+    <projectex:matter:11>,
+    <projectex:final_star_shard>,
+    <projecte:dm_furnace>,
+    <projecte:item.pe_arcana_ring>.withTag({Mode: 0 as byte}),
+    <projecte:item.pe_arcana_ring>.withTag({Mode: 1 as byte}),
+    <projecte:item.pe_arcana_ring>.withTag({Mode: 2 as byte}),
+    <projecte:item.pe_arcana_ring>.withTag({Mode: 3 as byte}),
+    <projectex:alchemy_table>,
+    <projectex:arcane_tablet>,
+    <projecte:nova_catalyst>,
+    <projecte:nova_cataclysm>,
+    <projecte:rm_furnace>,
+    <projecte:item.pe_tome>,
+    <projecte:item.pe_manual>,
+    <additions:bxloveu-seed_10>,
+    <projecte:item.pe_fuel>,
+    <projecte:item.pe_fuel:1>,
+    <projecte:item.pe_fuel:2>,
+    <additions:bxloveu-coal_seed>
 ];
 for i in chaotic {
     addItemStage("chaotic_core",i);
 }
 
-addItemStage("avaritia_ingot",bx[7]);
+var avaritia as IItemStack[]=[
+    bx[7],
+    <avaritia:infinity_sword>,
+    <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35}]}),
+    <avaritia:infinity_helmet>,
+    <avaritia:infinity_chestplate>,
+    <avaritia:infinity_pants>,
+    <avaritia:infinity_boots>
+];
+for i in avaritia{
+    addItemStage("avaritia_ingot",i);
+}
+
 
 
 //projecte

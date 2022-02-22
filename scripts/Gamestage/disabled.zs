@@ -29,7 +29,10 @@ var disabled as IItemStack[]=[
     <cyclicmagic:inventory_food>,
     <cyclicmagic:magnet_anti_block>,
     <extrautils2:lawsword>,
-    <botania:redstringcontainer>
+    <botania:redstringcontainer>,
+    <cyclicmagic:uncrafting_block>,
+    <abyssalcraft:scroll>,
+    <wct:magnet_card>.withTag({MagnetMode: 0})
 ];
 
 for i in disabled{

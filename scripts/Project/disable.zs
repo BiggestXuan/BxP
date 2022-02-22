@@ -100,5 +100,6 @@ var disable as IItemStack[]=[
 ];
 
 for i in disable{
+    recipes.remove(i);
     addItemStage("disabled",i);
 }

@@ -10,7 +10,7 @@ recipes.addShaped(<thermalfoundation:fertilizer>*8,
 [<additions:bxloveu-bx_uningot>,<additions:bxloveu-bx_uningot>,<additions:bxloveu-bx_uningot>]
 ]);
 
-recipes.addShaped(<thermalfoundation:fertilizer:1>*16,
+recipes.addShaped(<thermalfoundation:fertilizer:1>*64,
 [
 [null,<additions:bxloveu-bx_ingot>,null],
 [<additions:bxloveu-bx_ingot>,<thermalfoundation:material:865>,<additions:bxloveu-bx_ingot>],
@@ -19,8 +19,8 @@ recipes.addShaped(<thermalfoundation:fertilizer:1>*16,
 
 mods.thermalexpansion.Transposer.addFillRecipe(
 <thermalfoundation:fertilizer:1>,
-<thermalfoundation:fertilizer>*64,
-<liquid:lava>*1000000,100000
+<thermalfoundation:fertilizer>*6,
+<liquid:lava>*3500,5000
 );
 
 recipes.remove(<thermalexpansion:machine:9>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));
@@ -32,7 +32,7 @@ mods.bloodmagic.BloodAltar.addRecipe(
 <thermalfoundation:fertilizer:2>,
 <thermalfoundation:fertilizer:1>,
 3,
-25000,
+5000,
 200,
 10
 );
