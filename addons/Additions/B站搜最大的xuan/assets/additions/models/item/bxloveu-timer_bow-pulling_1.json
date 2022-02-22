@@ -1,0 +1,6 @@
+{
+  "parent": "additions:item/bxloveu-timer_bow",
+  "textures": {
+    "layer0": "additions:items/bxloveu-timer_bow-pulling_1-layer0"
+  }
+}
