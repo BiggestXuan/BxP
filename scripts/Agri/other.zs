@@ -1,6 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import mods.ctintegration.projecte.EMCManager;
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -35,7 +36,32 @@ static seed as IItemStack[]=[
 <mysticalagriculture:manasteel_seeds>,
 <mysticalagriculture:thaumium_seeds>,
 <mysticalagriculture:certus_quartz_seeds>,
-<mysticalagriculture:fluix_seeds>
+<mysticalagriculture:fluix_seeds>,
+<mysticalagriculture:void_metal_seeds>,
+<mysticalagriculture:emerald_seeds>,
+<mysticalagriculture:pig_seeds>,
+<mysticalagriculture:blaze_seeds>,
+<mysticalagriculture:aquamarine_seeds>,
+<mysticalagriculture:quicksilver_seeds>,
+<mysticalagriculture:amber_seeds>,
+<mysticalagriculture:wood_seeds>,
+<mysticalagriculture:knightmetal_seeds>,
+<mysticalagriculture:enderman_seeds>,
+<mysticalagriculture:wither_skeleton_seeds>,
+<mysticalagriculture:silicon_seeds>,
+<mysticalagriculture:sulfur_seeds>,
+<mysticalagriculture:draconium_seeds>,
+<mysticalagriculture:fiery_ingot_seeds>,
+<mysticalagriculture:diamond_seeds>,
+<mysticalagriculture:platinum_seeds>,
+<mysticalagriculture:osmium_seeds>,
+<mysticalagriculture:glowstone_seeds>,
+<mysticalagriculture:creeper_seeds>,
+<mysticalagriculture:end_steel_seeds>,
+<mysticalagriculture:vibrant_alloy_seeds>,
+<mysticalagriculture:energetic_alloy_seeds>,
+<mysticalagriculture:pulsating_iron_seeds>,
+<mysticalagriculture:coralium_seeds>
 ];
 
 var out as IItemStack[]=[
@@ -62,53 +88,137 @@ var out as IItemStack[]=[
 <botania:manaresource>,
 <thaumcraft:ingot>,
 <appliedenergistics2:material>,
-<appliedenergistics2:material:7>
+<appliedenergistics2:material:7>,
+<thaumcraft:ingot:1>,
+<minecraft:emerald>,
+<minecraft:porkchop>,
+<minecraft:blaze_rod>,
+<astralsorcery:itemcraftingcomponent>,
+<thaumcraft:quicksilver>,
+<thaumcraft:amber>,
+<minecraft:log>,
+<twilightforest:knightmetal_ingot>,
+<minecraft:ender_pearl>,
+<minecraft:skull:1>,
+<appliedenergistics2:material:5>,
+<thermalfoundation:material:771>,
+<draconicevolution:draconium_ingot>,
+<twilightforest:fiery_ingot>,
+<minecraft:diamond>,
+<thermalfoundation:material:134>,
+<mekanism:ingot:1>,
+<minecraft:glowstone_dust>,
+<minecraft:gunpowder>,
+<enderio:item_alloy_ingot:8>,
+<enderio:item_alloy_ingot:2>,
+<enderio:item_alloy_ingot:1>,
+<enderio:item_alloy_ingot:5>,
+<abyssalcraft:coralium>
 ];
 
-function set (x as IItemStack) as double[]{
-var sd as double[]=[];
-if (x in df[0]){
-sd=[0.5,0.2,0.05,0.01];
-}
-if (x in df[1]){
-sd=[0.7,0.4,0.1,0.05];
-}
-if (x in df[2]){
-sd=[1,0.7,0.3,0.15];
-}
-if (x in df[3]){
-sd=[1,1,0.5,0.3];
-}
-return sd;
-}
-
-var sd as double[]=[];
-var count as int=1;
-var i as int=0;
-var j as int=0;
-
-while i<=23{
-    while j<=3{
-        sd=set(df[j]);
-        RecipeBuilder.newBuilder("other"+count,"seed",200).
-        addItemInput(seed[i]).
-        addItemInput(df[j]).
-        addFluidInput(<liquid:water>*500).
-        addEnergyPerTickInput(100).
-        addItemOutput(seed[i]).
-        addItemOutput(out[i]).setChance(sd[0]).
-        addItemOutput(out[i]).setChance(sd[1]).
-        addItemOutput(out[i]).setChance(sd[2]).
-        addItemOutput(out[i]).setChance(sd[3]).
-        build();
-    count+=1;
-    j+=1;
+function seedGrowOre(input as IItemStack,output as IItemStack,name as string) as void{
+    var count as int = 0;
+    var chance as double[]=[0.3,0.55,0.85,1];
+    for i in 0 .. 4{
+        RecipeBuilder.newBuilder(name+count,"seed",380)
+        .addItemInput(input)
+        .addItemInput(df[i]*6)
+        .addFluidInput(<liquid:water>*4000)
+        .addEnergyPerTickInput(2500)
+        .addItemOutput(input)
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i] / 1.1f)
+        .addItemOutput(output).setChance(chance[i] / 1.3f)
+        .addItemOutput(output).setChance(chance[i] / 1.7f)
+        .addItemOutput(output).setChance(chance[i] / 2.0f)
+        .addItemOutput(output).setChance(chance[i] / 2.5f)
+        .addItemOutput(output).setChance(chance[i] / 3.0f)
+        .addItemOutput(output).setChance(chance[i] / 3.2f)
+        .build();
+        count+=1;
     }
-    i+=1;
-    j=0;
+    for i in 0 .. 4{
+        RecipeBuilder.newBuilder(name+count,"seed",500)
+        .addItemInput(input)
+        .addItemInput(df[i]*3)
+        .addFluidInput(<liquid:water>*2000)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(input)
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i] / 1.3f)
+        .addItemOutput(output).setChance(chance[i] / 1.8f)
+        .addItemOutput(output).setChance(chance[i] / 2.2f)
+        .addItemOutput(output).setChance(chance[i] / 2.5f)
+        .build();
+        count+=1;
+    }
+    for i in 0 .. 4{
+        RecipeBuilder.newBuilder(name+count,"seed",750)
+        .addItemInput(input)
+        .addItemInput(df[i])
+        .addFluidInput(<liquid:water>*500)
+        .addEnergyPerTickInput(300)
+        .addItemOutput(input)
+        .addItemOutput(output).setChance(chance[i])
+        .addItemOutput(output).setChance(chance[i] / 1.8f)
+        .addItemOutput(output).setChance(chance[i] / 2.5f)
+        .addItemOutput(output).setChance(chance[i] / 3.5f)
+        .build();
+        count+=1;
+    }
+
+}
+
+var name as string[]=[
+    "aq","aw","ae","ar","at","ay","au","ai","ao","ap","aa","as","ad","af","ag","ah","aj","ak","al","az","ax","ac",  //22
+    "av","ab","an","am","qq","qw","qe","qr","qt","qy","qu","qi","qo","qp","qa","qs","qd","qf","qg","qh","qj","qk",
+    "ql","qz","qx","qc","qv","qb","qn","qm","wq","ww","we","wr","wt","wy","wu","wi","wo","wp","wa","ws","wd","wf"
+];
+
+for i in 0 .. seed.length{
+    seedGrowOre(seed[i],out[i],name[i]);
 }
 
 var mod as IMod = loadedMods["mysticalagriculture"];
 for item in mod.items{
     item.emc=0;
+}
+<mysticalagriculture:crafting:16>.emc=32;
+<mysticalagriculture:crafting:17>.emc=48;
+<mysticalagriculture:crafting:18>.emc=176;
+<mysticalagriculture:crafting:19>.emc=1200;
+<mysticalagriculture:crafting:20>.emc=9392;
+<mysticalagriculture:crafting:21>.emc=74928;
+
+var map as IItemStack[IItemStack]={
+    <mysticalagriculture:storage:1> : <mysticalagriculture:crafting:1>,
+    <mysticalagriculture:storage:2> : <mysticalagriculture:crafting:2>,
+    <mysticalagriculture:storage:3> : <mysticalagriculture:crafting:3>,
+    <mysticalagriculture:storage:4> : <mysticalagriculture:crafting:4>,
+};
+
+for i,j in map{
+    recipes.addShapeless(j*9,[i]);
+}
+
+var block as IItemStack[IItemStack]={
+<mysticalagriculture:storage>:<mysticalagriculture:crafting>,
+<mysticalagriculture:storage:1>:<mysticalagriculture:crafting:1>,
+<mysticalagriculture:storage:2>:<mysticalagriculture:crafting:2>,
+<mysticalagriculture:storage:3>:<mysticalagriculture:crafting:3>,
+<mysticalagriculture:storage:4>:<mysticalagriculture:crafting:4>
+};
+
+for i in block{
+    recipes.remove(i);
+}
+
+for i,j in block{
+    recipes.addShapeless(i,[
+        j,j,j,j,j,j,j,j,j
+    ]);
 }

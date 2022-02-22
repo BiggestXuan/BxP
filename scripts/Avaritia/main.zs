@@ -4,10 +4,13 @@ import mods.modularmachinery.RecipePrimer;
 import mods.ItemStages.addItemStage;
 import mods.avaritia.ExtremeCrafting;
 import mods.avaritia.Compressor;
+
 import moretweaker.draconicevolution.FusionCrafting;
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
+
 import scripts.BX.item.bx;
 import scripts.BX.caigengzi.re_caigengzi.dragon;
 
@@ -246,8 +249,9 @@ ExtremeCrafting.addShapeless("chj",ch,[
     <avaritia:resource:4>,<avaritia:resource:4>,<avaritia:resource:4>,<avaritia:resource:4>,
     <avaritia:cosmic_meatballs>,<avaritia:ultimate_stew>,
     nqd[0],nqd[1],nqd[2],nqd[3],nqd[4],nqd[5],nqd[6],nqd[7],nqd[8],nqd[9],nqd[10],nqd[11],nqd[12],nqd[13],nqd[14],nqd[15],nqd[16],
-    dragon[0],dragon[1],dragon[2],dragon[3],dragon[4],dragon[5],dragon[6],
-    bx[0],bx[1],bx[2],bx[3],bx[4],bx[5],bx[6],bx[8],bx[9],bx[10],bx[11],bx[12],bx[13],bx[14],bx[15],bx[16],bx[17],bx[18],bx[19],bx[20],bx[21],bx[22]
+    dragon[0],dragon[1],dragon[2],dragon[3],dragon[4],dragon[5],dragon[6],<additions:bxloveu-tulye_ingot>,
+    bx[0],bx[1],bx[2],bx[3],bx[4],bx[5],bx[6],bx[8],bx[9],bx[10],bx[11],bx[12],bx[13],bx[14],bx[15],bx[16],bx[17],bx[18],bx[19],bx[20],bx[21],bx[22],
+    <projectex:matter:5>,<projectex:matter:5>
 ]);
 
 recipes.remove(<avaritia:resource:4>);

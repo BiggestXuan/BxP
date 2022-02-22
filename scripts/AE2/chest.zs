@@ -122,3 +122,11 @@ while e<=3{
     e+=1;
     f+=1;
 }
+
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+
+recipes.addShaped(<ae2wtlib:infinity_booster_card>*4,[
+    [null,bx[4],null],
+    [bx[4],<minecraft:paper>,bx[4]],
+    [null,bx[4],null]
+]);
