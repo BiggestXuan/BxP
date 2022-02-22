@@ -1,0 +1,12 @@
+{
+  "name": "篮球",
+  "tooltip": "鸡死亡后有概率掉落，击中生物爆炸，无玩家伤害",
+  "hit_effects": [
+    {
+      "command": "additions.explode @s 3 false false",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    }
+  ],
+  "type": "additions:throwable"
+}

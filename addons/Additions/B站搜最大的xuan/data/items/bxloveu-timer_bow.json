@@ -1,0 +1,23 @@
+{
+  "name": "§b时之弓",
+  "tooltip": "§a§o[赞助者物品]-回响",
+  "max_stack": 1,
+  "durability": 1561,
+  "enchantability": 15,
+  "repair_stacks": {
+    "ore_name": "gemDiamond"
+  },
+  "scattering": 0.5,
+  "draw_time": 10,
+  "fires_vanilla_arrows": false,
+  "ammo_items": "additions:bxloveu-sound_arrow",
+  "shot_sound": "minecraft:entity.arrow.shoot",
+  "shot_effects": [
+    {
+      "loot_table": "additions:bxloveu-bow",
+      "chance": 0.5,
+      "type": "additions:loot_table_at"
+    }
+  ],
+  "type": "additions:bow"
+}
