@@ -50,12 +50,6 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
         }
         event.player.sendStatusMessage(format.red("你至少需要10级才能破坏基岩，否则不会掉落！"));
     }
-    return ;
-});
-
-events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
-    var block as IBlock =  event.block;
-    var player as IPlayer = event.player;
     if(player.hasGameStage("awakened_core") && !isNull(block) && block.definition.id=="minecraft:end_portal_frame"){
         event.drops = [<minecraft:end_portal_frame>];
         return;
@@ -104,6 +98,11 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     /*print(block.definition.id);
      */
     if(isNull(player) || isNull(block) || isNull(block.definition) || isNull(block.definition.id)) return;
+    if(event.fortuneLevel >=11){
+        event.drops = [];
+        event.player.sendStatusMessage(format.red("整合包禁用十级以上时运"));
+        return;
+    }
     for i in quartz{
         if(block.definition.id == i){
             if(event.silkTouch){
@@ -117,14 +116,14 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             event.drops = [<minecraft:quartz>];
             event.addItem(<minecraft:quartz> %75);    
             event.addItem(<minecraft:quartz>*2 %40);
-            event.addItem(<minecraft:quartz>*3 %20);
-            event.addItem(<minecraft:quartz>*4 %10);
+            event.addItem(<minecraft:quartz>*3 %30);
+            event.addItem(<minecraft:quartz>*4 %20);
             if(event.fortuneLevel !=0){
                 var level as int = event.fortuneLevel;
-                var amount as int = level *2;
-                event.addItem(<minecraft:quartz>*amount %30);
-                event.addItem(<minecraft:quartz>*amount*2 %5);
-                event.addItem(<minecraft:quartz>*amount*3 %2);
+                for i in 0 .. level*2{
+                    event.addItem(<minecraft:quartz>*4 %50);
+                    event.addItem(<minecraft:quartz>*3 %20);
+                }
             }
             else return;
         }
@@ -151,10 +150,10 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             }
             else return;
         }
-    if(block.definition.id == "cyclicmagic:nether_gold_ore" || block.definition.id == "cyclicmagic:end_gold_ore"){
+    if(block.definition.id == "cyclicmagic:nether_gold_ore" || block.definition.id == "cyclicmagic:end_gold_ore" || block.definition.id == "minecraft:gold_ore" ){
         event.drops = [<minecraft:gold_ore>];
     }
-    if(block.definition.id == "cyclicmagic:nether_iron_ore" || block.definition.id == "cyclicmagic:end_iron_ore"){
+    if(block.definition.id == "cyclicmagic:nether_iron_ore" || block.definition.id == "cyclicmagic:end_iron_ore" || block.definition.id == "minecraft:iron_ore"){
         event.drops = [<minecraft:iron_ore>];
     }
     if(block.definition.id == "cyclicmagic:nether_lapis_ore" || block.definition.id == "minecraft:lapis_ore"|| block.definition.id == "cyclicmagic:end_lapis_ore"){
@@ -162,14 +161,14 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             event.drops = [<minecraft:lapis_ore>];
             return;
         }
-        event.drops = [<minecraft:dye:4>*4];
-        event.addItem(<minecraft:dye:4>*2 %75);
-        event.addItem(<minecraft:dye:4>*3 %40);
-        event.addItem(<minecraft:dye:4>*4 %15);
+        event.drops = [<minecraft:dye:4>*6];
+        event.addItem(<minecraft:dye:4>*3 %75);
+        event.addItem(<minecraft:dye:4>*5 %40);
+        event.addItem(<minecraft:dye:4>*7 %15);
         if(event.fortuneLevel !=0){
             var level as int = event.fortuneLevel;
             for i in 1 .. level+1{
-                event.addItem(<minecraft:dye:4>*level %40);
+                event.addItem(<minecraft:dye:4>*level*2 %55);
             }
         }
         else return;
@@ -210,6 +209,42 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             var level as int = event.fortuneLevel;
             for i in 1 .. level+1{
                 event.addItem(<mysticalagriculture:crafting>*level*3 %80);
+            }
+        }
+    }
+    if(block.definition.id == "minecraft:redstone_ore" || block.definition.id =="cyclicmagic:nether_redstone_ore"||block.definition.id =="cyclicmagic:end_redstone_ore"){
+        if(event.silkTouch){
+            event.drops = [<minecraft:redstone_ore>];
+            return;
+        }
+        event.drops = [<minecraft:redstone>*6];
+        event.addItem(<minecraft:redstone>*6 %80);
+        event.addItem(<minecraft:redstone>*5 %70);
+        event.addItem(<minecraft:redstone>*5 %60);
+        event.addItem(<minecraft:redstone>*4 %60);
+        event.addItem(<minecraft:redstone>*8 %45);
+        event.addItem(<minecraft:redstone>*8 %30);
+        if(event.fortuneLevel!=0){
+            for i in 0 .. event.fortuneLevel+1{
+                event.addItem(<minecraft:redstone>*6 %80);
+            }
+        }
+    }
+    if(block.definition.id == "draconicevolution:draconium_ore" || block.definition.id =="draconicevolution:draconium_ore:1"||block.definition.id =="draconicevolution:draconium_ore:2"){
+        if(event.silkTouch){
+            event.drops = [<draconicevolution:draconium_ore>];
+            return;
+        }
+        event.drops = [<draconicevolution:draconium_dust>*2];
+        event.addItem(<draconicevolution:draconium_dust>*8 %80);
+        event.addItem(<draconicevolution:draconium_dust>*8 %70);
+        event.addItem(<draconicevolution:draconium_dust>*8 %60);
+        event.addItem(<draconicevolution:draconium_dust>*8 %60);
+        event.addItem(<draconicevolution:draconium_dust>*8 %45);
+        event.addItem(<draconicevolution:draconium_dust>*10 %30);
+        if(event.fortuneLevel!=0){
+            for i in 0 .. event.fortuneLevel+2{
+                event.addItem(<draconicevolution:draconium_dust>*10 %80);
             }
         }
     }

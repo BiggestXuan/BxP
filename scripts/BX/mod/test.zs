@@ -19,7 +19,7 @@ function playerCanUseCommand(player as IPlayer,permission as int) as bool{
     story command = 2.
      */
     if(permission == 2){
-        if(player.hasGameStage("hero") && !player.hasGameStage("test") && !player.hasGameStage("woss") && !player.creative){
+        if(player.hasGameStage("hero") && !player.hasGameStage("test1") && !player.creative){
             return true;
         }
         else return false;
@@ -222,7 +222,7 @@ events.onCommand(function(event as CommandEvent){
                 return;
                 }
             }
-            if(player.hasGameStage("test") || player.hasGameStage("woss")){
+            if(player.hasGameStage("test1")){
                 player.sendRichTextMessage(format.red("ERROR:java.lang.NullPointerException"));
                 return;
             } 
@@ -247,20 +247,20 @@ events.onGameStageAdd(function(event as GameStageAddEvent){
 	"disabled"
     ];
     for i in 1 .. stage.length{
-        if(player.hasGameStage("test")) return;
+        if(player.hasGameStage("test1")) return;
         if(event.gameStage == stage[i]){
             if(player.hasGameStage(stage[i+(-1)])) return;
             else{
-                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test");
+                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
             }
         }
     }
     if(event.gameStage == "projecte"){
         for i in 0 .. 8{
-            if(!player.hasGameStage(stage[i]) || player.hasGameStage("test")){
+            if(!player.hasGameStage(stage[i]) || player.hasGameStage("test1")){
                 event.cancel();
                 player.sendRichTextMessage(format.red("作弊模式严禁使用等价交换！"));
-                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test");
+                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
                 return;
             }
         }
@@ -270,7 +270,7 @@ events.onGameStageAdd(function(event as GameStageAddEvent){
             if(!player.hasGameStage(stage[i])){
                 event.cancel();
                 player.sendRichTextMessage(format.red("获取阶段出错"));
-                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test");
+                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
                 return;
             }
         }
@@ -312,9 +312,9 @@ events.onCommand(function(event as CommandEvent){
         "heal"
     ];
     for command in name{
-        if(player.hasGameStage("test")) return;
+        if(player.hasGameStage("test1")) return;
         if (event.command.name == command){
-            server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test");
+            server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
         }
     }
 }
@@ -323,19 +323,19 @@ events.onCommand(function(event as CommandEvent){
 events.onGameStageAdd(function(event as GameStageAddEvent){
     var player as IPlayer = event.player;
     if(event.gameStage == "projecte"){
-        if(!player.hasGameStage("test") || player.creative) return;
+        if(!player.hasGameStage("test1") || player.creative) return;
         player.sendRichTextMessage(format.red("作弊模式严禁使用等价交换！"));
         event.cancel();
     }
     if(event.gameStage == "hero"){
-        if(!player.hasGameStage("test")) return;
+        if(!player.hasGameStage("test1")) return;
         player.sendRichTextMessage(format.red("作弊模式无法通关！"));
         event.cancel();
     }
-    if(event.gameStage == "test" && !player.creative){
+    if(event.gameStage == "test1" && !player.creative){
         player.sendRichTextMessage(format.red("ERROR:java.lang.NullPointerException"));
     }
-    if(event.gameStage == "hero" && !player.hasGameStage("test") && !player.hasGameStage("woss") && !player.creative){
+    if(event.gameStage == "hero" && !player.hasGameStage("test1") &&!player.creative){
         event.player.sendRichTextMessage(format.blue("----------------------游戏提示----------------------"));
         event.player.sendRichTextMessage(format.blue("您已通关，感谢游玩整合包"));
         event.player.sendRichTextMessage(format.red("BY:Biggest_Xuan"));

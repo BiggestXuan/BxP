@@ -11,7 +11,7 @@ import mods.ctintegration.date.IDate;
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
     val player as IPlayer = event.player;
     val name as string[]=[
-        "sdxhop","Biggest_Xuan","Jaoxaono","Tulye","yuluo_1","caigengzi","Depair_Anwu","MINE_TNT","xiangshushumiao","DeaBF","fengsui9527"
+        "sdxhop","Biggest_Xuan","Jaoxaono","Tulye","yuluo_1","caigengzi","Depair_Anwu","MINE_TNT","xiangshushumiao","DeaBF","tian_zia"
     ];
     if(player.name == "sdxhop"){
         event.player.sendRichTextMessage(("欢迎整合包大佬"+format.red(player.name)+"加入游戏！"));
@@ -140,9 +140,13 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
     }
     if(player.hasGameStage("nether_star")){
         event.player.sendRichTextMessage(format.green("制作龙之研究的注入装置，合成双足飞龙核心"));
+        event.player.sendRichTextMessage(format.red(" "));
+        event.player.sendRichTextMessage(format.red("将FTB任务挖掘强化组装到匠魂工具上才可使用连锁采集！"));
         return;
     }
     event.player.sendRichTextMessage(format.green("击杀凋灵获取下界之星"));
+    event.player.sendRichTextMessage(format.red(" "));
+    event.player.sendRichTextMessage(format.red("你现在还不能使用连锁采集，必须要击杀凋灵后才能使用！"));
 });
 
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){

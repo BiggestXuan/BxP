@@ -49,6 +49,12 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
     if(player.hasGameStage("awakened_core")){
         disabledLevel = true;
     }
+    if(isNull(entity) || isNull(entity.definition) || isNull(entity.definition.name)) return;
+    if(!isNull(entity.definition.name) && !isNull(items)){  
+        if(items.definition.id == "additions:bxloveu-old_sliver"){
+            server.commandManager.executeCommand(server,"/effect "+player.name+" minecraft:wither 4 1");
+        }
+    }
     if(!isNull(entity.definition.name) && player.creative && entity.definition.name == "jaoxaono"){  
         if(isNull(items)){
             return;

@@ -21,13 +21,4 @@ events.onPlayerTick(function(event as PlayerTickEvent){
     if(player.creative && !player.hasGameStage("test")){
         server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test");
     }
-    if(!player.creative && player.hasGameStage("woss")){
-        player.sendRichTextMessage(format.red("你使用了整合包禁用模组，因此只能使用创造模式游戏！"));
-        server.commandManager.executeCommand(server,"effect "+player.name +" slowness 1 254");
-        server.commandManager.executeCommand(server,"effect "+player.name +" jump_boost 1 128");
-        server.commandManager.executeCommand(server,"effect "+player.name +" nausea 4 128");
-        server.commandManager.executeCommand(server,"effect "+player.name +" blindness 1 3");
-        server.commandManager.executeCommand(server,"gamemode "+player.name +" 1");
-        player.health -=player.maxHealth as float * 0.03f;
-    }
 });

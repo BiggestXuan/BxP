@@ -31,13 +31,13 @@ var j as int =0;  //遍历lx,chance
 var count as int =0; //遍历name
 var name as string[] =["c-1","c-2","c-3","c-4","c-5","c-6","c-7","c-8"];
 
-while i<=1{RecipeBuilder.newBuilder(name[count],"oh",2000).
-addItemInput(input[i]).
-addItemInput(lx[j]).
-addFluidInput(lava*200).
-addItemOutput(input[i]).
-addItemOutput(output[i]).setChance(chance[j]).
-build();
+while i<=1{RecipeBuilder.newBuilder(name[count],"oh",2000)
+.addItemInput(input[i])
+.addItemInput(lx[j])
+.addFluidInput(lava*200)
+.addItemOutput(input[i])
+.addItemOutput(output[i]).setChance(chance[j])
+.build();
 count+=1;
 if (j>=3){
     j=0;
@@ -69,3 +69,13 @@ Agglomeration.addRecipe(
 );
 
 mods.jei.JEI.addDescription(out,"在泰拉凝聚板合成\n需要注意的是，本次仪式消耗500万mana\n同时，你需要更改泰拉凝聚板结构\n虽然我承认这些材料有一点难获取\n但你不妨看看下界之星和混沌碎片的合成配方？");
+RecipeBuilder.newBuilder("ouhuang_ingot","ouhuang",1)
+.addItemInput(xuanjing)
+.addItemInput(oumang)
+.addItemInput(oujin)
+.addItemInput(ouhuang)
+.addItemInput(feiqiu)
+.addItemInput(bx)
+.addItemOutput(out)
+.addManaInput(5000000)
+.build();

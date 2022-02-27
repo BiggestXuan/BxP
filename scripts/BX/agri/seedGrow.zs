@@ -88,8 +88,8 @@ function addGrowRecipes(a as IItemStack , b as IItemStack, c as double[] , d as 
     }
 }
 
-addGrowRecipes(<additions:bxloveu-blood_diamond_seed>,<additions:bxloveu-blood_diamond_nugget>,[0.25,0.35,0.45,0.58],"blood_diamond_seed");
-addGrowRecipes(<additions:bxloveu-bx_seed>,<bxp:bxnugget>,[0.18,0.29,0.36,0.45],"bx_seed");
+addGrowRecipes(<additions:bxloveu-blood_diamond_seed>,<additions:bxloveu-blood_diamond_nugget>,[0.37,0.49,0.57,0.71],"blood_diamond_seed");
+addGrowRecipes(<additions:bxloveu-bx_seed>,<bxp:bxnugget>,[0.32,0.4,0.51,0.6],"bx_seed");
 addGrowRecipes(<additions:bxloveu-unbx_seed>,<additions:bxloveu-bx_uningot>,[0.7,0.8,0.9,1.0],"unbx_seed");
 addGrowRecipes(<additions:bxloveu-adamin_seed>,<thaumadditions:adaminite_nugget>,[0.1,0.15,0.2,0.25],"adamin_seed");
 addGrowRecipes(<additions:bxloveu-dragon_egg_seed>,<additions:bxloveu-dragon_egg_nugget>,[0.18,0.28,0.4,0.46],"dragon_egg_seed");
@@ -98,6 +98,6 @@ addGrowRecipes(<additions:bxloveu-ouhuang_seed>,<additions:bxloveu-ouhuang_nugge
 addGrowRecipes(<additions:bxloveu-mith_seed>,<thaumadditions:mithrillium_nugget>,[0.2,0.25,0.3,0.35],"mith_seed");
 addGrowRecipes(<additions:bxloveu-gold_caigengzi_seed>,<additions:bxloveu-gold_caigengzi_nugget>,[0.2,0.25,0.3,0.35],"gold_gengzi_seed");
 addGrowRecipes(<additions:bxloveu-dragon_heart_seed>,<additions:bxloveu-dragon_heart_nugget>,[0.11,0.18,0.24,0.3],"dragon_heart_seed");
-addGrowRecipes(<additions:bxloveu-ench_ingot_seed>,<additions:bxloveu-enchbx_nugget>,[0.01,0.03,0.07,0.09],"ench_seed");
+addGrowRecipes(<additions:bxloveu-ench_ingot_seed>,<additions:bxloveu-enchbx_nugget>,[0.04,0.1,0.15,0.2],"ench_seed");
 addGrowRecipes(<additions:bxloveu-xuanjing_seed>,<additions:bxloveu-bx_goldingot>,[0.4,0.5,0.6,0.7],"xuanjing_seed");
 addGrowRecipes(<additions:bxloveu-nether_star_seed>,<progressivebosses:nether_star_shard>,[0.4,0.6,0.8,0.9],"nether_star");

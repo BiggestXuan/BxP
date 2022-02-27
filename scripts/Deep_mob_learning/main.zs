@@ -1,4 +1,10 @@
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
+
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
+
 import scripts.BX.item.bx;
 
 var item as IItemStack[]=[
@@ -39,3 +45,10 @@ recipes.addShapeless(item[2]*64,[
 recipes.remove(<deepmoblearning:machine_casing>);
 
 <deepmoblearning:machine_casing>.addTooltip(format.red("无法合成，暮色森林自然生成"));
+
+RecipeBuilder.newBuilder("deep_mob_learning","test",100)
+.addItemInput(<deepmoblearning:glitch_infused_ingot>)
+.addItemInput(<minecraft:gold_ingot>)
+.addItemInput(<minecraft:dye:4>)
+.addItemOutput(<deepmoblearning:glitch_infused_ingot>*2)
+.build();
