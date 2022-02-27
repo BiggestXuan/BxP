@@ -13,7 +13,12 @@ var zb as IItemStack[]=[
 <minecraft:diamond_helmet>,
 <minecraft:diamond_chestplate>,
 <minecraft:diamond_leggings>,
-<minecraft:diamond_boots>
+<minecraft:diamond_boots>,
+<draconicevolution:wyvern_pick>,
+<draconicevolution:wyvern_axe>,
+<draconicevolution:wyvern_shovel>,
+<draconicevolution:wyvern_bow>,
+<draconicevolution:wyvern_sword>
 ];
 
 for i in zb{

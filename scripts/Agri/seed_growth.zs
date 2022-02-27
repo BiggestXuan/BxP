@@ -358,7 +358,7 @@ addEnergyPerTickInput(400).
 addItemOutput(<mysticalagriculture:terrasteel_seeds>).
 addItemOutput(<botania:manaresource:4>).setChance(0.08).
 addItemOutput(<botania:manaresource:4>).setChance(0.01).
-addItemOutput(<botania:manaresource:5>).setChance(0.01).
+addItemOutput(<botania:manaresource:5>).setChance(0.06).
 build();
 
 RecipeBuilder.newBuilder("terra1","seed",450).
@@ -369,7 +369,7 @@ addEnergyPerTickInput(750).
 addItemOutput(<mysticalagriculture:terrasteel_seeds>).
 addItemOutput(<botania:manaresource:4>).setChance(0.09).
 addItemOutput(<botania:manaresource:4>).setChance(0.02).
-addItemOutput(<botania:manaresource:5>).setChance(0.02).
+addItemOutput(<botania:manaresource:5>).setChance(0.12).
 build();
 
 RecipeBuilder.newBuilder("terra2","seed",450).
@@ -380,7 +380,7 @@ addEnergyPerTickInput(650).
 addItemOutput(<mysticalagriculture:terrasteel_seeds>).
 addItemOutput(<botania:manaresource:4>).setChance(0.15).
 addItemOutput(<botania:manaresource:4>).setChance(0.03).
-addItemOutput(<botania:manaresource:5>).setChance(0.03).
+addItemOutput(<botania:manaresource:5>).setChance(0.17).
 build();
 
 RecipeBuilder.newBuilder("terra3","seed",400).
@@ -391,7 +391,7 @@ addEnergyPerTickInput(600).
 addItemOutput(<mysticalagriculture:terrasteel_seeds>).
 addItemOutput(<botania:manaresource:4>).setChance(0.2).
 addItemOutput(<botania:manaresource:4>).setChance(0.07).
-addItemOutput(<botania:manaresource:5>).setChance(0.04).
+addItemOutput(<botania:manaresource:5>).setChance(0.25).
 build();
 
 RecipeBuilder.newBuilder("terra4","seed",350).
@@ -402,7 +402,7 @@ addEnergyPerTickInput(500).
 addItemOutput(<mysticalagriculture:terrasteel_seeds>).
 addItemOutput(<botania:manaresource:4>).setChance(0.25).
 addItemOutput(<botania:manaresource:4>).setChance(0.09).
-addItemOutput(<botania:manaresource:5>).setChance(0.06).
+addItemOutput(<botania:manaresource:5>).setChance(0.35).
 build();
 
 recipes.remove(<mysticalagriculture:terrasteel_seeds>);

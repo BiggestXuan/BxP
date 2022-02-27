@@ -169,7 +169,7 @@ addItemInput(<astralsorcery:itemcraftingcomponent:1>*500)
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<bloodarsenal:blood_diamond:1>*300)
+addItemInput(<bloodarsenal:blood_diamond:3>*100)
 .addItemOutput(nqd[6])
 .build();
 count+=1;
@@ -209,7 +209,7 @@ addItemInput(<enderio:block_alloy>*64)
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<deepmoblearning:infused_ingot_block>*350)
+addItemInput(<deepmoblearning:glitch_infused_ingot>*500)
 .addItemOutput(nqd[11])
 .build();
 count+=1;
@@ -242,6 +242,12 @@ RecipeBuilder.newBuilder("qd"+count,"qd",1).
 addItemInput(<additions:bxloveu-tulye_haie>*300)
 .addItemInput(<additions:bxloveu-tulye_ingot>)
 .addItemOutput(nqd[16])
+.build();
+count+=1;
+
+RecipeBuilder.newBuilder("qd"+count,"qd",1).
+addItemInput(<minecraft:obsidian>*64)
+.addItemOutput(<minecraft:bedrock>)
 .build();
 count+=1;
 

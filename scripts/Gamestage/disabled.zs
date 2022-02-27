@@ -32,7 +32,16 @@ var disabled as IItemStack[]=[
     <botania:redstringcontainer>,
     <cyclicmagic:uncrafting_block>,
     <abyssalcraft:scroll>,
-    <wct:magnet_card>.withTag({MagnetMode: 0})
+    <wct:magnet_card>.withTag({MagnetMode: 0}),
+    <draconicevolution:wyvern_pick>.withTag({}),
+    <draconicevolution:wyvern_axe>.withTag({}),
+    <draconicevolution:wyvern_shovel>.withTag({}),
+    <draconicevolution:wyvern_bow>.withTag({}),
+    <draconicevolution:wyvern_sword>.withTag({}),
+    <draconicevolution:wyvern_helm>,
+    <draconicevolution:wyvern_chest>,
+    <draconicevolution:wyvern_legs>,
+    <draconicevolution:wyvern_boots>
 ];
 
 for i in disabled{

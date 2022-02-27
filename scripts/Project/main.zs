@@ -31,8 +31,6 @@ static prostage as IItemStack[]=[
 <projectex:personal_link>,
 <projectex:refined_link>,
 <projectex:compressed_refined_link>,
-<projecte:item.pe_matter>,
-<projecte:item.pe_matter:1>,
 <projecte:item.pe_covalence_dust:*>,
 <projecte:fuel_block>,
 <projecte:fuel_block:1>,

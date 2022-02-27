@@ -141,7 +141,6 @@ var chaotic as IItemStack[]=[
     <avaritia:neutron_collector>,
     <avaritia:neutronium_compressor>,
     <additions:bxloveu-tulye_ingot>,
-    <projecte:transmutation_table>,
     <projectex:matter>,
     <projectex:matter:1>,
     <projectex:matter:2>,
@@ -171,7 +170,9 @@ var chaotic as IItemStack[]=[
     <projecte:item.pe_fuel>,
     <projecte:item.pe_fuel:1>,
     <projecte:item.pe_fuel:2>,
-    <additions:bxloveu-coal_seed>
+    <additions:bxloveu-coal_seed>,
+    <projecte:item.pe_matter>,
+    <projecte:item.pe_matter:1>
 ];
 for i in chaotic {
     addItemStage("chaotic_core",i);
@@ -183,6 +184,7 @@ var avaritia as IItemStack[]=[
     <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35}]}),
     <avaritia:infinity_helmet>,
     <avaritia:infinity_chestplate>,
+    <projecte:transmutation_table>,
     <avaritia:infinity_pants>,
     <avaritia:infinity_boots>
 ];
