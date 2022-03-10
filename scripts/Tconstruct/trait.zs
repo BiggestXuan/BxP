@@ -5,6 +5,7 @@
 #priority 100
 #no_fix_recipe_book
 
+import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.TraitBuilder;
 import mods.contenttweaker.conarm.ArmorTraitBuilder;
 
@@ -123,11 +124,11 @@ anwuTrait.register();
 val lowTrait = TraitBuilder.create("low_kill_big");
 lowTrait.color = 0xffaadd;
 lowTrait.localizedName = "以小欺大";
-lowTrait.localizedDescription = "对手生命与你差额越大，伤害越高（上限20倍）";
+lowTrait.localizedDescription = "对手生命与你差额越大，伤害越高";
 lowTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
-    val mult as float = 1.0f + ((target.health as float/ attacker.health as float)/25.0f) as float;
-    if(mult >= 20.0f){
-        return (20.0f* newDamage) as float;
+    val mult as float = 1.0f + ((target.health as float/ attacker.health as float)/10.0f) as float;
+    if(mult >= 5.0f){
+        return (5.0f* newDamage) as float;
     }
     else{
         return (mult as float * newDamage) as float;
@@ -138,10 +139,10 @@ lowTrait.register();
 val videoTrait = TraitBuilder.create("bx_video");
 videoTrait.color = 0xffaadd;
 videoTrait.localizedName = "大轩的视频";
-videoTrait.localizedDescription = "当你和目标都在水中时，伤害翻倍";
+videoTrait.localizedDescription = "当你和目标都在水中时，伤害增加";
 videoTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     if(attacker.isInWater && target.isInWater){
-        return (2.0f * newDamage) as float;
+        return (1.50f * newDamage) as float;
     }
     return newDamage as float;
 };
@@ -153,7 +154,7 @@ finalTrait.localizedName = "终结你";
 finalTrait.localizedDescription = "当亡灵生物着火时，直接秒杀";
 finalTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     if(target.isUndead && target.isBurning){
-        return 5.0f *target.maxHealth as float;
+        return 3.0f *target.maxHealth as float;
     }
     return newDamage;
 };
@@ -210,14 +211,14 @@ childTrait.register();
 val healthTrait = TraitBuilder.create("health_kill");
 healthTrait.color = 0xffaadd;
 healthTrait.localizedName = "我超勇的";
-healthTrait.localizedDescription = "生命越高，伤害越高（上限1000）";
+healthTrait.localizedDescription = "生命越高，伤害越高";
 healthTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     var health as float = attacker.health;
-    if(health >=300){
-        return (1.50f * newDamage) as float;
+    if(health >=3000){
+        return (2.0f * newDamage) as float;
     }
     else{
-        return (1.50f * (health as float/ 1000.0f) * newDamage) as float;
+        return ( newDamage as float * health as float / 1500.0f) +newDamage as float;
     }
 };
 healthTrait.register();
@@ -231,10 +232,10 @@ warpattackTrait.calcDamage = function(trait, tool, attacker, target, originalDam
     var player as IPlayer = attacker;
     warp = player.warpNormal + player.warpTemporary + player.warpPermanent;
     if (warp >=100 ){
-        return (1.75f * newDamage) as float;
+        return (1.55f * newDamage) as float;
     }
     else{
-        return (1.75f * (warp as float / 100.0f) * newDamage) as float;
+        return (1.55f * (warp as float / 100.0f) * newDamage) as float;
     }
 };
 warpattackTrait.register();
@@ -242,13 +243,13 @@ warpattackTrait.register();
 val fireWindTrait = TraitBuilder.create("fire_trait");
 fireWindTrait.color = 0xffaadd;
 fireWindTrait.localizedName = "火风";
-fireWindTrait.localizedDescription = "对燃烧的实体造成三倍伤害";
+fireWindTrait.localizedDescription = "对燃烧的实体造成额外伤害";
 fireWindTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     if(isNull(target)) return newDamage;
     if(isNull(target.definition)) return newDamage;
     if(isNull(target.definition.id)) return newDamage;
     if(target.isBurning){
-        return newDamage*3.0f;
+        return newDamage*2.0f;
     }
     return newDamage;
 };
@@ -310,6 +311,28 @@ godAngryTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     }
 };
 godAngryTrait.register();
+
+val dt = TraitBuilder.create("dt");
+dt.color = 0xffaadd;
+dt.localizedName = "狂热的赌徒";
+dt.localizedDescription = "伤害就跟赌博一样，不是吗？";
+dt.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
+    var random as double = Math.random();
+    if(random >=0.7){
+        return newDamage * (2.0f * random as float);
+    }
+    return (newDamage * random as float) as float;
+};
+dt.register();
+
+var gold = TraitBuilder.create("gold");
+gold.color = 0xffaadd;
+gold.localizedName = "欺软怕硬";
+gold.localizedDescription = "有些东西就是这样";
+gold.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
+    return (attacker.health as float / target.health as float) * newDamage;
+};
+gold.register();
 /*
 val diamondTrait = TraitBuilder.create("diamond_buff");
 diamondTrait.color = 0xffaadd;

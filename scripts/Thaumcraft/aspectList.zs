@@ -58,6 +58,34 @@ function set (x as IItemStack,y as CTAspectStack[]){
     x.setAspects(y);
 }
 
+var mod as string[]=[
+    "torcherino",
+    "projecte",
+    "bacterium",
+    "salted_fish_technology",
+    "manaita_plus",
+    "lolipickaxe",
+    "thelegendofthebraveii",
+    "flammpfeil.slashblade",
+    "slashblade",
+    "xijun",
+    "bacteria",
+    "decon_table",
+    "decomp_table",
+    "deconstriction",
+    "uncraftingtable",
+    "immersiveengineering"
+];
+
+for i in mod{
+    if(loadedMods in i){
+        for item in loadedMods[i].items{
+            recipes.removeAll();
+            mods.ItemStages.addItemStage("disabled",item);
+        }
+    }
+}
+
 set(<additions:bxloveu-bx_goldore>,[asp[34]*10,asp[0]*15,asp[2]*5]);
 set(<additions:bxloveu-bx_goldingot>,[asp[34]*15,asp[33]*5,asp[47]*10]);
 set(bx[0],[asp[34]*10,asp[33]*5,asp[14]*5]);

@@ -24,3 +24,11 @@ recipes.remove(c);
 FusionCrafting.add(c,<avaritia:double_compressed_crafting_table>,FusionCrafting.WYVERN,1000000,[
     cake,cake,cake,cake,cake,cake,cake,cake
 ]);
+
+recipes.remove(<cyclicmagic:sprinkler>);
+
+recipes.addShaped(<cyclicmagic:sprinkler>,[
+    [bx[5],bx[5],bx[5]],
+    [null,<minecraft:potion>,null],
+    [<bxp:bxblock>,<bxp:bxblock>,<bxp:bxblock>]
+]);

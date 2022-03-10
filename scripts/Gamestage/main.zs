@@ -2,10 +2,12 @@
 
 import mods.ItemStages.addItemStage;
 import mods.DimensionStages.addDimensionStage;
-import scripts.BX.item.bx;
-import scripts.Project.main.prostage;
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.IMod;
+
+import scripts.BX.item.bx;
+import scripts.BX.creative.item.item;
 
 var mod as IMod = loadedMods["avaritia"];
 for item in mod.items{
@@ -141,60 +143,64 @@ var chaotic as IItemStack[]=[
     <avaritia:neutron_collector>,
     <avaritia:neutronium_compressor>,
     <additions:bxloveu-tulye_ingot>,
-    <projectex:matter>,
-    <projectex:matter:1>,
-    <projectex:matter:2>,
-    <projectex:matter:3>,
-    <projectex:matter:4>,
-    <projectex:matter:5>,
-    <projectex:matter:6>,
-    <projectex:matter:7>,
-    <projectex:matter:8>,
-    <projectex:matter:9>,
-    <projectex:matter:10>,
-    <projectex:matter:11>,
-    <projectex:final_star_shard>,
-    <projecte:dm_furnace>,
-    <projecte:item.pe_arcana_ring>.withTag({Mode: 0 as byte}),
-    <projecte:item.pe_arcana_ring>.withTag({Mode: 1 as byte}),
-    <projecte:item.pe_arcana_ring>.withTag({Mode: 2 as byte}),
-    <projecte:item.pe_arcana_ring>.withTag({Mode: 3 as byte}),
-    <projectex:alchemy_table>,
-    <projectex:arcane_tablet>,
-    <projecte:nova_catalyst>,
-    <projecte:nova_cataclysm>,
-    <projecte:rm_furnace>,
-    <projecte:item.pe_tome>,
-    <projecte:item.pe_manual>,
     <additions:bxloveu-seed_10>,
-    <projecte:item.pe_fuel>,
-    <projecte:item.pe_fuel:1>,
-    <projecte:item.pe_fuel:2>,
-    <additions:bxloveu-coal_seed>,
-    <projecte:item.pe_matter>,
-    <projecte:item.pe_matter:1>
+    <additions:bxloveu-coal_seed>
 ];
 for i in chaotic {
     addItemStage("chaotic_core",i);
 }
 
 var avaritia as IItemStack[]=[
-    bx[7],
-    <avaritia:infinity_sword>,
-    <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35}]}),
-    <avaritia:infinity_helmet>,
-    <avaritia:infinity_chestplate>,
-    <projecte:transmutation_table>,
-    <avaritia:infinity_pants>,
-    <avaritia:infinity_boots>
+    bx[7]
 ];
 for i in avaritia{
     addItemStage("avaritia_ingot",i);
 }
 
+var final_ingot as IItemStack[]=[
+    <avaritia:infinity_sword>,
+    <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35}]}),
+    <avaritia:infinity_helmet>,
+    <avaritia:infinity_chestplate>,
+    <avaritia:infinity_pants>,
+    <avaritia:infinity_boots>,
+    <additions:bxloveu-epic_tnt>,
+    <avaritia:infinity_bow>,
+    <avaritia:infinity_shovel>,
+    <avaritia:infinity_axe>,
+    <avaritia:infinity_hoe>
+];
 
+for i in final_ingot{
+    addItemStage("final_ingot",i);
+}
 
-//projecte
-for i in prostage{
-    addItemStage("projecte",i);
+var creative_item as IItemStack[]=[
+<additions:bxloveu-abyss_soul>,
+<additions:bxloveu-aether_soul>,
+<additions:bxloveu-borken_soul>,
+<additions:bxloveu-broken_star>,
+<additions:bxloveu-creative_soul>,
+<additions:bxloveu-creative_star>,
+<additions:bxloveu-end_star>,
+<additions:bxloveu-epic_tnt>,
+<additions:bxloveu-nether_soul>,
+<additions:bxloveu-high_star>,
+<additions:bxloveu-medium_star>,
+<additions:bxloveu-low_star>,
+<additions:bxloveu-soul>,
+<additions:bxloveu-overworld_soul>,
+<additions:bxloveu-twilight_soul>,
+<additions:bxloveu-star>,
+<additions:bxloveu-super_star>,
+<additions:bxloveu-soul_gem_chunk>,
+<additions:bxloveu-soul_gem>
+];
+
+for i in creative_item{
+    addItemStage("creative_item",i);
+}
+
+for i in item{
+    addItemStage("creative_item",i);
 }
