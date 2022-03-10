@@ -1,7 +1,7 @@
 {
   "name": "§b响之箭",
   "shines": true,
-  "tooltip": "§a§o[赞助者物品]-回响",
+  "tooltip": "§3§o[赞助者物品]-回响",
   "damage": 4.5,
   "punch": 2.0,
   "works_in_water": true,

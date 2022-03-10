@@ -1,0 +1,13 @@
+{
+  "name": "§4血轮眼",
+  "tooltip": "§6§o[整合包联动]-神秘启示录2：梦魇般的回忆",
+  "max_stack": 1,
+  "durability": 114514,
+  "enchantability": 1,
+  "repair_stacks": {
+    "ore_name": "cropApple"
+  },
+  "bash_swing_sound": "minecraft:item.armor.equip_iron",
+  "bash_hit_sound": "minecraft:item.shield.block",
+  "type": "additions:shield"
+}

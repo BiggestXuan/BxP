@@ -1,7 +1,7 @@
 {
   "name": "§f可爱的鱼",
-  "tooltip": "§a§o[水友物品]-Jaoxaono",
+  "tooltip": "§4§o[水友物品]-Jaoxaono",
   "hunger": 12,
-  "saturation": 1,
+  "saturation": 0.8333333,
   "type": "additions:food"
 }

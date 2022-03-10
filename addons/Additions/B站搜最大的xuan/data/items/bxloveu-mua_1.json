@@ -1,0 +1,9 @@
+{
+  "name": "§a赞助者水晶",
+  "tooltip": [
+    "玩家周围出现村民交易粒子",
+    "§8§o赞助整合包超过￥20.00可获得"
+  ],
+  "max_stack": 1,
+  "type": "additions:simple"
+}
