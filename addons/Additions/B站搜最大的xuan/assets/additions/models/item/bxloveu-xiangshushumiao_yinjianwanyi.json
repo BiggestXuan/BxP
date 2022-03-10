@@ -1,0 +1,118 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/bxloveu-xiangshushumiao_yinjianwanyi-layer0"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        10,
+        100,
+        0
+      ],
+      "translation": [
+        2.5,
+        -2,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        10,
+        100,
+        0
+      ],
+      "translation": [
+        2.5,
+        -2,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -20,
+        0
+      ],
+      "translation": [
+        3,
+        -2,
+        2
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -20,
+        0
+      ],
+      "translation": [
+        3,
+        -2,
+        2
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "additions:item/bxloveu-xiangshushumiao_yinjianwanyi-blocking"
+    }
+  ]
+}

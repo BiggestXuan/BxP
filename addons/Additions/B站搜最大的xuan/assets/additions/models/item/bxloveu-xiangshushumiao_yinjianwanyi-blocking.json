@@ -1,0 +1,76 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/bxloveu-xiangshushumiao_yinjianwanyi-layer0"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        40,
+        330,
+        0
+      ],
+      "translation": [
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        40,
+        330,
+        0
+      ],
+      "translation": [
+        1,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "translation": [
+        -4,
+        2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "translation": [
+        -4,
+        2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

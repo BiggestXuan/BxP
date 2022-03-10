@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/bxloveu-soul_gem_chunk-layer0"
+  }
+}
