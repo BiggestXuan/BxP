@@ -1,44 +1,44 @@
 {
-  "name": "bx_uningot",
+  "name": "tz",
   "tool": {
     "bow": {
-      "speed": 0.4,
+      "speed": 0.5,
       "range": 1.0,
-      "bonusDamage": 1.0
+      "bonusDamage": 5.0
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 5.2,
-      "speed": 2.0,
-      "durability": 450,
-      "harvestLevel": 2
+      "attackDamage": 27.5,
+      "speed": 9.4,
+      "durability": 2200,
+      "harvestLevel": 6
     },
     "handle": {
-      "modifier": 0.2,
-      "durability": 15
+      "modifier": 2,
+      "durability": 120
     },
     "arrowShaft": {
-      "modifier": 0.1,
+      "modifier": 1.1,
       "bonusAmmo": 5
     },
     "bowstring": {
-      "modifier": 0.2
+      "modifier": 1.1
     },
     "extra": {
-      "durability": -15
+      "durability": 300
     }
   },
-  "color": "#e1ffff",
+  "color": "#b3c8e5",
   "craftable": false,
   "madeInToolForge": true,
   "createMeltingRecipes": true,
-  "meltingTemperature": 400,
+  "meltingTemperature": 1500,
   "looks": {
     "shininess": 0.25,
-    "brightness": 0.9,
+    "brightness": 0.25,
     "hueshift": -0.1
   },
   "fluid": {
@@ -52,24 +52,21 @@
     "HEAD",
     "HANDLE",
     "EXTRA",
-    "BOW",
-    "PROJECTILE"
+    "CORE",
+    "PLATES",
+    "TRIM"
   ],
   "nameLocales": {
-    "en_us": "BX uningot",
-    "zh_cn": "不稳定大轩"
+    "zh_cn": "天灾金属",
+    "en_us": "Tz"
   },
   "smeltingItems": {
     "ingot": [
-      "additions:bxloveu-bx_uningot"
+      "additions:bxloveu-tz_ingot"
     ],
-    "block": [
-      "bxp:unbxblock"
-    ],
+    "block": [],
     "nugget": [],
-    "ore": [
-      "bxp:bxore"
-    ],
+    "ore": [],
     "dust": [],
     "plate": [],
     "gear": []
@@ -85,42 +82,42 @@
   },
   "armor": {
     "core": {
-      "durability": 15.5,
-      "defense": 13.0
+      "durability": 2000,
+      "defense": 40
     },
     "plates": {
-      "modifier": 0.75,
-      "durability": 6.0,
-      "toughness": 0.0
+      "modifier": 2,
+      "durability": 150,
+      "toughness": 12.0
     },
     "trim": {
-      "extraDurability": 6.0
+      "extraDurability": 150
     }
   },
   "specificTraits": {
     "EXTRA": [
-      "shocking","bx_video"
+      "coraliumplague","dreadplague","warp_attack","tasty"
     ],
     "HEAD": [
-      "shocking","tconevo.astral","bx1","bx_video"
+      "tconevo.crystalline","coraliumplague","dreadplague","warp_attack","dreadpurity","tconevo.corrupting","souleater"
     ],
     "HANDLE": [
-      "shocking","bx_video"
+      "coraliumplague","dreadplague","warp_attack","tasty"
     ],
     "BOW": [
-      "shocking"
+
     ],
     "PROJECTILE": [
-      "shocking"
+
     ],
     "CORE": [
-     "xu_xp_boost","tconevo.astral_armor","abx1_armor"
+      "tconevo.celestial_armor","tconevo.evolved_armor","awarp_armor","tconevo.gale_force1_armor"
     ],
     "PLATES": [
-      "xu_xp_boost"
+      "awarp_armor","tconevo.celestial_armor","tconevo.gale_force1_armor"
     ],
     "TRIM": [
-      "xu_xp_boost"
+      "tconevo.celestial_armor","awarp_armor","tconevo.phoenix_aspect_armor"
     ]
   }
 }

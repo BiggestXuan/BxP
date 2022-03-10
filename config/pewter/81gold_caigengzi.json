@@ -64,7 +64,9 @@
       "additions:bxloveu-gold_gengzi"
     ],
     "block": [],
-    "nugget": [],
+    "nugget": [
+      "additions:bxloveu-gold_caigengzi_nugget"
+    ],
     "ore": [],
     "dust": [],
     "plate": [],

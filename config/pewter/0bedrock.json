@@ -13,22 +13,22 @@
     "head": {
       "attackDamage": 8.5,
       "speed": 7.5,
-      "durability": 10,
+      "durability": 500,
       "harvestLevel": 2
     },
     "handle": {
-      "modifier": 0,
-      "durability": 1
+      "modifier": 1.0,
+      "durability": 10
     },
     "arrowShaft": {
-      "modifier": 0.1,
+      "modifier": 5.0,
       "bonusAmmo": 5
     },
     "bowstring": {
       "modifier": 0.2
     },
     "extra": {
-      "durability": 0
+      "durability": 100
     }
   },
   "color": "#808080",

@@ -64,7 +64,9 @@
       "additions:bxloveu-ou_gold"
     ],
     "block": [],
-    "nugget": [],
+    "nugget": [
+      "additions:bxloveu-oujin_nugget"
+    ],
     "ore": [],
     "dust": [],
     "plate": [],

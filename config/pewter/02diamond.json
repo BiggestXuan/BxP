@@ -1,24 +1,24 @@
 {
-  "name": "crafting6",
+  "name": "diamond",
   "tool": {
     "bow": {
-      "speed": 2.1,
-      "range": 1.4,
-      "bonusDamage": 10.0
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 3.5
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 37.29,
-      "speed": 11.8,
-      "durability": 4205,
-      "harvestLevel": 7
+      "attackDamage": 7.6,
+      "speed": 7.5,
+      "durability": 300,
+      "harvestLevel": 2
     },
     "handle": {
-      "modifier": 2.5,
-      "durability": 1500
+      "modifier": 1.0,
+      "durability": 80
     },
     "arrowShaft": {
       "modifier": 0.1,
@@ -28,14 +28,14 @@
       "modifier": 0.2
     },
     "extra": {
-      "durability": 700
+      "durability": 100
     }
   },
-  "color": "#696969",
+  "color": "#00ffff",
   "craftable": true,
   "madeInToolForge": false,
   "createMeltingRecipes": false,
-  "meltingTemperature": 2500,
+  "meltingTemperature": 0,
   "looks": {
     "shininess": 0.25,
     "brightness": 0.9,
@@ -51,24 +51,33 @@
   "matParts": [
     "HEAD",
     "HANDLE",
-    "EXTRA",
-    "BOW",
-    "PROJECTILE"
+    "EXTRA"
   ],
   "nameLocales": {
-    "en_us": "crafting6",
-    "zh_cn": "终焉精华"
+    "en_us": "Diamond",
+    "zh_cn": "钻石"
   },
   "smeltingItems": {
     "ingot": [
-      "additions:bxloveu-final_ess"
+      "minecraft:diamond"
     ],
-    "block": [],
-    "nugget": [],
-    "ore": [],
-    "dust": [],
-    "plate": [],
-    "gear": []
+    "block": [
+      "minecraft:diamond_block"
+    ],
+    "nugget": [
+      "thermalfoundation:material:16"
+    ],
+    "ore": [
+      "minecraft:diamond_ore"
+    ],
+    "dust": [
+      "mekanism:otherdust"
+    ],
+    "plate": [
+    ],
+    "gear": [
+      "thermalfoundation:material:26"
+    ]
   },
   "smeltingTags": {
     "ingot": [],
@@ -95,28 +104,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.luminiferous","final_you"
+      "dt"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","bx_kill","health_kill"
+      "dt","tconevo.crystalline"
     ],
     "HANDLE": [
-      "tconevo.luminiferous","final_you"
+      "dt","tconevo.crystalline"
     ],
     "BOW": [
-      "tconevo.luminiferous","tconevo.evolved","tconevo.astral"
+
     ],
     "PROJECTILE": [
-      "tconevo.luminiferous"
+
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","aboss3_armor"
+
     ],
     "PLATES": [
-      "shielding_armor","ablessed_armor"
+
     ],
     "TRIM": [
-      "shielding_armor","ablessed_armor"
+
     ]
   }
 }

@@ -64,7 +64,9 @@
       "additions:bxloveu-ouhuang_ingot"
     ],
     "block": [],
-    "nugget": [],
+    "nugget": [
+      "additions:bxloveu-ouhuang_nugget"
+    ],
     "ore": [],
     "dust": [],
     "plate": [],

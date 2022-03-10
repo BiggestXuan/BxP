@@ -64,7 +64,9 @@
       "additions:bxloveu-bx_enchingot"
     ],
     "block": [],
-    "nugget": [],
+    "nugget": [
+      "additions:bxloveu-enchbx_nugget"
+    ],
     "ore": [],
     "dust": [],
     "plate": [],

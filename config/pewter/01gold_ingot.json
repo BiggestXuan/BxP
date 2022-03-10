@@ -1,24 +1,24 @@
 {
-  "name": "crafting6",
+  "name": "gold",
   "tool": {
     "bow": {
-      "speed": 2.1,
-      "range": 1.4,
-      "bonusDamage": 10.0
+      "speed": 0.4,
+      "range": 1.0,
+      "bonusDamage": 3.5
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 37.29,
-      "speed": 11.8,
-      "durability": 4205,
-      "harvestLevel": 7
+      "attackDamage": 3.5,
+      "speed": 15.5,
+      "durability": 3,
+      "harvestLevel": 0
     },
     "handle": {
-      "modifier": 2.5,
-      "durability": 1500
+      "modifier": 0.3,
+      "durability": 10
     },
     "arrowShaft": {
       "modifier": 0.1,
@@ -28,14 +28,14 @@
       "modifier": 0.2
     },
     "extra": {
-      "durability": 700
+      "durability": 5
     }
   },
-  "color": "#696969",
+  "color": "#ffd700",
   "craftable": true,
   "madeInToolForge": false,
   "createMeltingRecipes": false,
-  "meltingTemperature": 2500,
+  "meltingTemperature": 0,
   "looks": {
     "shininess": 0.25,
     "brightness": 0.9,
@@ -51,24 +51,34 @@
   "matParts": [
     "HEAD",
     "HANDLE",
-    "EXTRA",
-    "BOW",
-    "PROJECTILE"
+    "EXTRA"
   ],
   "nameLocales": {
-    "en_us": "crafting6",
-    "zh_cn": "终焉精华"
+    "en_us": "Gold",
+    "zh_cn": "金"
   },
   "smeltingItems": {
     "ingot": [
-      "additions:bxloveu-final_ess"
+      "minecraft:gold_ingot"
     ],
-    "block": [],
-    "nugget": [],
-    "ore": [],
-    "dust": [],
-    "plate": [],
-    "gear": []
+    "block": [
+      "minecraft:gold_block"
+    ],
+    "nugget": [
+      "minecraft:gold_nugget"
+    ],
+    "ore": [
+      "minecraft:gold_ore"
+    ],
+    "dust": [
+      "mekanism:dust:1"
+    ],
+    "plate": [
+      "thermalfoundation:material:33"
+    ],
+    "gear": [
+      "thermalfoundation:material:25"
+    ]
   },
   "smeltingTags": {
     "ingot": [],
@@ -95,28 +105,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.luminiferous","final_you"
+      "gold"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","bx_kill","health_kill"
+      "gold"
     ],
     "HANDLE": [
-      "tconevo.luminiferous","final_you"
+      "gold"
     ],
     "BOW": [
-      "tconevo.luminiferous","tconevo.evolved","tconevo.astral"
+
     ],
     "PROJECTILE": [
-      "tconevo.luminiferous"
+
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","aboss3_armor"
+
     ],
     "PLATES": [
-      "shielding_armor","ablessed_armor"
+
     ],
     "TRIM": [
-      "shielding_armor","ablessed_armor"
+
     ]
   }
 }

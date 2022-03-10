@@ -1,40 +1,40 @@
 {
-  "name": "crafting6",
+  "name": "wind_ingot",
   "tool": {
     "bow": {
-      "speed": 2.1,
-      "range": 1.4,
-      "bonusDamage": 10.0
+      "speed": 1.5,
+      "range": 1.0,
+      "bonusDamage": 19.5
     },
     "fletching": {
       "accuracy": 0.5,
       "modifier": 0.0
     },
     "head": {
-      "attackDamage": 37.29,
-      "speed": 11.8,
-      "durability": 4205,
-      "harvestLevel": 7
+      "attackDamage": 173,
+      "speed": 17.3,
+      "durability": 1730,
+      "harvestLevel": 73
     },
     "handle": {
-      "modifier": 2.5,
-      "durability": 1500
+      "modifier": 1.73,
+      "durability": 550
     },
     "arrowShaft": {
       "modifier": 0.1,
-      "bonusAmmo": 5
+      "bonusAmmo": 15
     },
     "bowstring": {
       "modifier": 0.2
     },
     "extra": {
-      "durability": 700
+      "durability": 1250
     }
   },
-  "color": "#696969",
-  "craftable": true,
-  "madeInToolForge": false,
-  "createMeltingRecipes": false,
+  "color": "#0cebff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
   "meltingTemperature": 2500,
   "looks": {
     "shininess": 0.25,
@@ -56,15 +56,17 @@
     "PROJECTILE"
   ],
   "nameLocales": {
-    "en_us": "crafting6",
-    "zh_cn": "终焉精华"
+    "en_us": "wind_ingot",
+    "zh_cn": "元素"
   },
   "smeltingItems": {
     "ingot": [
-      "additions:bxloveu-final_ess"
+      "additions:bxloveu-wind_ingot"
     ],
-    "block": [],
-    "nugget": [],
+    "block": [
+    ],
+    "nugget": [
+    ],
     "ore": [],
     "dust": [],
     "plate": [],
@@ -95,28 +97,28 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.luminiferous","final_you"
+      "fire_trait","eye_trait","autosmelt","god_eye"
     ],
     "HEAD": [
-      "tconevo.evolved","tconevo.astral","bx_kill","health_kill"
+      "fire_trait","eye_trait","bless_trait","autosmelt","tconevo.evolved","god_angry"
     ],
     "HANDLE": [
-      "tconevo.luminiferous","final_you"
+      "fire_trait","eye_trait","autosmelt","god_eye"
     ],
     "BOW": [
-      "tconevo.luminiferous","tconevo.evolved","tconevo.astral"
+      "fire_trait","eye_trait","autosmelt"
     ],
     "PROJECTILE": [
-      "tconevo.luminiferous"
+      "fire_trait","eye_trait","bless_trait"
     ],
     "CORE": [
-      "tconevo.evolved_armor","tconevo.astral_armor","tconevo.celestial_armor","aboss3_armor"
+      "tconevo.evolved_armor","tconevo.reactive_armor","tconevo.astral_armor","aexplode3_armor","awindp_armor"
     ],
     "PLATES": [
-      "shielding_armor","ablessed_armor"
+      "prideful_armor","lightweight_armor","invigorating_armor","tconevo.celestial_armor","awindpa_armor","tconevo.gale_force1_armor"
     ],
     "TRIM": [
-      "shielding_armor","ablessed_armor"
+      "vengeful_armor","lightweight_armor","invigorating_armor","tconevo.celestial_armor","awindpa_armor"
     ]
   }
 }

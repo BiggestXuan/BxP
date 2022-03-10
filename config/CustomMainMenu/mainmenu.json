@@ -113,7 +113,7 @@
 
         "hosting":
         {
-            "text":"一个人不好玩？那就来qq群吧",
+            "text":"整合包遇到问题或bug？",
             "normalTextColor":654646,
 			"texture":"mainmenu:tm.png",
             "posX":-60,
@@ -122,7 +122,7 @@
             "height":35,
 			"action":{
 				"type":"openLink",
-				"link":"https://qm.qq.com/cgi-bin/qm/qr?k=vqBv-vLPMkv9wuHHVV-8BApfvkzGHe2u"
+				"link":"https://biggestxuan.top/?p=194"
 			}
         },
 		
@@ -194,7 +194,7 @@
 				"type":"openLink",
 				"link":"https://github.com/BiggestXuan/BxP"
 			},
-			"hoverText" : "项目开源地址？",
+			"hoverText" : "项目开源地址",
 			"alignment": "top_right"
 		},
 		
@@ -212,7 +212,25 @@
 				"type":"openLink",
 				"link":"https://codechina.csdn.net/Biggest_Xuan/bxp"
 			},
-			"hoverText" : "旧版开源地址？",
+			"hoverText" : "旧版开源地址",
+			"alignment": "top_right"
+		},
+		
+		"myweb":
+		{
+			"texture":"mainmenu:textures/icon/web.png",
+			"text": " ",
+            "posX": -30,
+            "posY": 130,
+            "width": 16,
+            "height": 16,
+			"imageWidth": 200,
+            "imageHeight": 200,
+			"action":{
+				"type":"openLink",
+				"link":"https://biggestxuan.top"
+			},
+			"hoverText" : "官方网站",
 			"alignment": "top_right"
 		},
 		"ifadian":
@@ -232,15 +250,15 @@
 			"hoverText" : "赞助我！",
 			"alignment": "top_right"
 		}
+		
     },
-    
     "labels":
     {
         "mojang":
         {
             "text" : "§9Copyright Mojang AB. Do not distribute!",
             "hoverText" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -150,
+            "posX" : -135,
             "posY" : -15,
             "color" : -1,
             "alignment" : "bottom_right",
@@ -274,7 +292,7 @@
 		"alignment": "top_left"
 		},
 		"version":{
-		"text":"§9整合包版本  §d1.4.0",
+		"text":"§9整合包版本  §d1.10.1",
 		"posX":2,
 		"posY":54,
 		"color":-1,
@@ -326,7 +344,8 @@
             "mode" :"fill",
 				"slideshow": {
                 "images": 
-				[
+				[	
+					"mainmenu:bg0.png",
 					"mainmenu:bg.png",
 					"mainmenu:bg1.png",
 					"mainmenu:bg2.png",
