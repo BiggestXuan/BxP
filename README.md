@@ -3,7 +3,8 @@
 欢迎来到我的开源项目。
 
 如果你想的话，可以修改我的代码用于其他用途，但是你需要著名原出处。  
-##（很简单一句话：抄代码可以，记得署名，别做网络上的孤儿）
+
+很简单一句话：抄代码可以，记得署名，别做网络上的孤儿
 
 任何版本都可以直接分发，但是修改过的版本严禁分发！
 
@@ -11,7 +12,9 @@
 
 Welcome to my open source project!
 
-You can modify my code for other uses if you want, but you need a well-known source.
+You can modify my code for other uses if you want, but you need a well-known source.  
+
+You can copy my code, but you need to write my name, don't be a fucking bitch in website. 
 
 Any version can be distributed directly, but distribution of modified versions is strictly prohibited!
 
