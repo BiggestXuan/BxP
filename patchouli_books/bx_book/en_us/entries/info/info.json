@@ -1,0 +1,15 @@
+{
+    "name": "§5前言",
+    "icon": "minecraft:diamond",
+    "category": "patchouli:info_cate",
+    "pages": [
+        {
+            "type": "text",
+            "text": "欢迎你来到这个整合包，这个整合包我做了几个月，也是第一次魔改整合！$(br2)为了做整合包我学了好多代码和操作，也感谢$(c)SDXHOP$()的支持$(br2)总之，可能有点肝，玩的开心！"
+        },
+        {
+            "type":"text",
+            "text":"顺带一提，部分键位冲突，你需要调整一下！"
+        }
+    ]
+}

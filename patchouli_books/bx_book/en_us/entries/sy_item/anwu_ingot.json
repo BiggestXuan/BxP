@@ -1,0 +1,15 @@
+{
+    "name": "§4欧金锭",
+    "icon": "additions:bxloveu-ou_gold",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "用$(2)轩精锭，秘银锭$()和$(2)注血钻石$()泰拉凝聚板获得$(br2)效果：合成附魔大轩锭或做匠魂材料$(br2)$(7)EMC:947,797$()$(br2)归属于：$(4)$(l)Depair_Anwu"
+        },
+        {
+            "type":"text",
+            "text":"$(o)$(7)来源：某天直播时暗无在直播间发欧*金"
+        }
+    ]
+}

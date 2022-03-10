@@ -1,0 +1,15 @@
+{
+    "name": "§4菜梗子",
+    "icon": "additions:bxloveu-re_gengzi",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "共有三种类型的菜梗子，并且都可以食用。$(br2)$(4)当你解锁对应游戏阶段后JEI才会出现对应的物品$()。$(br2)效果：参加主线合成$(br2)$(7)EMC:704$(br)EMC:301,828$(br)EMC:17,983,664$()$(br2)归属于：$(4)$(l)caigengzi"
+        },
+        {
+            "type":"text",
+            "text":"$(o)$(7)来源：他就叫这个鬼名字"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "§2天天的球球",
+    "icon": "additions:bxloveu-tt_balls",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "用$(2)钻石$()和$(2)恶魂之泪$()合成$(br2)效果：放在背包获得速度和跳跃提升效果$(br2)$(7)EMC:40,960$()$(br2)归属于：$(4)$(l)ttcpr99"
+        }
+    ]
+}

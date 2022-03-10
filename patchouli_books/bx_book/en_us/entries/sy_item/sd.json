@@ -1,0 +1,15 @@
+{
+    "name": "§4包子",
+    "icon": "additions:bxloveu-really_sd",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "共有两种类型的SD，都使用$(br)$(4)$(l)SDの包子高炉$()合成。$(br2)只有达成对应游戏阶段后才能在jei里看到$(br2)效果：参加主线合成$(br2)$(7)EMC:768,224$(br)EMC:7,945,875$()$(br2)归属于：$(4)$(l)sdxhop"
+        },
+        {
+            "type":"text",
+            "text":"$(o)$(7)来源：sdxhop的qq头像就是一个包子"
+        }
+    ]
+}

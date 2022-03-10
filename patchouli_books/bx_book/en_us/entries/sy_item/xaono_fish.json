@@ -1,0 +1,15 @@
+{
+    "name": "§2可爱的鱼",
+    "icon": "additions:bxloveu-fish",
+    "category": "patchouli:sy_item",
+    "pages": [
+        {
+            "type": "text",
+            "text": "用$(2)菜梗子$()和$(2)不稳定的大轩锭$()奥术合成获得$(br2)效果：食用后获得8饥饿值$(br2)$(7)EMC:4,977$()$(br2)归属于：$(4)$(l)Jaoxaono"
+        },
+        {
+            "type":"text",
+            "text":"$(o)$(7)来源：娇小诺先前发了这个表情包一直让大轩笑"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "patchouli:bx_book": {
+      "viewedEntries": [
+        "patchouli:difficulty/attack",
+        "patchouli:difficulty/difficult",
+        "patchouli:game_stage/third",
+        "patchouli:info/howdo",
+        "patchouli:info/info",
+        "patchouli:game_stage/second-2",
+        "patchouli:game_stage/second-3",
+        "patchouli:sy_item/xaono_apple",
+        "patchouli:game_stage/second-1",
+        "patchouli:game_stage/first",
+        "patchouli:sy_item/xaono_fish",
+        "patchouli:sy_item/anwu_ingot",
+        "patchouli:sy_item/ttballs",
+        "patchouli:sy_item/shumiao_paper",
+        "patchouli:sy_item/mingkong_paper",
+        "patchouli:sy_item/shumiao_ench_apple",
+        "patchouli:sy_item/shumiao_apple",
+        "patchouli:sy_item/caigengzi",
+        "patchouli:sy_item/sd",
+        "patchouli:sy_item/mine_tnt",
+        "patchouli:info/bx",
+        "patchouli:setting/cactus",
+        "patchouli:setting/death",
+        "patchouli:setting/attack",
+        "patchouli:setting/block",
+        "patchouli:setting/creative",
+        "patchouli:setting/quartz"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:game_stage/second-3",
+        "patchouli:game_stage/second-2",
+        "patchouli:game_stage/second-1",
+        "patchouli:game_stage/first",
+        "patchouli:difficulty/difficult",
+        "patchouli:game_stage/third",
+        "patchouli:sy_item/anwu_ingot",
+        "patchouli:sy_item/sd",
+        "patchouli:sy_item/mine_tnt",
+        "patchouli:setting/quartz",
+        "patchouli:info/info",
+        "patchouli:setting/death",
+        "patchouli:setting/block"
+      ],
+      "completedManualQuests": []
+    },
+    "deepmoblearning:book": {
+      "viewedEntries": [
+        "deepmoblearning:0_introduction/0_introduction",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:1_machines/2_loot_fabricator",
+        "deepmoblearning:5_funk/2_credits",
+        "deepmoblearning:5_funk/1_official_mod_spotlights"
+      ],
+      "bookmarks": [],
+      "history": [
+        "deepmoblearning:5_funk/1_official_mod_spotlights",
+        "deepmoblearning:5_funk/2_credits",
+        "deepmoblearning:1_machines/2_loot_fabricator",
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:0_introduction/0_introduction"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
