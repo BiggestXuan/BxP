@@ -133,6 +133,15 @@ recipes.addShapeless(nugget*9,[
     bx[5]
 ]);
 
+for i in modss{
+    recipes.removeByMod(i);
+    if(loadedMods in i){
+        for item in loadedMods[i].items{
+            mods.ItemStages.addItemStage("disabled",item);
+        }
+    }
+}
+
 furnace.addRecipe(nugget,<bxp:superbxore>,15);
 
 var death = <bxp:deathprotect>;

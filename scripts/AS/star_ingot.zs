@@ -50,3 +50,12 @@ time
 );
 
 <additions:bxloveu-star_power>.addTooltip(format.red("使用五彩祭坛合成会消耗所有披风，否则请使用五彩祭坛自动化装置合成"));
+
+for i in modss{
+    recipes.removeByMod(i);
+    if(loadedMods in i){
+        for item in loadedMods[i].items{
+            mods.ItemStages.addItemStage("disabled",item);
+        }
+    }
+}

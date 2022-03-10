@@ -72,8 +72,6 @@ while a<=9{
     .addItemInput(input[a]*64)
     .addItemInput(input[a]*64)
     .addItemInput(input[a]*64)
-    .addItemInput(input[a]*64)
-    .addItemInput(input[a]*64)
     .addItemOutput(qd[a])
     .build();
     a+=1;
@@ -83,14 +81,12 @@ while a<=9{
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
 addItemInput(input[a]*64).
 addItemInput(input[a]*64).
-addItemInput(input[a]*64).
 addItemOutput(qd[a]).
 build();
 a+=1;
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(input[a]*64).
 addItemInput(input[a]*64).
 addItemOutput(qd[a]).
 build();
@@ -139,114 +135,114 @@ addItemInput(qd[0])
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<bxp:unbxblock>*400)
+addItemInput(<bxp:unbxblock>*255)
 .addItemOutput(nqd[1])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(bx[5]*350)
+addItemInput(bx[5]*150)
 .addItemOutput(nqd[2])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(bx[6]*16)
+addItemInput(bx[6]*12)
 .addItemOutput(nqd[3])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<botania:storage:1>*128)
+addItemInput(<botania:storage:1>*64)
 .addItemOutput(nqd[4])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<astralsorcery:itemcraftingcomponent:1>*500)
+addItemInput(<astralsorcery:itemcraftingcomponent:1>*300)
 .addItemOutput(nqd[5])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<bloodarsenal:blood_diamond:3>*100)
+addItemInput(<bloodarsenal:blood_diamond:3>*50)
 .addItemOutput(nqd[6])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<twilightforest:block_storage:1>*75)
-.addItemInput(<twilightforest:knightmetal_block>*75)
+addItemInput(<twilightforest:block_storage:1>*30)
+.addItemInput(<twilightforest:knightmetal_block>*30)
 .addItemOutput(nqd[7])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<abyssalcraft:ingotblock:3>*400)
+addItemInput(<abyssalcraft:ingotblock:3>*255)
 .addItemOutput(nqd[8])
 .build();
 count+=1;
 
 var bedrock = <minecraft:bedrock>;
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(bedrock*500)
+addItemInput(bedrock*355)
 .addItemOutput(nqd[9])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<enderio:block_alloy>*64)
-.addItemInput(<enderio:block_alloy:1>*64)
-.addItemInput(<enderio:block_alloy:2>*64)
-.addItemInput(<enderio:block_alloy:3>*64)
-.addItemInput(<enderio:block_alloy:4>*64)
-.addItemInput(<enderio:block_alloy:5>*64)
-.addItemInput(<enderio:block_alloy:6>*64)
-.addItemInput(<enderio:block_alloy:7>*64)
-.addItemInput(<enderio:block_alloy:8>*64)
+addItemInput(<enderio:block_alloy>*32)
+.addItemInput(<enderio:block_alloy:1>*32)
+.addItemInput(<enderio:block_alloy:2>*32)
+.addItemInput(<enderio:block_alloy:3>*32)
+.addItemInput(<enderio:block_alloy:4>*32)
+.addItemInput(<enderio:block_alloy:5>*32)
+.addItemInput(<enderio:block_alloy:6>*32)
+.addItemInput(<enderio:block_alloy:7>*32)
+.addItemInput(<enderio:block_alloy:8>*32)
 .addItemOutput(nqd[10])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<deepmoblearning:glitch_infused_ingot>*500)
+addItemInput(<deepmoblearning:glitch_infused_ingot>*355)
 .addItemOutput(nqd[11])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<tconevo:metal_block>*16)
+addItemInput(<tconevo:metal_block>*12)
 .addItemOutput(nqd[12])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<tconevo:metal_block:1>*4)
+addItemInput(<tconevo:metal_block:1>*3)
 .addItemOutput(nqd[13])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<tconevo:metal:10>*9)
+addItemInput(<tconevo:metal:10>*7)
 .addItemOutput(nqd[14])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<thaumadditions:mithminite_ingot>*7)
+addItemInput(<thaumadditions:mithminite_ingot>*5)
 .addItemOutput(nqd[15])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<additions:bxloveu-tulye_haie>*300)
+addItemInput(<additions:bxloveu-tulye_haie>*155)
 .addItemInput(<additions:bxloveu-tulye_ingot>)
 .addItemOutput(nqd[16])
 .build();
 count+=1;
 
 RecipeBuilder.newBuilder("qd"+count,"qd",1).
-addItemInput(<minecraft:obsidian>*64)
+addItemInput(<minecraft:obsidian>*48)
 .addItemOutput(<minecraft:bedrock>)
 .build();
 count+=1;
@@ -256,8 +252,7 @@ ExtremeCrafting.addShapeless("chj",ch,[
     <avaritia:cosmic_meatballs>,<avaritia:ultimate_stew>,
     nqd[0],nqd[1],nqd[2],nqd[3],nqd[4],nqd[5],nqd[6],nqd[7],nqd[8],nqd[9],nqd[10],nqd[11],nqd[12],nqd[13],nqd[14],nqd[15],nqd[16],
     dragon[0],dragon[1],dragon[2],dragon[3],dragon[4],dragon[5],dragon[6],<additions:bxloveu-tulye_ingot>,
-    bx[0],bx[1],bx[2],bx[3],bx[4],bx[5],bx[6],bx[8],bx[9],bx[10],bx[11],bx[12],bx[13],bx[14],bx[15],bx[16],bx[17],bx[18],bx[19],bx[20],bx[21],bx[22],
-    <projectex:matter:5>,<projectex:matter:5>
+    bx[0],bx[1],bx[2],bx[3],bx[4],bx[5],bx[6],bx[8],bx[9],bx[10],bx[11],bx[12],bx[13],bx[14],bx[15],bx[16],bx[17],bx[18],bx[19],bx[20],bx[21],bx[22]
 ]);
 
 recipes.remove(<avaritia:resource:4>);
@@ -284,6 +279,15 @@ ExtremeCrafting.addShaped("sword",<avaritia:infinity_sword>,[
     [null,bx[7],null,null,crystal,null,null,null,null],
     [bx[7],null,null,null,null,null,null,null,null]
 ]);
+
+for i in modss{
+    if(loadedMods in i){
+        for item in loadedMods[i].items{
+            recipes.removeAll();
+            mods.ItemStages.addItemStage("disabled",item);
+        }
+    }
+}
 
 ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
 ExtremeCrafting.addShapeless("rw",<avaritia:cosmic_meatballs>,[
@@ -327,3 +331,80 @@ ExtremeCrafting.addShaped("cjb",<avaritia:ultimate_stew>,[
     [b,b,b,b,i,b,b,b,b]
 ]);
 
+var av as IItemStack[]=[
+    <avaritia:infinity_sword>,
+    <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35}]}),
+    <avaritia:infinity_helmet>,
+    <avaritia:infinity_chestplate>,
+    <avaritia:infinity_pants>,
+    <avaritia:infinity_boots>, //5
+    <avaritia:infinity_bow>,
+    <avaritia:infinity_shovel>,
+    <avaritia:infinity_axe>,
+    <avaritia:infinity_hoe>
+];
+
+for i in av{
+    ExtremeCrafting.remove(i);
+}
+
+var s = <minecraft:stick>;
+recipes.addShaped(av[0],[
+    [bx[7],bx[7],bx[7]],
+    [bx[7],bx[7],bx[7]],
+    [null,s,null]
+]);
+
+recipes.addShaped(av[1],[
+    [bx[7],bx[7],bx[7]],
+    [null,s,null],
+    [null,s,null]
+]);
+
+recipes.addShaped(av[2],[
+    [bx[7],bx[7],bx[7]],
+    [bx[7],null,bx[7]],
+    [null,null,null]
+]);
+
+recipes.addShaped(av[3],[
+    [bx[7],null,bx[7]],
+    [bx[7],bx[7],bx[7]],
+    [bx[7],bx[7],bx[7]]
+]);
+
+recipes.addShaped(av[4],[
+    [bx[7],bx[7],bx[7]],
+    [bx[7],null,bx[7]],
+    [bx[7],null,bx[7]]
+]);
+
+recipes.addShaped(av[5],[
+    [bx[7],null,bx[7]],
+    [bx[7],null,bx[7]],
+    [null,null,null]
+]);
+
+recipes.addShaped(av[6],[
+    [null,bx[7],<minecraft:string>],
+    [bx[7],null,<minecraft:string>],
+    [null,bx[7],<minecraft:string>]
+]);
+
+recipes.addShaped(av[7],[
+    [null,bx[7],null],
+    [null,s,null],
+    [null,s,null]
+]);
+
+recipes.addShaped(av[8],[
+    [null,bx[7],bx[7]],
+    [null,s,bx[7]],
+    [null,s,null]
+]);
+
+recipes.addShaped(av[9],[
+    [null,bx[7],bx[7]],
+    [null,s,null],
+    [null,s,null]
+]);

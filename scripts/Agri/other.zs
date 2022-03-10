@@ -1,6 +1,5 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
-import mods.ctintegration.projecte.EMCManager;
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
@@ -183,17 +182,6 @@ for i in 0 .. seed.length{
     seedGrowOre(seed[i],out[i],name[i]);
 }
 
-var mod as IMod = loadedMods["mysticalagriculture"];
-for item in mod.items{
-    item.emc=0;
-}
-<mysticalagriculture:crafting:16>.emc=32;
-<mysticalagriculture:crafting:17>.emc=48;
-<mysticalagriculture:crafting:18>.emc=176;
-<mysticalagriculture:crafting:19>.emc=1200;
-<mysticalagriculture:crafting:20>.emc=9392;
-<mysticalagriculture:crafting:21>.emc=74928;
-
 var map as IItemStack[IItemStack]={
     <mysticalagriculture:storage:1> : <mysticalagriculture:crafting:1>,
     <mysticalagriculture:storage:2> : <mysticalagriculture:crafting:2>,
@@ -222,3 +210,4 @@ for i,j in block{
         j,j,j,j,j,j,j,j,j
     ]);
 }
+

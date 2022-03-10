@@ -1,4 +1,4 @@
-#ikwid
+#priority 1
 #loader crafttweaker reloadableevents
 import crafttweaker.events.IEventManager;
 
@@ -10,6 +10,8 @@ import crafttweaker.player.IPlayer;
 import mods.zenutils.command.ZenCommand;
 import mods.ctintegration.gamestages.GameStageRemoveEvent;
 import mods.ctintegration.gamestages.GameStageAddEvent;
+
+static name as string[]=[];
 
 function playerCanUseCommand(player as IPlayer,permission as int) as bool{
     var useCommand as bool = true;
@@ -29,18 +31,6 @@ function playerCanUseCommand(player as IPlayer,permission as int) as bool{
     }
     return false;
 }
-
-val read as ZenCommand = ZenCommand.create("read");
-read.requiredPermissionLevel = 0; 
-read.register();
-
-val readShumiao as ZenCommand = ZenCommand.create("read_1");
-readShumiao.requiredPermissionLevel = 0; 
-readShumiao.register();
-
-val readAvaritia as ZenCommand = ZenCommand.create("read_2");
-readAvaritia.requiredPermissionLevel = 0; 
-readAvaritia.register();
 
 function readStoryShumiao(x as IPlayer) as void{
     x.sendRichTextMessage(format.red("剧情纯属虚构，如有雷同不胜荣幸！"));
@@ -91,7 +81,6 @@ BiggestXuan：？？？你们……
 于是这俩非人类也踏上了寻找他俩小主子的旅途。
 叫小诺（微微一笑）：游戏现在才刚刚开始……
 "));
-x.sendRichTextMessage(format.red("使用/read_1指令再次阅读")); 
 }
 
 function readStoryAvaritia(x as IPlayer) as void{
@@ -130,8 +119,6 @@ function readStoryAvaritia(x as IPlayer) as void{
 我看到我拥有的那些东西，女朋友也好，寰宇支配之剑也好，都在那绿色的0与1下消逝。
 那……我对于他们，也没用存在的必要了吗？
     "));
-x.sendRichTextMessage(format.red("使用/read_1指令再次阅读开局剧情")); 
-x.sendRichTextMessage(format.red("使用/read_2指令再次阅读当前剧情")); 
 }
 
 function readStory(x as IPlayer) as void{
@@ -181,55 +168,8 @@ function readStory(x as IPlayer) as void{
 我彻底绝望了，对着吼：都还是不是人？
 最后只剩下呜咽声。
 宁静了，整个世界都宁静了，再也没有·战火，也没有人。
-在那个很远的地方，一边天堂，一边地狱。"));
-x.sendRichTextMessage(format.red("使用/read_1指令再次阅读开局剧情")); 
-x.sendRichTextMessage(format.red("使用/read_2指令再次阅读无尽阶段剧情")); 
-x.sendRichTextMessage(format.red("使用/read指令再次阅读当前剧情"));   
+在那个很远的地方，一边天堂，一边地狱。")); 
 }
-
-events.onCommand(function(event as CommandEvent){ 
-    var stage as string[]=[
-    "nether_star",
-	"wyvern_core",
-	"bx_ingot",
-	"fusion_ingot",
-	"dragon_heart",
-	"awakened_core",
-	"ench_ingot",
-	"chaotic_core",
-	"avaritia_ingot",
-	"final_ingot",
-	"disabled"
-    ];
-    if(event.commandSender instanceof IPlayer){ 
-        var player as IPlayer = event.commandSender;
-        if(event.command.name == "read"){
-            if(playerCanUseCommand(player,2)){
-                readStory(player);
-            }
-            else{
-                player.sendRichTextMessage(format.red("游戏出现错误导致无法使用该指令，请联系作者"));
-            }
-        }
-        if(event.command.name == "read_1"){
-            readStoryShumiao(player);
-        }
-        if(event.command.name == "read_2"){
-            for i in 0 .. 9{
-                if(!player.hasGameStage(stage[i])){
-                event.cancel();
-                player.sendRichTextMessage(format.red("你现在还没领悟到真谛，不能阅读剧情"));
-                return;
-                }
-            }
-            if(player.hasGameStage("test1")){
-                player.sendRichTextMessage(format.red("ERROR:java.lang.NullPointerException"));
-                return;
-            } 
-            readStoryAvaritia(player);
-        }
-    }
-});
 
 events.onGameStageAdd(function(event as GameStageAddEvent){
     var player as IPlayer = event.player;
@@ -247,19 +187,21 @@ events.onGameStageAdd(function(event as GameStageAddEvent){
 	"disabled"
     ];
     for i in 1 .. stage.length{
-        if(player.hasGameStage("test1")) return;
-        if(event.gameStage == stage[i]){
-            if(player.hasGameStage(stage[i+(-1)])) return;
-            else{
-                server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
+        if(!player.hasGameStage("test1")){
+            if(event.gameStage == stage[i]){
+                if(player.hasGameStage(stage[i+(-1)])) return;
+                else{
+                    server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
+                }
             }
         }
     }
-    if(event.gameStage == "projecte"){
+    if(event.gameStage == "creative_item"){
         for i in 0 .. 8{
             if(!player.hasGameStage(stage[i]) || player.hasGameStage("test1")){
+                if(player.creative) return;
                 event.cancel();
-                player.sendRichTextMessage(format.red("作弊模式严禁使用等价交换！"));
+                player.sendRichTextMessage(format.red("作弊模式严禁合成创造物品！"));
                 server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
                 return;
             }
@@ -322,11 +264,6 @@ events.onCommand(function(event as CommandEvent){
 
 events.onGameStageAdd(function(event as GameStageAddEvent){
     var player as IPlayer = event.player;
-    if(event.gameStage == "projecte"){
-        if(!player.hasGameStage("test1") || player.creative) return;
-        player.sendRichTextMessage(format.red("作弊模式严禁使用等价交换！"));
-        event.cancel();
-    }
     if(event.gameStage == "hero"){
         if(!player.hasGameStage("test1")) return;
         player.sendRichTextMessage(format.red("作弊模式无法通关！"));

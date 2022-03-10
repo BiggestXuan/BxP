@@ -15,7 +15,7 @@ Infusion.registerRecipe(
     <aspect:mortuus>*100,<aspect:victus>*100,<aspect:potentia>*100,<aspect:permutatio>*100,<aspect:auram>*100,
     <aspect:alkimia>*100,<aspect:vitium>*100,<aspect:tenebrae>*100,<aspect:alienis>*100,<aspect:volatus>*100,<aspect:herba>*100,
     <aspect:humanus>*100,<aspect:machina>*100,<aspect:fabrico>*100,<aspect:exanimis>*100],
-    ch,
+    <additions:bxloveu-creative_star>,
     [ingot,ingot,ingot,ingot]
 );
 Infusion.registerRecipe(
@@ -24,7 +24,7 @@ Infusion.registerRecipe(
     super,
     0.3,
     [<aspect:biggestxuan>*10000],
-    ch,
+    <additions:bxloveu-creative_star>,
     [ingot,ingot,ingot,ingot,bx[4]]
 );
 

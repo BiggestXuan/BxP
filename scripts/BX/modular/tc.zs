@@ -109,7 +109,7 @@ RecipeBuilder.newBuilder(name+count,"tc",300)
 name+=1;
 RecipeBuilder.newBuilder(name+count,"tc",300)
 .addItemInput(<avaritia:resource:6>*4)
-.addItemInput(<avaritia:resource:5>)
+.addItemInput(<additions:bxloveu-creative_star>)
 .addItemInput(bx[4])
 .addAspcetInput(10000,"biggestxuan")
 .addItemOutput(<additions:bxloveu-bx_superingot>)

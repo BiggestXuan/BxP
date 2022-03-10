@@ -1,3 +1,4 @@
+#priority 45
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 import crafttweaker.item.IIngredient;
@@ -394,6 +395,25 @@ addItemOutput(<botania:manaresource:4>).setChance(0.07).
 addItemOutput(<botania:manaresource:5>).setChance(0.25).
 build();
 
+global modss as string[]=[
+    "torcherino",
+    "projecte",
+    "bacterium",
+    "salted_fish_technology",
+    "manaita_plus",
+    "lolipickaxe",
+    "thelegendofthebraveii",
+    "flammpfeil.slashblade",
+    "slashblade",
+    "xijun",
+    "bacteria",
+    "decon_table",
+    "decomp_table",
+    "deconstriction",
+    "uncraftingtable",
+    "immersiveengineering"
+];
+    
 RecipeBuilder.newBuilder("terra4","seed",350).
 addItemInput(<mysticalagriculture:terrasteel_seeds>).
 addItemInput(<additions:bxloveu-super_fer>).
