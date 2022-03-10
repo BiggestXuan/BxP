@@ -1,6 +1,26 @@
 {
-  "name": "解锁游戏阶段:chaotic_core",
-  "shines": true,
-  "max_stack": 1,
-  "type": "additions:simple"
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-stage_chaotic_core",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "command": "/gamestage add @s chaotic_core",
+      "command_sender_name": "@s",
+      "hide_feedback": false,
+      "type": "additions:command"
+    },
+    {
+      "command": "/scalinghealth difficulty set 2700 @s",
+      "command_sender_name": "@s",
+      "hide_feedback": false,
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
 }

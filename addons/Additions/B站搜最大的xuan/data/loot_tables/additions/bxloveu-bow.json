@@ -1,0 +1,35 @@
+{
+  "preset_type": "additions:empty",
+  "pools":[
+    {
+      "rolls":1,
+      "entries":[
+        {
+          "type":"item",
+          "name":"minecraft:coal",
+          "weight":50
+        },
+        {
+          "type":"item",
+          "name":"minecraft:iron_ingot",
+          "weight":20
+        },
+        {
+          "type":"item",
+          "name":"minecraft:gold_ingot",
+          "weight":10
+        },
+        {
+          "type":"item",
+          "name":"minecraft:diamond",
+          "weight":2
+        },
+        {
+          "type":"item",
+          "name":"minecraft:emerald",
+          "weight":1
+        }
+      ]
+    }
+  ]
+}

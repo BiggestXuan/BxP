@@ -1,5 +1,20 @@
 {
-  "name": "解锁游戏阶段:projecte",
-  "shines": true,
-  "type": "additions:simple"
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-stage_projecte",
+      "damage": "any"
+    },
+    "type": "additions:item_in_inventory"
+  },
+  "effects": [
+    {
+      "command": "/gamestage add @s projecte",
+      "command_sender_name": "@s",
+      "hide_feedback": false,
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
 }

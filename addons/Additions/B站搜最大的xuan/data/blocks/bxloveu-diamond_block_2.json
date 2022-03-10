@@ -1,0 +1,12 @@
+{
+  "item_block": {
+    "name": "二重钻石块",
+    "type": "additions:block_simple"
+  },
+  "name": "二重钻石块",
+  "material": "minecraft:stone",
+  "hardness": 20.0,
+  "resistance": 20.0,
+  "harvest_level": 2,
+  "type": "additions:simple"
+}

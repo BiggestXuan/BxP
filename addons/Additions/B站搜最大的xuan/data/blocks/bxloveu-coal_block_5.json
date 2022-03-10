@@ -1,0 +1,9 @@
+{
+  "item_block": {
+    "name": "五重煤炭块",
+    "type": "additions:block_simple"
+  },
+  "name": "五重煤炭块",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}

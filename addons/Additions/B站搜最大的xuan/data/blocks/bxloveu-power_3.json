@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§6高级电量产出器",
+    "tooltip": "在魔法使发电机正上方放置增加100倍产出",
+    "type": "additions:block_simple"
+  },
+  "name": "§6高级电量产出器",
+  "material": "minecraft:stone",
+  "hardness": 4.0,
+  "resistance": 20.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

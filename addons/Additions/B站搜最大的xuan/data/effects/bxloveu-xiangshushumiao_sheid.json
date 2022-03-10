@@ -1,0 +1,22 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-xiangshushumiao_yinjianwanyi",
+      "damage": "any"
+    },
+    "type": "additions:item_in_hand"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "botania:bloodthirst",
+        "duration": 15,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "reapplication_delay": 10,
+      "type": "additions:potion"
+    }
+  ]
+}

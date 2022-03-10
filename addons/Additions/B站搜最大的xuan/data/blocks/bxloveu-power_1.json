@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "低级电量产出器",
+    "tooltip": "在魔法使发电机控制器上方一格放置增加5倍产出",
+    "type": "additions:block_simple"
+  },
+  "name": "低级电量产出器",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 15.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

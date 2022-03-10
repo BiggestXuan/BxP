@@ -1,0 +1,29 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:bxloveu-warp_gem",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "command": "tc warp @s set 0",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "tc warp @s set 0 perm",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    },
+    {
+      "command": "tc warp @s set 0 temp",
+      "command_sender_name": "@s",
+      "type": "additions:command"
+    }
+  ]
+}
