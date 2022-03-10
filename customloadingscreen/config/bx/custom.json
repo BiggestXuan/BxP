@@ -1,0 +1,14 @@
+{
+    "renders": [
+        "bx/bg",
+		"bx/bar_up",
+		"bx/jdt"
+    ],
+    "variables": {
+        
+    },
+    "functions": [],
+    "factories": [
+    ],
+    "actions": []
+}
