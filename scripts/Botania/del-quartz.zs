@@ -1,1 +1,0 @@
-mods.botania.Orechid.removeOre(<ore:quartz>);
