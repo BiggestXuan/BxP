@@ -13,12 +13,12 @@ var zp as IItemStack[]=[
     aoshu,chuanshi,yuangu,xieshu,guangming,niuqu
 ];
 
-aoshu.addTooltip(format.green("主要增加神秘学知识"));
-chuanshi.addTooltip(format.green("主要增加炼金术知识"));
-yuangu.addTooltip(format.green("主要增加傀儡学知识"));
-xieshu.addTooltip(format.green("主要增加邪术学知识"));
-guangming.addTooltip(format.green("主要增加奥术注魔知识"));
-niuqu.addTooltip(format.green("主要增加炼化学知识"));
+aoshu.addTooltip(game.localize("bxp.tip.item.tc1"));
+chuanshi.addTooltip(game.localize("bxp.tip.item.tc2"));
+yuangu.addTooltip(game.localize("bxp.tip.item.tc3"));
+xieshu.addTooltip(game.localize("bxp.tip.item.tc4"));
+guangming.addTooltip(game.localize("bxp.tip.item.tc5"));
+niuqu.addTooltip(game.localize("bxp.tip.item.tc6"));
 
 var b =<additions:bxloveu-bx_uningot>;
 

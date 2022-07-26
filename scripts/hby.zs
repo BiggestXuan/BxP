@@ -8,11 +8,11 @@ addBxTranslateRecipe(<progressivebosses:nether_star_shard>,2484/9,"basic","nethe
 
 func_2293(bx[4],1,"bx",name[0]);
 func_2293(bx[5],628,"bx",name[1]);
-func_2293(bx[6],87556,"bx",name[2]);
-func_2293(bx[8],4,"bx",name[3]);
-func_2293(bx[9],916,"bx",name[4]);
-func_2293(bx[10],18,"bx",name[5]);
-func_2293(bx[11],654,"bx",name[6]);
+func_2293(bx[6],76880,"bx",name[2]);
+func_2293(bx[8],6,"bx",name[3]);
+func_2293(bx[9],1172,"bx",name[4]);
+func_2293(bx[10],24,"bx",name[5]);
+func_2293(bx[11],782,"bx",name[6]);
 func_2293(<additions:bxloveu-bx_goldingot>,2,"bx",name[7]);
 
 func_2293(bx[12],8,"gz",name[8]);

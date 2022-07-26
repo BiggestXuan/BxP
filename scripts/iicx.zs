@@ -8,7 +8,7 @@ import mods.modularmachinery.RecipePrimer;
 import scripts.riu.func_1022;
 
 function func_4882(name as string,item as IItemStack,power as int,liquid as ILiquidStack){
-    var amount as int= min(32000,power);
+    var amount as int= min(3200000,power);
     RecipeBuilder.newBuilder("uncraft"+name,"uncraft",10)
     .addItemInput(item)
     .addFluidOutput(liquid *amount)

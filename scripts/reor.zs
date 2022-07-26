@@ -2,6 +2,7 @@
 import crafttweaker.event.PlayerRightClickItemEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
+import crafttweaker.text.ITextComponent;
 import mods.zenutils.DelayManager;
 
 import scripts.yics.func_2698;
@@ -21,7 +22,7 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent){
     if(item.definition.id == "additions:bxloveu-xk_ender_bed"){
         server.commandManager.executeCommand(server,"clear "+player.name+" additions:bxloveu-xk_ender_bed 0 1");
         func_2698(player);
-        server.commandManager.executeCommand(server,'tellraw @a {"text":"时间将在十秒后变为白天","color":"red"}');
+        server.broadcastMessage(ITextComponent.fromTranslation("bxp.event.timechange"));
         DelayManager.addDelayWork(function() {
         server.commandManager.executeCommand(server,"time set day");
     }, 10 * 20);

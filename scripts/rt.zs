@@ -1,11 +1,11 @@
 #priority 64
 
 function func_3367(name as string) as string{
-    if(name == "bx") return "大轩能量：";
-    if(name == "tc") return "神秘能量：";
-    if(name == "dragon") return "龙吟能量：";
-    if(name == "gz") return "梗子能量：";
-    if(name == "sx") return "小轩能量：";
-    if(name == "basic") return "基础能量：";
+    if(name == "bx") return game.localize("bxp.tip.power");
+    if(name == "tc") return game.localize("bxp.tip.power1");
+    if(name == "dragon") return game.localize("bxp.tip.power2");
+    if(name == "gz") return game.localize("bxp.tip.power3");
+    if(name == "sx") return game.localize("bxp.tip.power4");
+    if(name == "basic") return game.localize("bxp.tip.power5");
     return "";
 }

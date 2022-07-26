@@ -2,6 +2,7 @@ import mods.ctintegration.gamestages.GameStageRemoveEvent;
 import mods.ctintegration.gamestages.GameStageAddEvent;
 
 import crafttweaker.event.IEventCancelable;
+import crafttweaker.text.ITextComponent;
 import crafttweaker.player.IPlayer;
 
 import scripts.API.config.disabledAntiCheat;
@@ -27,7 +28,7 @@ events.onGameStageAdd(function(event as GameStageAddEvent){
             if(!player.hasGameStage(stage[i]) || player.hasGameStage("test1")){
                 if(player.creative) return;
                 event.cancel();
-                player.sendRichTextMessage(format.red("作弊模式严禁合成创造物品！"));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("bxp.event.anticheat1"));
                 server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
                 return;
             }
@@ -37,7 +38,7 @@ events.onGameStageAdd(function(event as GameStageAddEvent){
         for i in 0 .. 10{
             if(!player.hasGameStage(stage[i])){
                 event.cancel();
-                player.sendRichTextMessage(format.red("获取阶段出错"));
+                player.sendRichTextMessage(ITextComponent.fromTranslation("bxp.event.anticheat2"));
                 server.commandManager.executeCommand(server,"gamestage silentadd "+player.name+" test1");
                 return;
             }

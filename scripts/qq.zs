@@ -10,6 +10,6 @@ var ingot as IItemStack[]=[
     <tconevo:metal:10>
 ];
 
-<tconevo:metal_block>.addTooltip("可为多方块结构加速25%");
-<tconevo:metal_block:1>.addTooltip("可为多方块结构加速40%");
-<tconevo:metal_block:2>.addTooltip("可为多方块结构加速60%");
+<tconevo:metal_block>.addTooltip(game.localize("bxp.tip.item.speed1"));
+<tconevo:metal_block:1>.addTooltip(game.localize("bxp.tip.item.speed2"));
+<tconevo:metal_block:2>.addTooltip(game.localize("bxp.tip.item.speed3"));

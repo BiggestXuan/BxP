@@ -1,5 +1,4 @@
 #priority 15
-#ikwid
 import crafttweaker.events.IEventManager;
 
 import crafttweaker.event.CommandEvent;
@@ -9,6 +8,8 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;
 
 import mods.zenutils.command.ZenCommand;
+
+import scripts.nnhw.func_5420;
 
 val uncraft as ZenCommand = ZenCommand.create("uncraft");
 uncraft.requiredPermissionLevel = 0; 
@@ -60,15 +61,15 @@ events.onCommand(function(event as CommandEvent){
         if(event.commandSender.world.remote) return;
         if(event.command.name != "uncraft") return;
         if(player.hasGameStage("test1")){
-            player.sendChat("作弊模式严禁拆分");
+            func_5420(player,"bxp.event.uncraft1");
             return;
         }
         if(!player.hasGameStage("chaotic_core")){
-            player.sendChat("你都还没到混沌核心哦，不能用哦");
+            func_5420(player,"bxp.event.uncraft2");
             return;
         }
         if(isNull(player.currentItem)){
-            player.sendChat("亲亲，空气不能拆分哦，会空指针的哦");
+            func_5420(player,"bxp.event.uncraft3");
             return;
         }
         var amount = player.currentItem.amount;

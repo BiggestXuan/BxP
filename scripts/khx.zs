@@ -89,7 +89,8 @@ var input as IItemStack[][]=[
     [<botania:rune:2>, <botania:rune:3>, <minecraft:sand>, <minecraft:sand>, <minecraft:slime_ball>, <minecraft:melon>],
     [<botania:rune:2>, <botania:rune:3>, <minecraft:sand>, <minecraft:sand>, <minecraft:slime_ball>, <minecraft:melon>],
     [<botania:rune:2>, <botania:rune:3>, <minecraft:sand>, <minecraft:sand>, <minecraft:slime_ball>, <minecraft:melon>],
-    [<bxp:netherstarore>]
+    [<bxp:netherstarore>],
+    [bx[5],<botania:manaresource:14>,<botania:storage:1>]
 ];
 var output as IItemStack[]=[
     <thaumcraft:ingot:1>,
@@ -107,7 +108,8 @@ var output as IItemStack[]=[
     <botania:rune:5>,
     <botania:rune:6>,
     <botania:rune:7>,
-    <progressivebosses:nether_star_shard>
+    <progressivebosses:nether_star_shard>,
+    <additions:bxloveu-nature_ingot>
 ];
 var mana as int[]=[
     150000,
@@ -126,10 +128,11 @@ var mana as int[]=[
     10000,
     10000,
     500000,
-    100000
+    100000,
+    300000
 ];
 var name as string[]=[
-    "a","b","c","d","e","f","g","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"  //26字母都背不全真是屑
+    "a","b","c","d","e","f","g","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"
 ];
 
 for i in 0 .. input.length{

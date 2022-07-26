@@ -11,24 +11,22 @@ import scripts.API.config.recipeTimeBySdxhop;
 import scripts.API.config.recipeTimeByReallySdxhop;
 import scripts.API.config.speedReallySdxhopRate;
 
-RecipeBuilder.newBuilder("sd","sd",recipeTimeBySdxhop).
-addItemInput(<thaumadditions:adaminite_ingot>).
-addItemInput(<minecraft:nether_star>).
-addItemInput(<additions:bxloveu-bx_ingot>).
-addItemInput(<additions:bxloveu-gold_gengzi>).
-addItemInput(<draconicevolution:dragon_heart>).
-addItemInput(<draconicevolution:draconic_ingot>).
-addItemInput(<draconicevolution:awakened_core>).
-addItemInput(<minecraft:dragon_egg>).
-addItemInput(<bloodarsenal:blood_diamond:3>).
-addEnergyPerTickInput(3000).
-addItemOutput(<additions:bxloveu-sdxhop>*amountForSdxhop).
-build();
+RecipeBuilder.newBuilder("sd","sd",recipeTimeBySdxhop)
+.addItemInput(<thaumadditions:adaminite_ingot>)
+.addItemInput(<minecraft:nether_star>)
+.addItemInput(<additions:bxloveu-bx_ingot>)
+.addItemInput(<additions:bxloveu-gold_gengzi>)
+.addItemInput(<draconicevolution:dragon_heart>)
+.addItemInput(<draconicevolution:draconic_ingot>)
+.addItemInput(<draconicevolution:awakened_core>)
+.addItemInput(<minecraft:dragon_egg>)
+.addItemInput(<bloodarsenal:blood_diamond:3>)
+.addEnergyPerTickInput(3000)
+.addItemOutput(<additions:bxloveu-sdxhop>*amountForSdxhop)
+.build();
 
-//高级包子
 var sd =<additions:bxloveu-sdxhop>;
 var re =<additions:bxloveu-really_sd>;
-mods.jei.JEI.addDescription(re,"使用多方块结构：包子の高炉合成\n合成只需要9个sdxhop的头，星晶和混沌核心\n但是由于合成时间过于长，你可以使用神秘时代金属减时减能\n多个神秘金属效果叠加\n对应的效果如下：\n虚空金属 -10%时间\n秘银：-35%时间\n精金 -55%时间\n秘金 -80%时间");
 static tc as IItemStack[]=[
     <thaumcraft:ingot:1>,
     <thaumadditions:mithrillium_ingot>,
@@ -53,13 +51,13 @@ function js(x as IItemStack[]) as int{
     return sd;
 }
 
-RecipeBuilder.newBuilder("sd0","sd",recipeTimeByReallySdxhop).
-addItemInput(sd*9).
-addItemInput(<additions:bxloveu-star_power>).
-addItemInput(dragon[6]).
-addEnergyPerTickInput(8000).
-addItemOutput(re*3).
-build();
+RecipeBuilder.newBuilder("sd0","sd",recipeTimeByReallySdxhop)
+.addItemInput(sd*9)
+.addItemInput(<additions:bxloveu-star_power>)
+.addItemInput(dragon[6])
+.addEnergyPerTickInput(8000)
+.addItemOutput(re*3)
+.build();
 
 var count as int=1;
 for i in tc{
@@ -67,14 +65,14 @@ for i in tc{
     ls+=i;
     var tick as int=0;
     tick=js(ls)*recipeTimeByReallySdxhop/100;
-    RecipeBuilder.newBuilder("sd0"+count,"sd",tick).
-    addItemInput(sd*9).
-    addItemInput(<additions:bxloveu-star_power>).
-    addItemInput(dragon[6]).
-    addItemInput(i).
-    addEnergyPerTickInput(8000).
-    addItemOutput(re*amountForReallySdxhop).
-    build();
+    RecipeBuilder.newBuilder("sd0"+count,"sd",tick)
+    .addItemInput(sd*9)
+    .addItemInput(<additions:bxloveu-star_power>)
+    .addItemInput(dragon[6])
+    .addItemInput(i)
+    .addEnergyPerTickInput(8000)
+    .addItemOutput(re*amountForReallySdxhop)
+    .build();
     count+=1;
 }
 
@@ -87,15 +85,15 @@ while i<=2{
         ls[1]=tc[j];
         var tick as int=0;
         tick=js(ls)*recipeTimeByReallySdxhop/10000;
-        RecipeBuilder.newBuilder("sd0"+count,"sd",tick).
-        addItemInput(sd*9).
-        addItemInput(<additions:bxloveu-star_power>).
-        addItemInput(dragon[6]).
-        addItemInput(ls[0]).
-        addItemInput(ls[1]).
-        addEnergyPerTickInput(8000).
-        addItemOutput(re*amountForReallySdxhop).
-        build();
+        RecipeBuilder.newBuilder("sd0"+count,"sd",tick)
+        .addItemInput(sd*9)
+        .addItemInput(<additions:bxloveu-star_power>)
+        .addItemInput(dragon[6])
+        .addItemInput(ls[0])
+        .addItemInput(ls[1])
+        .addEnergyPerTickInput(8000)
+        .addItemOutput(re*amountForReallySdxhop)
+        .build();
         count+=1;
         j+=1;
     }
@@ -117,16 +115,16 @@ while i<=1{
             var tick as int=0;
             var timee = recipeTimeByReallySdxhop/100;
             tick=(js(ls)*timee)/10000;
-            RecipeBuilder.newBuilder("sd0"+count,"sd",tick).
-            addItemInput(sd*9).
-            addItemInput(<additions:bxloveu-star_power>).
-            addItemInput(dragon[6]).
-            addItemInput(ls[0]).
-            addItemInput(ls[1]).
-            addItemInput(ls[2]).
-            addEnergyPerTickInput(8000).
-            addItemOutput(re*amountForReallySdxhop).
-            build();
+            RecipeBuilder.newBuilder("sd0"+count,"sd",tick)
+            .addItemInput(sd*9)
+            .addItemInput(<additions:bxloveu-star_power>)
+            .addItemInput(dragon[6])
+            .addItemInput(ls[0])
+            .addItemInput(ls[1])
+            .addItemInput(ls[2])
+            .addEnergyPerTickInput(8000)
+            .addItemOutput(re*amountForReallySdxhop)
+            .build();
             count+=1;
             k+=1;
         }
@@ -138,14 +136,14 @@ while i<=1{
     k=j+1;
 }
 
-RecipeBuilder.newBuilder("sd0"+666,"sd",843).
-addItemInput(sd*9).
-addItemInput(<additions:bxloveu-star_power>).
-addItemInput(dragon[6]).
-addItemInput(tc[0]).
-addItemInput(tc[1]).
-addItemInput(tc[2]).
-addItemInput(tc[3]).
-addEnergyPerTickInput(8000).
-addItemOutput(re*amountForReallySdxhop).
-build();
+RecipeBuilder.newBuilder("sd0"+666,"sd",843)
+.addItemInput(sd*9)
+.addItemInput(<additions:bxloveu-star_power>)
+.addItemInput(dragon[6])
+.addItemInput(tc[0])
+.addItemInput(tc[1])
+.addItemInput(tc[2])
+.addItemInput(tc[3])
+.addEnergyPerTickInput(8000)
+.addItemOutput(re*amountForReallySdxhop)
+.build();

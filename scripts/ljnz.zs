@@ -3,7 +3,7 @@ import moretweaker.draconicevolution.FusionCrafting;
 import mods.astralsorcery.Altar;
 
 var heart = <cyclicmagic:heart_food>;
-heart.addTooltip("最大可食用10个");
+heart.addTooltip(game.localize("bxp.tip.item.heart"));
 recipes.remove(heart);
 Altar.addTraitAltarRecipe("CyclicHeart",heart,6000,200,
 [

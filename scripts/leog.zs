@@ -15,8 +15,8 @@ import scripts.API.thinker.ticFeelDemonLossWarp;
 
 val ajz = ArmorTraitBuilder.create("ajz");
 ajz.color = 0xffaadd;
-ajz.localizedName = "爱我的话，给我回答";
-ajz.localizedDescription = "受伤有概率获得生命恢复";
+ajz.localizedName = game.localize("bxp.tconstruct.at.ajz.name");
+ajz.localizedDescription = game.localize("bxp.tconstruct.at.ajz.des");
 ajz.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return newDamage;
@@ -30,8 +30,8 @@ ajz.register();
 
 val aaje = ArmorTraitBuilder.create("aaje");
 aaje.color = 0xffaadd;
-aaje.localizedName = "感受恶魔吧";
-aaje.localizedDescription = "受伤时临时扭曲将逐渐减少";
+aaje.localizedName = game.localize("bxp.tconstruct.at.aaje.name");
+aaje.localizedDescription = game.localize("bxp.tconstruct.at.aaje.des");
 aaje.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return newDamage;
@@ -45,8 +45,8 @@ aaje.register();
 
 val axx1 = ArmorTraitBuilder.create("axx1");
 axx1.color = 0xffaadd;
-axx1.localizedName = "抖M";
-axx1.localizedDescription = "越被打，越兴奋";
+axx1.localizedName = game.localize("bxp.tconstruct.at.axx1.name");
+axx1.localizedDescription = game.localize("bxp.tconstruct.at.axx1.des");
 axx1.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return newDamage;

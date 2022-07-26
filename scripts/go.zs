@@ -4,19 +4,18 @@
 
 #priority 20
 
-import mods.ctutils.utils.Math;
+import mods.ctutils.utils.Math; 
 import mods.contenttweaker.conarm.ArmorTraitBuilder;
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.world.IWorld;
-
-
+ 
 val achildTrait = ArmorTraitBuilder.create("achild");
 achildTrait.color = 0xffaadd;
-achildTrait.localizedName = "我怕熊孩子";
-achildTrait.localizedDescription = "幼年生物造成伤害加倍";
+achildTrait.localizedName = game.localize("bxp.tconstruct.at.achild.name");
+achildTrait.localizedDescription = game.localize("bxp.tconstruct.at.achild.des");
 achildTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if (!isNull(player)){
         if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
@@ -33,8 +32,8 @@ achildTrait.register();
 
 val awarpTrait = ArmorTraitBuilder.create("awarp");
 awarpTrait.color = 0xffaadd;
-awarpTrait.localizedName = "扭曲拥护";
-awarpTrait.localizedDescription = "扭曲越高，防御越高";
+awarpTrait.localizedName = game.localize("bxp.tconstruct.at.awarp.name");
+awarpTrait.localizedDescription = game.localize("bxp.tconstruct.at.awarp.des");
 awarpTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if (!isNull(player)){
         var warp as int = 0;
@@ -53,8 +52,8 @@ awarpTrait.register();
 
 val ahealthTrait = ArmorTraitBuilder.create("ahealth");
 ahealthTrait.color = 0xffaadd;
-ahealthTrait.localizedName = "绝弟求生";
-ahealthTrait.localizedDescription = "生命越低，护甲越高";
+ahealthTrait.localizedName = game.localize("bxp.tconstruct.at.ahealth.name");
+ahealthTrait.localizedDescription = game.localize("bxp.tconstruct.at.ahealth.des");
 ahealthTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     var rate as float = 1.0f;
     var healthRate as float = (player.health as float / player.maxHealth as float);
@@ -72,8 +71,8 @@ ahealthTrait.register();
 
 val awindProtectTrait = ArmorTraitBuilder.create("awindp");
 awindProtectTrait.color = 0xffaadd;
-awindProtectTrait.localizedName = "风神的庇护";
-awindProtectTrait.localizedDescription = "若远程伤害能对你造成伤害，那么它不能造成伤害";
+awindProtectTrait.localizedName = game.localize("bxp.tconstruct.at.awindp.name");
+awindProtectTrait.localizedDescription = game.localize("bxp.tconstruct.at.awindp.des");
 awindProtectTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)) return damage;
     if(isNull(source.getTrueSource())) return damage;
@@ -86,8 +85,8 @@ awindProtectTrait.register();
 
 val awindProtectaTrait = ArmorTraitBuilder.create("awindpa");
 awindProtectaTrait.color = 0xffaadd;
-awindProtectaTrait.localizedName = "风神的衬托";
-awindProtectaTrait.localizedDescription = "受伤时恢复所有饥饿值";
+awindProtectaTrait.localizedName = game.localize("bxp.tconstruct.at.awindpa.name");
+awindProtectaTrait.localizedDescription = game.localize("bxp.tconstruct.at.awindpa.des");
 awindProtectaTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)) return damage;
     if(isNull(source.getTrueSource())) return damage;
@@ -98,8 +97,8 @@ awindProtectaTrait.register();
 
 val aexplodeTrait2 = ArmorTraitBuilder.create("aexplode2");
 aexplodeTrait2.color = 0xffaadd;
-aexplodeTrait2.localizedName = "爆炸神盾II";
-aexplodeTrait2.localizedDescription = "爆炸伤害减少三分之二";
+aexplodeTrait2.localizedName = game.localize("bxp.tconstruct.at.aexplode2.name");
+aexplodeTrait2.localizedDescription = game.localize("bxp.tconstruct.at.aexplode2.des");
 aexplodeTrait2.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(source)){
         return damage as float;
@@ -117,8 +116,8 @@ aexplodeTrait2.register();
 
 val aexpTrait = ArmorTraitBuilder.create("aexp");
 aexpTrait.color = 0xffaadd;
-aexpTrait.localizedName = "知识就是保护";
-aexpTrait.localizedDescription = "等级越高，减免伤害越高（最高1000级）";
+aexpTrait.localizedName = game.localize("bxp.tconstruct.at.aexp.name");
+aexpTrait.localizedDescription = game.localize("bxp.tconstruct.at.aexp.des");
 aexpTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return damage as float;

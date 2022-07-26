@@ -6,7 +6,7 @@ recipes.remove(<thermalfoundation:material:512>);
 recipes.remove(<thermalfoundation:material:515>);
 recipes.remove(<thermalexpansion:device:10>);
 
-<thermalexpansion:device:10>.addTooltip(format.red("已禁用"));
+<thermalexpansion:device:10>.addTooltip(game.localize("bxp.tip.item.disabled"));
 
 recipes.addShaped(<thermalexpansion:frame>*4,[
 [<additions:bxloveu-bx_uningot>,<mekanism:basicblock:8>,<additions:bxloveu-bx_uningot>],

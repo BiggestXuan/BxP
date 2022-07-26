@@ -1,5 +1,6 @@
 #priority 44
 import crafttweaker.item.IItemStack;
+
 var a1 = <additions:bxloveu-item_craft>;
 var a2 = <additions:bxloveu-item_uncraft>;
 var z = <additions:bxloveu-ou_gold>;

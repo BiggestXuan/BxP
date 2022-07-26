@@ -31,7 +31,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(
 recipes.remove(<thermalexpansion:machine:9>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));
 
 recipes.remove(<thermalexpansion:machine:9>);
-<thermalexpansion:machine:9>.addTooltip(format.red("已禁用"));
+<thermalexpansion:machine:9>.addTooltip(game.localize("bxp.tip.item.disabled"));
 
 mods.bloodmagic.BloodAltar.addRecipe(
 <thermalfoundation:fertilizer:2>,

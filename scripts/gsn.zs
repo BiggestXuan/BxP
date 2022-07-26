@@ -1,4 +1,4 @@
-#priority 4
+#priority 34
 static stage as string[]=[
     "nether_star",
 	"wyvern_core",
@@ -21,4 +21,4 @@ static stage as string[]=[
     "level_7",
     "level_8",
     "level_9"
-    ];
+];

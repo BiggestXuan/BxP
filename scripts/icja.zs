@@ -15,8 +15,8 @@ import scripts.API.thinker.ticSxPower;
 
 val bs = TraitBuilder.create("bs");
 bs.color = 0xffaadd;
-bs.localizedName = "爆杀流矩阵";
-bs.localizedDescription = "按当前攻击力造成额外伤害";
+bs.localizedName = game.localize("bxp.tconstruct.a.bs.name");
+bs.localizedDescription = game.localize("bxp.tconstruct.a.bs.des");
 bs.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     return originalDamage as float * ticMartixPower;
 };
@@ -24,8 +24,8 @@ bs.register();
 
 val em = TraitBuilder.create("em");
 em.color = 0xffaadd;
-em.localizedName = "可怕的恶魔少女";
-em.localizedDescription = "每次攻击都有一定概率直接秒杀";
+em.localizedName = game.localize("bxp.tconstruct.a.em.name");
+em.localizedDescription = game.localize("bxp.tconstruct.a.em.des");
 em.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     var random as double = Math.random();
     if(target.isBoss) return newDamage;
@@ -38,8 +38,8 @@ em.register();
 
 val xx = TraitBuilder.create("xx");
 xx.color = 0xffaadd;
-xx.localizedName = "最小的轩？";
-xx.localizedDescription = "将每次伤害的30%作为"+ticSxPower*100+"%的生命补充给自己";
+xx.localizedName = game.localize("bxp.tconstruct.a.xx.name");
+xx.localizedDescription = game.localize("bxp.tconstruct.a.xx.des")+ticSxPower*100+game.localize("bxp.tconstruct.a.xx.des1");
 xx.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     attacker.health += newDamage as float * 0.3f * ticSxPower;
     return newDamage * 0.7f;

@@ -33,6 +33,6 @@ var disabled as IItemStack[]=[
 
 for i in disabled{
     recipes.remove(i);
-    i.addTooltip(format.red("已禁用"));
+    i.addTooltip(game.localize("bxp.tip.item.disabled"));
     addItemStage("disabled",i);
 }
