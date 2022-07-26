@@ -10,7 +10,7 @@
 
 本页面的脚本只到1.10.1版本，若想查看后续版本的脚本，请切换分支。（因为后续脚本的名称，方法名，变量名都做了一定的混淆）
 
-官方网址：https://biggestxuan.top（被重定向到了mcmod个人主页）  
+官方网址：https://biggestxuan.top  （被重定向到了mcmod个人主页）  
 
 Welcome to my open source project!
 
