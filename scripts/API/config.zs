@@ -336,3 +336,42 @@ static fertilizerAdvancedAmount as int[] = [24,8,1];
 //修改高级种子在合成时不同等级的光合堆肥所需要的时间。
 //范围：[1~32767]  默认：[1500,1200,1000,800]
 static fertilizerAdvancedTime as int[] = [1500,1200,1000,800];
+
+//------------------------------------------------
+/*
+ *  咸鱼模组调整
+ *  
+ */
+
+//全局调整
+//启用等价交换，范围：bool，默认：false
+static canUseProjecte as bool = false;
+
+//启用加速火把，范围：bool，默认：false
+static canUseTorch as bool = false;
+
+//细微调整
+//以下的内容调整前要先启用模组，否则调整无效。
+
+//等价交换启用的游戏阶段
+//改为对应的游戏阶段，那么等价交换将在玩家达成后启用。
+//设定为 none 则全局不可用，设定为 all 则全局可用。默认："none"
+//当玩家设定了不同的游戏阶段，那么相应物品的合成将动态匹配此处所设定的游戏阶段。
+static canUseProjecteStage as string = "none";
+
+//启用燃料，暗物质，红物质。范围：bool，默认：false
+static canUseMatter as bool = false;
+
+//启用时间洪流怀表。范围：bool，默认：false
+static canUseTimeWatch as bool = false;
+
+//启用转化桌。范围：bool，默认：false
+static canUseEMC as bool = false;
+
+//启用炼金术密卷。范围：bool，默认：false
+static canUseProjecteBook as bool = false;
+
+//加速火把启用的游戏阶段
+//改为对应的游戏阶段，那么加速火把将在玩家达成后启用。
+//设定为 none 则全局不可用，设定为 all 则全局可用。默认：none
+static canUseTorchStage as string = "none";
