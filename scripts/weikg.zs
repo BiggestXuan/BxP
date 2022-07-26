@@ -11,8 +11,8 @@ import crafttweaker.entity.IEntityLivingBase;
 
 val axx2 = ArmorTraitBuilder.create("axx2");
 axx2.color = 0xffaadd;
-axx2.localizedName = "究极抖M";
-axx2.localizedDescription = "越受伤，越开心";
+axx2.localizedName = game.localize("bxp.tconstruct.at.axx2.name");
+axx2.localizedDescription = game.localize("bxp.tconstruct.at.axx2.des");
 axx2.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return newDamage;
@@ -27,8 +27,8 @@ axx2.register();
 
 val asd = ArmorTraitBuilder.create("asd");
 asd.color = 0xffaadd;
-asd.localizedName = "古老的力量";
-asd.localizedDescription = "你达不到的力量";
+asd.localizedName = game.localize("bxp.tconstruct.at.asd.name");
+asd.localizedDescription = game.localize("bxp.tconstruct.at.asd.des");
 asd.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return newDamage;

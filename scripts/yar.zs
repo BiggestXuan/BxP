@@ -14,8 +14,8 @@ import scripts.API.thinker.ticDragonSoul;
 
 val amm = ArmorTraitBuilder.create("amm");
 amm.color = 0xffaadd;
-amm.localizedName = "明目";
-amm.localizedDescription = "夜视";
+amm.localizedName =game.localize("bxp.tconstruct.at.amm.name");
+amm.localizedDescription = game.localize("bxp.tconstruct.at.amm.des");
 amm.onAbility = function(trait, level, world, player){
     if(isNull(player)){
         return;
@@ -26,8 +26,8 @@ amm.register();
 
 val aff = ArmorTraitBuilder.create("aff");
 aff.color = 0xffaadd;
-aff.localizedName = "炽焰";
-aff.localizedDescription = "防火";
+aff.localizedName = game.localize("bxp.tconstruct.at.aff.name");
+aff.localizedDescription = game.localize("bxp.tconstruct.at.aff.des");
 aff.onAbility = function(trait, level, world, player){
     if(isNull(player)){
         return;
@@ -38,8 +38,8 @@ aff.register();
 
 val afy = ArmorTraitBuilder.create("afy");
 afy.color = 0xffaadd;
-afy.localizedName = "大肉盾";
-afy.localizedDescription = "额外的伤害削减";
+afy.localizedName = game.localize("bxp.tconstruct.at.afy.name");
+afy.localizedDescription = game.localize("bxp.tconstruct.at.afy.des");
 afy.onAbility = function(trait, level, world, player){
     if(isNull(player)){
         return;
@@ -50,8 +50,8 @@ afy.register();
 
 val axm = ArmorTraitBuilder.create("axm");
 axm.color = 0xffaadd;
-axm.localizedName = "迅猛";
-axm.localizedDescription = "穿戴装备会获得更快的速度和力量";
+axm.localizedName = game.localize("bxp.tconstruct.at.axm.name");
+axm.localizedDescription =game.localize("bxp.tconstruct.at.axm.des");
 axm.onAbility = function(trait, level, world, player){
     if(isNull(player)){
         return;
@@ -63,8 +63,8 @@ axm.register();
 
 val atl = ArmorTraitBuilder.create("atl");
 atl.color = 0xffaadd;
-atl.localizedName = "龙魂";
-atl.localizedDescription = "根据你的生命值受伤";
+atl.localizedName = game.localize("bxp.tconstruct.at.atl.name");
+atl.localizedDescription = game.localize("bxp.tconstruct.at.atl.des");
 atl.onHurt = function(trait, armor, player, source, damage, newDamage, evt){
     if(isNull(player)){
         return newDamage;

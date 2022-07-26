@@ -32,7 +32,7 @@ events.onBlockBreak(function(event as BlockBreakEvent){
             return ;
         }
         else{
-            player.sendStatusMessage(format.red("你至少需要7点生命值才能破坏仙人掌"));
+            player.sendStatusMessage(format.red(game.localize("bxp.event.break3")));
             return event.cancel();
         }
     }
@@ -54,7 +54,7 @@ for i in blocks{
             }
             if(player.xp <30){
                 event.cancel();
-                event.player.sendStatusMessage(format.red("你至少需要30"+"级才能破坏"+block.definition.displayName));
+                event.player.sendStatusMessage(format.red(game.localize("bxp.event.break4")+block.definition.displayName));
             }
             else{
                 return;
@@ -69,7 +69,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     if(isNull(player) || isNull(block) || isNull(block.definition) || isNull(block.definition.id)) return;
     if(event.fortuneLevel >=11){
         event.drops = [];
-        event.player.sendStatusMessage(format.red("整合包禁用十级以上时运"));
+        event.player.sendStatusMessage(format.red(game.localize("bxp.event.deny1")));
         return;
     }
     if(block.definition.id == "cyclicmagic:nether_gold_ore" || block.definition.id == "cyclicmagic:end_gold_ore" || block.definition.id == "minecraft:gold_ore" ){

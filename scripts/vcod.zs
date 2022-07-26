@@ -1,6 +1,9 @@
 #priority 51
+import crafttweaker.text.ITextComponent;
 import crafttweaker.player.IPlayer;
 
-function func_3368(player as IPlayer,info as string){
-    player.sendRichTextMessage(format.green(info));
+function func_3368(p as IPlayer,i as string[]){
+    for s in i {
+        p.sendRichTextMessage(ITextComponent.fromTranslation(s));
+    }
 }

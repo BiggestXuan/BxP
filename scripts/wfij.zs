@@ -10,7 +10,7 @@ var cells as IItemStack[]=[
     <extracells:storage.component>,
     <extracells:storage.component:1>,
     <extracells:storage.component:2>,
-    <extracells:storage.component:3>  //7
+    <extracells:storage.component:3>
 ];
 
 for i in cells{

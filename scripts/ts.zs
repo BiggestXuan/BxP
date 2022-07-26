@@ -26,7 +26,6 @@ function calcTime(a as IItemStack) as int{
     return 114514;
 }
 
-//Input seed , Output ,chance and name.
 function addGrowRecipes(a as IItemStack , b as IItemStack, c as double[] , d as string) as void{
     var count as int = 0;
     for i in 0 .. 4{

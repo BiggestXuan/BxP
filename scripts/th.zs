@@ -60,8 +60,6 @@ function set (x as IItemStack,y as CTAspectStack[]){
 }
 
 var mod as string[]=[
-    "torcherino",
-    "projecte",
     "bacterium",
     "salted_fish_technology",
     "manaita_plus",
@@ -74,8 +72,7 @@ var mod as string[]=[
     "decon_table",
     "decomp_table",
     "deconstriction",
-    "uncraftingtable",
-    "immersiveengineering"
+    "uncraftingtable"
 ];
 
 for i in mod{

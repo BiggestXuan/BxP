@@ -53,6 +53,6 @@ for i in 0 .. input.length{
 }
 
 for i in output{
-    i.addTooltip(format.green("放入控制器中，确保背包有相关材料"));
-    i.addTooltip(format.green("使用木棍右击控制器将自动搭建"));
+    i.addTooltip(format.green(game.localize("bxp.modu.tip1")));
+    i.addTooltip(format.green(game.localize("bxp.modu.tip2")));
 }

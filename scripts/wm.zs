@@ -18,8 +18,8 @@ import scripts.API.thinker.ticTrumpExtraDamageRate;
 
 val exx = TraitBuilder.create("exx");
 exx.color = 0xffaadd;
-exx.localizedName = "我讨厌吸血鬼";
-exx.localizedDescription = "秒杀吸血鬼和猎人，对其他生物造成"+ticToOtherRate+"倍伤害";
+exx.localizedName = game.localize("bxp.tconstruct.a.exx.name");
+exx.localizedDescription = game.localize("bxp.tconstruct.a.exx.des")+ticToOtherRate+game.localize("bxp.tconstruct.a.exx.des1");
 exx.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     if(isNull(target.definition.id)) return newDamage;
     if(target.definition.id has "vampirism"){
@@ -33,8 +33,8 @@ exx.register();
 
 val sxx = TraitBuilder.create("sxx");
 sxx.color = 0xffaadd;
-sxx.localizedName = "你觉得如何";
-sxx.localizedDescription = "造成自身血量0.3~1.3倍的伤害";
+sxx.localizedName = game.localize("bxp.tconstruct.a.sxx.name");
+sxx.localizedDescription = game.localize("bxp.tconstruct.a.sxx.des");
 sxx.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     if(attacker instanceof IPlayer){
         var player as IPlayer = attacker;
@@ -47,8 +47,8 @@ sxx.register();
 
 val ahh = TraitBuilder.create("ahh");
 ahh.color = 0xffaadd;
-ahh.localizedName = "反噬";
-ahh.localizedDescription = "通常会造成额外伤害，但小心被伤害反噬";
+ahh.localizedName = game.localize("bxp.tconstruct.a.ahh.name");
+ahh.localizedDescription = game.localize("bxp.tconstruct.a.ahh.des");
 ahh.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
     var mult as double = Math.random();
     var chance as double = Math.random();

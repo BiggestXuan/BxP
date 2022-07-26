@@ -7,6 +7,3 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe("terraplate", <botania:terr
 	<botania:rune:4>, <botania:rune:5>,<botania:rune:6>, <botania:rune:7>,
 	null, null, null, null, null, null, null, null
 ]);
-
-<botania:terraplate>.addTooltip("按住SHIFT显示更多");
-<botania:terraplate>.addShiftTooltip(format.aqua("你需要在星辉魔法发展才能制作"));

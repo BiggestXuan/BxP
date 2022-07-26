@@ -1,6 +1,7 @@
 #priority 32
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.player.IPlayer;
+import crafttweaker.text.ITextComponent;
 
 import mods.zenutils.DelayManager;
 
@@ -35,9 +36,8 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
         server.commandManager.executeCommand(server,'tellraw @a {"text":"★[全局]欢迎高级赞助者加入游戏！★","color":"aqua"}');
     }
     if(level >=4){
-    DelayManager.addDelayWork(function(){
-        func_2698(player);
-    },5 * 20
-    );
+        DelayManager.addDelayWork(function(){
+            func_2698(player);
+            },7 * 20);
     }
 });

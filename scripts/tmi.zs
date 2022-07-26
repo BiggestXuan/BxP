@@ -16,7 +16,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             event.drops = [<minecraft:bedrock>];
             return event.player.xp -=7;
         }
-        event.player.sendStatusMessage(format.red("你至少需要10级才能破坏基岩，否则不会掉落！"));
+        event.player.sendStatusMessage(game.localize("bxp.event.break1"));
     }
     if(player.hasGameStage("awakened_core") && !isNull(block) && block.definition.id=="minecraft:end_portal_frame"){
         event.drops = [<minecraft:end_portal_frame>];
@@ -27,7 +27,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             event.drops = [<minecraft:end_portal_frame>];
             return event.player.xp -=5;
         }
-        event.player.sendStatusMessage(format.red("你至少需要8级才能破坏末地传送门，否则不会掉落！"));
+        event.player.sendStatusMessage(game.localize("bxp.event.break2"));
     }
     return ;
 });

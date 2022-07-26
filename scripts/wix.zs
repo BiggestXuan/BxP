@@ -16,10 +16,10 @@ events.onPlayerItemPickup(function(event as PlayerItemPickupEvent){
     if(!isNull(item) && item.definition.id == "minecraft:cactus"){
         if(player.xp >3){
             player.xp -=2;
-            event.player.sendStatusMessage(format.red("你消耗了两级来阻挡仙人掌的伤害!"));
+            event.player.sendStatusMessage(format.red(game.localize("bxp.event.hurt1")));
             return;
         }
         player.health /=2;
-        event.player.sendStatusMessage(format.red("你没有等级，仙人掌让你刺伤了!"));
+        event.player.sendStatusMessage(format.red(game.localize("bxp.event.hurt2")));
     }
 });

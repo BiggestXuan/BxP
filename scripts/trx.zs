@@ -26,7 +26,7 @@ events.onBlockPlace(function(event as BlockPlaceEvent){
     for i in request{
         if (!isNull(block) && player.xp<30 && block.definition.id == i){
             event.cancel();
-            event.player.sendStatusMessage(format.red("你至少需要30级才能放置"+block.definition.displayName));
+            event.player.sendStatusMessage(format.red(game.localize("bxp.event.place")+block.definition.displayName));
         }
     }
 });

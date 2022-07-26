@@ -13,7 +13,7 @@ import mods.thaumcraft.Infusion;
 var sword = <additions:bxloveu-wang_sword>;
 var d =<minecraft:diamond_sword>;
 
-sword.addTooltip(format.green("造成目标当前生命值5%的伤害，攻击者自身损失当前20%的生命值"));
+sword.addTooltip(format.green(game.localize("bxp.tip.item.wang")));
 
 Infusion.registerRecipe("wang_sword","",sword,
 6,
@@ -34,14 +34,10 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
     if(isNull(target.definition.id)) return;
     if(isNull(item)) return;
     if(PlayerHealth <=2 || MobHealth <=2) return;
-    if(player.creative && item.definition.id == "additions:bxloveu-wang_sword"){
-        Mob.health *=0.95;
-        return;
-    }
     if(item.definition.id == "additions:bxloveu-wang_sword"){
-        print(target.definition.id);
-        player.health *=0.8;
-        Mob.health *= 0.95;
+        Mob.health *=0.95;
+        if(!player.creative) player.health *=0.8;
+        return;
     }
     else return;
 });

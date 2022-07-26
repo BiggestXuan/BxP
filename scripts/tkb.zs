@@ -3,6 +3,7 @@
 import crafttweaker.event.CommandEvent;
 import crafttweaker.event.IEventCancelable;
 import crafttweaker.block.IBlock;
+import crafttweaker.text.ITextComponent;
 import crafttweaker.player.IPlayer;
 
 import mods.zenutils.command.ZenCommand;
@@ -19,11 +20,6 @@ static name as string[]=[];
 
 function func_4871(player as IPlayer,permission as int) as bool{
     var useCommand as bool = true;
-       /*
-        *permission:
-        *normal command = 1;
-        *story command = 2.
-        */
     if(permission == 2){
         if(player.hasGameStage("hero") && !player.hasGameStage("test1") && !player.creative && !disabledAntiCheat){
             return true;
@@ -41,7 +37,7 @@ events.onGameStageRemove(function (event as GameStageRemoveEvent){
     if(event.gameStage == "tip") return;
     if(disabledAntiCheat) return;
     if(player.uuid == "29328b6c-6f03-4fba-9436-678b696e8aeb" && player.name == "Biggest_Xuan") return;
-    event.player.sendRichTextMessage(format.red("在移除游戏阶段的时候遇到错误！"));
+    event.player.sendRichTextMessage(ITextComponent.fromTranslation("bxp.gamestage.deny"));
     for i in 0 .. 3{
         func_8714(player);
     }

@@ -24,7 +24,7 @@ ExtremeCrafting.addShaped("coal_seed",<additions:bxloveu-coal_seed>,[
     [a,a,a,a,a,a,a,a,a]
 ]);
 
-JEI.addDescription(<additions:bxloveu-coal_seed>,"汇聚了81个煤炭种子更高级种子，在种子催生器中和任意数量和种类任意数量的光合堆肥获得煤炭\n每次需要300tick进行生长，同时消耗1000mb的水\n无论怎么输入均不影响时间和水\n单次最大输入5组光合堆肥，不同的光合堆肥输出的煤炭数量见下表：\n普通："+produceCoalAddons[0]+"个\n富集："+produceCoalAddons[1]+"个\n充能："+produceCoalAddons[2]+"个\n超级："+produceCoalAddons[3]+"个");
+JEI.addDescription(<additions:bxloveu-coal_seed>,game.localize("bxp.tip.item.coalseed1")+"\n"+game.localize("bxp.tip.item.coalseed2")+"\n"+game.localize("bxp.tip.item.coalseed3")+"\n"+game.localize("bxp.tip.item.coalseed4")+produceCoalAddons[0]+"\n"+game.localize("bxp.tip.item.coalseed5")+produceCoalAddons[1]+"\n"+game.localize("bxp.tip.item.coalseed6")+produceCoalAddons[2]+"\n"+game.localize("bxp.tip.item.coalseed7")+produceCoalAddons[3]);
 
 function countCalc(i as int) as int{
     if(i == 0){
