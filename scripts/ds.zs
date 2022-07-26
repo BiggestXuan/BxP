@@ -39,7 +39,7 @@ var com_coal as IItemStack[]=[
 ];
 
 for i in com_coal{
-    i.addTooltip("获得混沌核心后可用/uncraft拆解");
+    i.addTooltip(game.localize("bxp.tip.command.uncraft"));
 }
 
 for i in 0 .. com_coal.length - 1{

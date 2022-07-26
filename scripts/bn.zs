@@ -1,7 +1,6 @@
 #priority 9
 import crafttweaker.item.IItemStack;
 import mods.thaumcraft.ArcaneWorkbench;
-import scripts.aa.bx;
 
 var smelter as IItemStack[IItemStack]={
     <thaumcraft:smelter_void> : <thaumcraft:plate:3>,

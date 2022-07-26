@@ -86,3 +86,4 @@ FusionCrafting.add(<additions:bxloveu-soul_gem_chunk>*15,<additions:bxloveu-star
 ]);
 
 combiner.addRecipe(<additions:bxloveu-soul_gem_chunk>*16,<thermalfoundation:fertilizer:2>,<additions:bxloveu-soul_gem>);
+combiner.addRecipe(bx[5],<mekanism:polyethene:2>,<additions:bxloveu-bxsheet>*4);

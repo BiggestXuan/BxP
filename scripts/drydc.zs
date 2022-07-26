@@ -9,7 +9,6 @@ recipes.addShapeless(<vampirism:injection:1>,[
 
 var beacon = <vampirism:sunscreen_beacon>;
 var heart = <vampirism:human_heart>;
-beacon.addTooltip(format.green("可合成"));
 beacon.asBlock().definition.setHarvestLevel("pickaxe",4);
 beacon.asBlock().definition.hardness = 50;
 

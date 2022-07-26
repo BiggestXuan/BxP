@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.API.config.amountForBxIngot;
 import scripts.API.config.amountForGoldCaigengzi;
-import scripts.aa.bx;
 
 var amount = amountForBxIngot;
 

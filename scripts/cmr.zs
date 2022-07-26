@@ -1,11 +1,13 @@
 #priority 51
 import crafttweaker.player.IPlayer;
+import crafttweaker.text.ITextComponent;
+
 function func_3692(player as IPlayer){
-    player.sendRichTextMessage(format.green("-------大轩指令系统-------"));
+    player.sendRichTextMessage(ITextComponent.fromTranslation("bxp.command.head"));
 }
 
 function func_7159(player as IPlayer){
-    player.sendRichTextMessage(format.red("权限不足，无法使用!"));
+    player.sendRichTextMessage(ITextComponent.fromTranslation("bxp.command.deny"));
 }
 
 function func_1685(player as IPlayer){

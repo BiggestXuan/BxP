@@ -68,7 +68,7 @@ function seedGrowOre(input as IItemStack,output as IItemStack,name as string) as
 }
 
 static name as string[]=[
-    "aq","aw","ae","ar","at","ay","au","ai","ao","ap","aa","as","ad","af","ag","ah","aj","ak","al","az","ax","ac",  //22
+    "aq","aw","ae","ar","at","ay","au","ai","ao","ap","aa","as","ad","af","ag","ah","aj","ak","al","az","ax","ac",
     "av","ab","an","am","qq","qw","qe","qr","qt","qy","qu","qi","qo","qp","qa","qs","qd","qf","qg","qh","qj","qk",
     "ql","qz","qx","qc","qv","qb","qn","qm","wq","ww","we","wr","wt","wy","wu","wi","wo","wp","wa","ws","wd","wf"
 ];

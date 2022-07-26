@@ -39,13 +39,13 @@ count+=1;
 RecipeBuilder.newBuilder(name+count,"tic",time)
 .addItemOutput(<taiga:adamant_ingot>*18)
 .addItemInput(<taiga:vibranium_ingot>*6)
-.addItemInput(<taiga:eezo_ingot>*37)  //零素
-.addItemInput(<taiga:abyssum_ingot>*37)  //深渊金属
-.addItemInput(<taiga:osram_ingot>*37)  //熔金
+.addItemInput(<taiga:eezo_ingot>*37)
+.addItemInput(<taiga:abyssum_ingot>*37)
+.addItemInput(<taiga:osram_ingot>*37)
 .addItemInput(<minecraft:obsidian>*81)
 .addItemInput(<taiga:meteoritecobble_block>*81)
 .addItemInput(<taiga:valyrium_ingot>*6)  
-.addItemInput(<taiga:uru_ingot>*6) //雾金
+.addItemInput(<taiga:uru_ingot>*6)
 .addItemInput(<taiga:prometheum_ingot>*3)
 .addItemInput(<taiga:palladium_ingot>*3)
 .addFluidInput(<liquid:pyrotheum>*500)

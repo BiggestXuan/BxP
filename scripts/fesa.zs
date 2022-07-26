@@ -6,11 +6,6 @@ recipes.remove(<mysticalagriculture:crafting:2>);
 recipes.remove(<mysticalagriculture:crafting:3>);
 recipes.remove(<mysticalagriculture:crafting:4>);
 
-//为什么能这么傻，为啥不用循环写
-//2021.9.17吐槽
-
-//1-->4
-
 recipes.addShapeless(<mysticalagriculture:crafting:1>*3,[
 <mysticalagriculture:crafting:2>
 ]);
@@ -26,8 +21,6 @@ recipes.addShapeless(<mysticalagriculture:crafting:3>*3,[
 recipes.addShapeless(<mysticalagriculture:crafting:4>*3,[
 <additions:bxloveu-final_ess>
 ]);
-
-//6-->1
 
 recipes.addShapeless(<mysticalagriculture:crafting:1>,[
 <mysticalagriculture:crafting>,<mysticalagriculture:crafting>,<mysticalagriculture:crafting>,

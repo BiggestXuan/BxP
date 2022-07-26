@@ -1,7 +1,7 @@
 #priority 2
 
 import crafttweaker.item.IItemStack;
-import scripts.aa.bx;
+import crafttweaker.text.ITextComponent;
 
 var staue as IItemStack[]=[
     <aov:angelicstatue>,
@@ -16,7 +16,7 @@ for i in staue{
     recipes.remove(i);
 }
 
-staue[0].addTooltip(format.red("已禁用，尝试合成对应职业的雕像"));
+staue[0].addTooltip(game.localize("bxp.tip.aov.disabled"));
 
 var items as IItemStack[]=[
     null,

@@ -1,6 +1,5 @@
 #priority 8
 import crafttweaker.item.IItemStack;
-import scripts.aa.bx;
 
 var panel as IItemStack[]=[
     <solarflux:solar_panel_1>,

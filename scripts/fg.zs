@@ -61,7 +61,7 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
             for i in stage{ 
             server.commandManager.executeCommand(server,"/gamestage add "+player.name+" "+i);
         }
-        player.sendStatusMessage(format.red("成功解锁所有游戏阶段！"));
+        player.sendStatusMessage(game.localize("bxp.command.unlockgamestage"));
         }
     }
     if(!isNull(entity.definition) && player.creative){
@@ -73,7 +73,7 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
         if(!isNull(entity.definition) && entity.definition.name == name){
             if(player.xp <20){
                 event.cancel();
-                event.player.sendStatusMessage(format.red("你至少需要20级才能攻击"+entity.definition.name));
+                event.player.sendStatusMessage(game.localize("bxp.event.attack.level20")+format.red(entity.definition.name));
             }
         }
     }
@@ -81,16 +81,7 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent){
         if(disabledLevel) return;
         if(player.xp <50){
             event.cancel();
-            event.player.sendStatusMessage(format.red("你至少需要50级才能攻击"+entity.definition.name));
-        }
-    }
-    for i,j in mob{
-        if(disabledLevel) return;
-        if(!isNull(entity.definition) && entity.definition.name == j){
-            if(player.xp < i ){
-                event.cancel();
-                event.player.sendStatusMessage(format.red("你至少需要"+i+"级才能攻击"+j));
-            }
+            event.player.sendStatusMessage(game.localize("bxp.event.attack.level50")+format.red(entity.definition.name));
         }
     }
 });

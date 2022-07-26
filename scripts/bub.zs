@@ -46,7 +46,7 @@ recipes.addShapeless(item[2]*64,[
 
 recipes.remove(<deepmoblearning:machine_casing>);
 
-<deepmoblearning:machine_casing>.addTooltip(format.red("无法合成，暮色森林自然生成"));
+<deepmoblearning:machine_casing>.addTooltip(game.localize("bxp.tip.dml.item"));
 
 RecipeBuilder.newBuilder("deep_mob_learning","test",100)
 .addItemInput(<deepmoblearning:glitch_infused_ingot>)

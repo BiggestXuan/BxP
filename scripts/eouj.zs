@@ -1,4 +1,3 @@
-import scripts.aa.bx;
 recipes.remove(<mysticalagriculture:fertilized_essence>);
 
 recipes.remove(<mysticalagriculture:mystical_fertilizer>);

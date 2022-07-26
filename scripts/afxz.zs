@@ -16,6 +16,6 @@ recipes.addShaped(<tconstruct:materials:50>,[
     [bx[5],bx[5],bx[5]]
 ]);
 
-<tconstruct:materials:50>.addTooltip(format.green("可合成"));
+<tconstruct:materials:50>.addTooltip(game.localize("bxp.tip.tic.cancraft"));
 
 recipes.addShapeless(<tconstruct:materials>*8,[<ore:blockSeared>,<ore:blockSeared>]);

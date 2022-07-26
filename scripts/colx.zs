@@ -23,7 +23,7 @@ events.onPlayerTick(function(event as PlayerTickEvent){
     if(!isNull(items)){
         var level = func_9536(player);
         if(items.definition.id == "thaumcraft:sanity_checker"){
-            event.player.sendStatusMessage(format.red("普通："+normal+"|临时："+temp+"|永久："+perm));
+            event.player.sendStatusMessage(game.localize("bxp.event.warp1")+normal+"|"+game.localize("bxp.event.warp2")+temp+"|"+game.localize("bxp.event.warp3")+perm);
         }
         if(Math.random() > 0.93){
             if(items.definition.id == "additions:bxloveu-gem_4" && level>=5){

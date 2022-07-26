@@ -10,7 +10,6 @@ import moretweaker.draconicevolution.FusionCrafting;
 import crafttweaker.item.IItemStack;
 
 import scripts.API.config.nqd;
-import scripts.aa.bx;
 
 var craft=<avaritia:extreme_crafting_table>;
 var craft2=<avaritia:double_compressed_crafting_table>;
@@ -26,7 +25,7 @@ FusionCrafting.add(craft,craft2,FusionCrafting.CHAOTIC,1000000000,[
 
 mods.avaritia.ExtremeCrafting.remove(ch);
 mods.avaritia.ExtremeCrafting.remove(pearl);
-pearl.addTooltip(format.red("已禁用"));
+pearl.addTooltip(game.localize("bxp.tip.item.disabled"));
 
 static qd as IItemStack[]=[
 <avaritia:singularity>,
@@ -38,9 +37,9 @@ static qd as IItemStack[]=[
 <avaritia:singularity:6>,
 <avaritia:singularity:7>,
 <avaritia:singularity:8>,
-<avaritia:singularity:9>,  //9
-<avaritia:singularity:10>, //10
-<avaritia:singularity:11>];  //11
+<avaritia:singularity:9>,
+<avaritia:singularity:10>,
+<avaritia:singularity:11>];
 
 for i in qd{
     addItemStage("chaotic_core",i);

@@ -15,14 +15,12 @@ var gh2=<thermalfoundation:fertilizer:1>;
 var gh3=<thermalfoundation:fertilizer:2>;
 var gh4=<additions:bxloveu-super_fer>;
 
-//菜梗子（工作台）
 recipes.addShaped(caigengzi*amountForCaigengzi,[
 [<harvestcraft:ryeitem>,<harvestcraft:ryeitem>,<harvestcraft:ryeitem>],
 [<harvestcraft:ryeitem>,<additions:bxloveu-bx_uningot>,<harvestcraft:ryeitem>],
 [<harvestcraft:ryeitem>,<harvestcraft:ryeitem>,<harvestcraft:ryeitem>]
 ]);
 
-//菜梗子（多方块）
 RecipeBuilder.newBuilder("caigengzi","caigengzi",200)
 .addItemInput(seed)
 .addFluidInput(water *1000)

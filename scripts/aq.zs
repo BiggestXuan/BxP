@@ -29,6 +29,3 @@ Infusion.registerRecipe(
     <additions:bxloveu-creative_star>,
     [ingot,ingot,ingot,ingot,bx[4]]
 );
-
-mods.jei.JEI.addDescription(super,"这个可能有点肝，不过注魔风险较低\nJEI配方二里面有部分源质需求没写完，左侧需要六种基础源质，右侧还需要fabrico和exanimis源质");
-

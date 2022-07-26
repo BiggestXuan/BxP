@@ -6,7 +6,6 @@ import mods.DimensionStages.addDimensionStage;
 import crafttweaker.item.IItemStack;
 import crafttweaker.mods.IMod;
 
-import scripts.aa.bx;
 import scripts.ar.item;
 
 var fusion as IItemStack[]=[

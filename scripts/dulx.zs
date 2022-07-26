@@ -1,6 +1,5 @@
 import crafttweaker.item.IItemStack;
 
-import scripts.aa.bx;
 import scripts.seyes.sc1;
 import scripts.seyes.sc2;
 
