@@ -28,7 +28,7 @@ FusionCrafting.add(craft,craft2,FusionCrafting.CHAOTIC,1000000000,[
 
 mods.avaritia.ExtremeCrafting.remove(ch);
 mods.avaritia.ExtremeCrafting.remove(pearl);
-pearl.addTooltip(format.red("已禁用"));
+pearl.addTooltip(format.red("别玩这个了，去玩CBTNH"));
 
 static qd as IItemStack[]=[
 <avaritia:singularity>,
