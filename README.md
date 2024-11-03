@@ -1,5 +1,7 @@
 # BxP (Biggest_Xuan Pack)
 
+git库已迁移，可以在这里找到～[https://git.biggestxuan.top/Biggest_Xuan/BxP](https://git.biggestxuan.top/Biggest_Xuan/BxP)
+
 欢迎来到我的开源项目。
 
 如果你想的话，可以修改我的代码用于其他用途，但是你需要著名原出处。
